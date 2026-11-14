@@ -1,0 +1,37 @@
+{
+  "source": {
+    "source_name": "FY2025-26 Official Annual Reports Corporate Identity Register (Stage 4D)",
+    "source_url": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
+    "publication_date": "2026-06-30",
+    "retrieved_at": "2026-11-06T16:00:00+05:30"
+  },
+  "records": [
+    {
+      "exchange": "NSE",
+      "symbol": "RELIANCE",
+      "company_name": "Reliance Industries Limited",
+      "isin": "INE002A01018",
+      "listing_segment": "MAINBOARD",
+      "security_status": "ACTIVE",
+      "effective_date": "2026-03-31"
+    },
+    {
+      "exchange": "NSE",
+      "symbol": "TCS",
+      "company_name": "Tata Consultancy Services Limited",
+      "isin": "INE467B01029",
+      "listing_segment": "MAINBOARD",
+      "security_status": "ACTIVE",
+      "effective_date": "2026-03-31"
+    },
+    {
+      "exchange": "NSE",
+      "symbol": "LT",
+      "company_name": "Larsen & Toubro Limited",
+      "isin": "INE018A01030",
+      "listing_segment": "MAINBOARD",
+      "security_status": "ACTIVE",
+      "effective_date": "2026-03-31"
+    }
+  ]
+}

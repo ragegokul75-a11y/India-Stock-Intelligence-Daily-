@@ -1,0 +1,43 @@
+name: Automatic NSE Market Open & Close 3-Agent Intelligence
+
+on:
+  schedule:
+    # 03:45 UTC = 09:15 AM IST (Mon-Fri Market Open)
+    - cron: "45 3 * * 1-5"
+    # 12:45 UTC = 06:15 PM IST (Mon-Fri Market Close EOD Bhavcopy)
+    - cron: "45 12 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-market-intelligence:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Automatic NSE Sync + Bull/Bear/Judge Debate
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m india_stock_intelligence.cli auto-run --days 2 --top-debate 15
+
+      - name: Commit updated briefings & watchlist for Cloud Mobile App
+        run: |
+          git config user.name "India Stock Intelligence Auto-Agent"
+          git config user.email "actions@github.com"
+          git add data/latest_market_briefing.json data/watchlist.json data/reports/
+          git diff --staged --quiet || git commit -m "Auto-update NSE Market Briefing & 3-Agent Debate"
+          git push

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "india-stock-intelligence"
+version = "0.1.0"
+description = "Auditable end-of-day screening for Indian exchange-listed equities"
+requires-python = ">=3.12"
+dependencies = [
+  "pandas>=2.2,<4",
+  "openpyxl>=3.1,<4",
+  "reportlab>=4,<6",
+  "streamlit>=1.40,<2",
+]
+
+[project.optional-dependencies]
+openai = ["openai>=1,<3"]
+
+[project.scripts]
+india-stocks = "india_stock_intelligence.cli:main"
+
+[tool.setuptools]
+py-modules = ["config"]
+package-dir = {"" = "src", "agents" = "agents", "core" = "core", "providers" = "providers"}
+
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = ["india_stock_intelligence*", "agents*", "core*", "providers*"]
+
+[tool.setuptools.package-data]
+india_stock_intelligence = ["prompts/*.md", "schemas/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

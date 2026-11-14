@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["agent_id", "security_key", "as_of_date", "evidence_digest", "verdict", "confidence_score", "confidence_reason", "risk_score", "risk_reason", "figure_verifications", "key_determinants", "watchlist_action", "conditions_to_revisit", "missing_evidence", "independent_reasoning", "reasoning_evidence_ids"],
+  "properties": {
+    "agent_id": {"type": "string", "enum": ["independent_judge"]},
+    "security_key": {"type": "string"},
+    "as_of_date": {"type": "string"},
+    "evidence_digest": {"type": "string"},
+    "verdict": {"type": "string", "enum": ["BUY_CANDIDATE", "HOLD", "WATCH", "AVOID", "INCONCLUSIVE"]},
+    "confidence_score": {"type": "integer", "minimum": 0, "maximum": 100},
+    "confidence_reason": {"type": "string"},
+    "risk_score": {"type": ["integer", "null"], "minimum": 0, "maximum": 100},
+    "risk_reason": {"type": "string"},
+    "figure_verifications": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["figure", "researcher_value", "verified_value", "status", "evidence_ids", "reason"], "properties": {"figure": {"type": "string"}, "researcher_value": {"type": ["string", "null"]}, "verified_value": {"type": ["string", "null"]}, "status": {"type": "string", "enum": ["consistent", "contradicted", "not_verifiable"]}, "evidence_ids": {"type": "array", "items": {"type": "string"}}, "reason": {"type": "string"}}}},
+    "key_determinants": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["claim", "evidence_ids", "confidence", "why_it_matters"], "properties": {"claim": {"type": "string"}, "evidence_ids": {"type": "array", "items": {"type": "string"}}, "confidence": {"type": "integer", "minimum": 0, "maximum": 100}, "why_it_matters": {"type": "string"}}}},
+    "watchlist_action": {"type": "string", "enum": ["ADD", "REMOVE", "UNCHANGED", "NOT_SET"]},
+    "conditions_to_revisit": {"type": "array", "items": {"type": "string"}},
+    "missing_evidence": {"type": "array", "items": {"type": "string"}},
+    "independent_reasoning": {"type": "string"},
+    "reasoning_evidence_ids": {"type": "array", "items": {"type": "string"}}
+  }
+}

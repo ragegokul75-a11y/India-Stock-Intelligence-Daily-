@@ -1,0 +1,59 @@
+{
+  "report_version": 2,
+  "data_date": null,
+  "market_data_date": null,
+  "report_as_of_date": "2026-11-14",
+  "retrieval_timestamp": "2026-11-14T17:13:31.638841+00:00",
+  "sources": [
+    "FY2025-26 Official Annual Reports Corporate Identity Register (Stage 4D)",
+    "L&T Integrated Annual Report 2025-2026",
+    "RIL Integrated Annual Report 2025-26",
+    "TCS Annual Report 2025-26"
+  ],
+  "coverage": {
+    "securities": 3,
+    "price_records": 0,
+    "exchanges": {
+      "NSE": {
+        "securities": 3,
+        "prices": 0
+      }
+    },
+    "listing_segments": {
+      "MAINBOARD": 3
+    },
+    "fundamental_metrics_by_status": {
+      "missing": 44,
+      "verified": 13
+    }
+  },
+  "failed_downloads": [],
+  "sample_data": false,
+  "sample_label": null,
+  "paid_data_providers": false,
+  "automated_exchange_downloads": false,
+  "fundamental_metrics": "Deterministic, provenance-linked snapshot; missing and conflicting values remain null.",
+  "research_coverage": {
+    "securities_with_runs": 3,
+    "completed_runs": 3,
+    "verdict_counts": {
+      "BUY_CANDIDATE": 0,
+      "HOLD": 0,
+      "WATCH": 3,
+      "AVOID": 0,
+      "INCONCLUSIVE": 0
+    },
+    "research_run_ids": [
+      "c3e0ea15-0fdc-48c1-9245-4061b068f7d8",
+      "16df6d5f-0e4a-4b9d-b3ac-b9f25247692e",
+      "30115ad8-f05e-4e8a-9e02-3393cc30e97c"
+    ],
+    "sample_runs": 0
+  },
+  "report_files": {
+    "excel": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\india_stock_report_2026-11-14.xlsx",
+    "pdf": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\india_stock_report_2026-11-14.pdf",
+    "manifest": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\india_stock_report_2026-11-14_manifest.json",
+    "email_draft": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\india_stock_report_2026-11-14_email_ready.eml"
+  }
+}

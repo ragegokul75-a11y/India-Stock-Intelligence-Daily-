@@ -1,0 +1,782 @@
+{
+  "report_type": "three_agent_research",
+  "sample_label": null,
+  "research_run_id": "c3e0ea15-0fdc-48c1-9245-4061b068f7d8",
+  "status": "completed",
+  "security": {
+    "security_key": "NSE:id:INE018A01030",
+    "exchange": "NSE",
+    "symbol": "LT",
+    "company_name": "Larsen & Toubro Limited",
+    "security_identifier": "INE018A01030",
+    "security_type": "MAINBOARD",
+    "listing_status": "ACTIVE",
+    "source_timestamp": "2026-11-06T10:30:00+00:00"
+  },
+  "as_of_date": "2026-11-14",
+  "evidence_digest": "f515ec9161cbb98f33b30f5075ee600a4b8a90ba1ef76cf5991157ecba6ab064",
+  "evidence_coverage": {
+    "evidence_items": 7,
+    "by_source_type": {
+      "annual_report": 7
+    },
+    "missing_categories": [
+      "quarterly_results",
+      "corporate_announcement",
+      "rbi_economic_indicator",
+      "financial_news"
+    ],
+    "sample_data": false,
+    "market_screening_is_not_fundamental_evidence": true
+  },
+  "source_references": [
+    {
+      "evidence_id": "01d598ddc882ce2174a27165078c2d9e",
+      "security_key": "NSE:id:INE018A01030",
+      "source_type": "annual_report",
+      "source_name": "L&T Integrated Annual Report 2025-2026",
+      "source_url": "https://investors.larsentoubro.com/upload/AnnualRep/FY2026AnnualRepLNTIARFY2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated total assets of ₹452,549.88 crore and derived borrowings aggregate of ₹121,683.02 crore (non-current ₹63,738.59 cr + current ₹34,778.53 cr + current maturities ₹23,165.90 cr; excludes leases; held-for-sale debt requires review). Promoter holding not separately classified in annual report; left blank.",
+      "value": 452549.88,
+      "unit": "INR crore",
+      "excerpt": "Consolidated Balance Sheet & Overall Financial Review (pp.43-44). Do not reuse unconfirmed Stage 4B page labels 615-621.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": null,
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "13a428735f88e4169f9ec54525b39ef9",
+      "security_key": "NSE:id:INE018A01030",
+      "source_type": "annual_report",
+      "source_name": "L&T Integrated Annual Report 2025-2026",
+      "source_url": "https://investors.larsentoubro.com/upload/AnnualRep/FY2026AnnualRepLNTIARFY2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated equity attributable to owners (net worth) of ₹109,290 crore as at 31-Mar-2026 (FY2025: ₹97,656 crore; total equity including NCI: ₹128,530.46 crore).",
+      "value": 109290,
+      "unit": "INR crore",
+      "excerpt": "pp.24, 43-44, Overall Financial Review: Owners' net worth ₹109,290 crore at FY26 (FY25: ₹97,656 crore).",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "shareholders_equity",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "1f41b5133860a8deb91f556d7a0fa781",
+      "security_key": "NSE:id:INE018A01030",
+      "source_type": "annual_report",
+      "source_name": "L&T Integrated Annual Report 2025-2026",
+      "source_url": "https://investors.larsentoubro.com/upload/AnnualRep/FY2026AnnualRepLNTIARFY2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated net cash flow from operating activities of ₹16,740.97 crore for FY2025-26.",
+      "value": 16740.97,
+      "unit": "INR crore",
+      "excerpt": "Consolidated Statement of Cash Flows: Net cash flow from operating activities ₹16,740.97 crore.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "operating_cash_flow",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "2bb022c71b6cf0a0d0abf67160a1bace",
+      "security_key": "NSE:id:INE018A01030",
+      "source_type": "annual_report",
+      "source_name": "L&T Integrated Annual Report 2025-2026",
+      "source_url": "https://investors.larsentoubro.com/upload/AnnualRep/FY2026AnnualRepLNTIARFY2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated Operating Profit (PBDIT) of ₹29,151 crore for FY2025-26 (before depreciation, interest and tax; excludes exceptional items and other income; financial-services interest included in MCO expenses; not interchangeable with pure EBITDA or EBIT).",
+      "value": 29151,
+      "unit": "INR crore",
+      "excerpt": "pp.43-44, Overall Financial Review: Operating Profit (PBDIT) ₹29,151 crore. Retained under operating_profit with explicit definition caveat.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "operating_profit",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "6b74f4604e5fe48b4b75f2ba87e61381",
+      "security_key": "NSE:id:INE018A01030",
+      "source_type": "annual_report",
+      "source_name": "L&T Integrated Annual Report 2025-2026",
+      "source_url": "https://investors.larsentoubro.com/upload/AnnualRep/FY2026AnnualRepLNTIARFY2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated revenue from operations of ₹285,874.36 crore for FY2025-26.",
+      "value": 285874.36,
+      "unit": "INR crore",
+      "excerpt": "pp.43-44, Overall Financial Review & Consolidated Statement of Profit and Loss: Revenue ₹285,874.36 crore.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "revenue",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "c21aa18619dd6f2488d6174028d2c0c1",
+      "security_key": "NSE:id:INE018A01030",
+      "source_type": "annual_report",
+      "source_name": "L&T Integrated Annual Report 2025-2026",
+      "source_url": "https://investors.larsentoubro.com/upload/AnnualRep/FY2026AnnualRepLNTIARFY2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Average consolidated equity attributable to owners (average net worth) of ₹103,473 crore for FY2025-26 (average of ₹109,290 crore and ₹97,656 crore).",
+      "value": 103473,
+      "unit": "INR crore",
+      "excerpt": "pp.24, 43-44: Average owners' net worth ₹103,473 crore; calculated ROE of 15.54% agrees with reported 15.5% RONW.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "average_shareholders_equity",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "fd6308c767b6591849525e20eb182d01",
+      "security_key": "NSE:id:INE018A01030",
+      "source_type": "annual_report",
+      "source_name": "L&T Integrated Annual Report 2025-2026",
+      "source_url": "https://investors.larsentoubro.com/upload/AnnualRep/FY2026AnnualRepLNTIARFY2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated profit attributable to owners of the parent of ₹16,084 crore (exact ₹16,083.99 crore; total group profit ₹18,953.88 crore) for FY2025-26.",
+      "value": 16084,
+      "unit": "INR crore",
+      "excerpt": "pp.43-44, Overall Financial Review: Profit attributable to owners ₹16,084 crore (matched to owners' net worth for 15.5% RONW/ROE).",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "net_profit",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    }
+  ],
+  "agent_reports": {
+    "equity_research_analyst": {
+      "agent_id": "equity_research_analyst",
+      "security_key": "NSE:id:INE018A01030",
+      "as_of_date": "2026-11-14",
+      "evidence_digest": "f515ec9161cbb98f33b30f5075ee600a4b8a90ba1ef76cf5991157ecba6ab064",
+      "executive_summary": "Evidence-backed research for Larsen & Toubro Limited (NSE:id:INE018A01030) as of 2026-11-14 across 7 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "summary_evidence_ids": [
+        "01d598ddc882ce2174a27165078c2d9e",
+        "13a428735f88e4169f9ec54525b39ef9",
+        "1f41b5133860a8deb91f556d7a0fa781",
+        "2bb022c71b6cf0a0d0abf67160a1bace",
+        "6b74f4604e5fe48b4b75f2ba87e61381",
+        "c21aa18619dd6f2488d6174028d2c0c1",
+        "fd6308c767b6591849525e20eb182d01"
+      ],
+      "business_overview": [
+        {
+          "claim": "Consolidated total assets of ₹452,549.88 crore and derived borrowings aggregate of ₹121,683.02 crore (non-current ₹63,738.59 cr + current ₹34,778.53 cr + current maturities ₹23,165.90 cr; excludes leases; held-for-sale debt requires review). Promoter holding not separately classified in annual report; left blank.",
+          "evidence_ids": [
+            "01d598ddc882ce2174a27165078c2d9e"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Consolidated Balance Sheet & Overall Financial Review (pp.43-44). Do not reuse unconfirmed Stage 4B page labels 615-621."
+        }
+      ],
+      "business_quality": [
+        {
+          "claim": "Operating margin is 10.20% for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "2bb022c71b6cf0a0d0abf67160a1bace",
+            "6b74f4604e5fe48b4b75f2ba87e61381"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Reflects capital efficiency and operating profitability from verified inputs."
+        },
+        {
+          "claim": "Net profit margin is 5.63% for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "6b74f4604e5fe48b4b75f2ba87e61381",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Reflects capital efficiency and operating profitability from verified inputs."
+        },
+        {
+          "claim": "Return on equity (ROE) is 15.54% for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "c21aa18619dd6f2488d6174028d2c0c1",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Reflects capital efficiency and operating profitability from verified inputs."
+        }
+      ],
+      "financial_performance": [
+        {
+          "claim": "Larsen & Toubro Limited reported operating cash flow of 16740.97 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "1f41b5133860a8deb91f556d7a0fa781"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Larsen & Toubro Limited reported operating profit of 29151 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "2bb022c71b6cf0a0d0abf67160a1bace"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Larsen & Toubro Limited reported revenue of 285874.36 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "6b74f4604e5fe48b4b75f2ba87e61381"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Larsen & Toubro Limited reported net profit of 16084 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Operating cash flow stands at 16740.97 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "1f41b5133860a8deb91f556d7a0fa781"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Measures balance-sheet leverage or cash flow conversion."
+        }
+      ],
+      "financial_metrics": [
+        {
+          "metric": "revenue_growth_yoy",
+          "value": null,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "6b74f4604e5fe48b4b75f2ba87e61381"
+          ],
+          "status": "not_available",
+          "note": "A directly preceding fiscal year value is required to calculate year-over-year growth."
+        },
+        {
+          "metric": "profit_growth_yoy",
+          "value": null,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "status": "not_available",
+          "note": "A directly preceding fiscal year value is required to calculate year-over-year growth."
+        },
+        {
+          "metric": "operating_margin",
+          "value": 10.197136952051244,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "2bb022c71b6cf0a0d0abf67160a1bace",
+            "6b74f4604e5fe48b4b75f2ba87e61381"
+          ],
+          "status": "reported",
+          "note": "Calculated from same-period operating_profit and revenue source values."
+        },
+        {
+          "metric": "ebitda_margin",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "net_profit_margin",
+          "value": 5.626247838386066,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "6b74f4604e5fe48b4b75f2ba87e61381",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "status": "reported",
+          "note": "Calculated from same-period net_profit and revenue source values."
+        },
+        {
+          "metric": "roe",
+          "value": 15.544151614430818,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "c21aa18619dd6f2488d6174028d2c0c1",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "status": "reported",
+          "note": "Calculated from same-period net_profit and average_shareholders_equity source values. ROE uses explicitly reported average shareholders' equity."
+        },
+        {
+          "metric": "roce",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "debt_to_equity",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "operating_cash_flow",
+          "value": 16740.97,
+          "unit": "INR crore",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "1f41b5133860a8deb91f556d7a0fa781"
+          ],
+          "status": "reported",
+          "note": "Reported by source; no independent source verification is implied."
+        },
+        {
+          "metric": "free_cash_flow",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "promoter_holding",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "promoter_pledging",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "institutional_holding",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "pe_ratio",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "pb_ratio",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "ps_ratio",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "ev_to_ebitda",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "sector_valuation",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "eps_growth_yoy",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        }
+      ],
+      "strengths": [
+        {
+          "claim": "Solid Return on equity (ROE) of 15.54% in FY2026 (consolidated).",
+          "evidence_ids": [
+            "c21aa18619dd6f2488d6174028d2c0c1",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Strong return or margin profile supports internal capital generation."
+        },
+        {
+          "claim": "Positive operating cash flow of 16740.97 INR crore in FY2026 (consolidated).",
+          "evidence_ids": [
+            "1f41b5133860a8deb91f556d7a0fa781"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Confirms operating activities generated cash inflows."
+        }
+      ],
+      "weaknesses": [],
+      "governance": [],
+      "valuation": [],
+      "growth_prospects": [],
+      "key_risks": [],
+      "investment_thesis": [
+        {
+          "claim": "Sourced analysis for Larsen & Toubro Limited incorporates 7 evidence record(s) as of 2026-11-14; only verified comparable metrics are used, while missing or unverified fields remain unassumed.",
+          "evidence_ids": [
+            "01d598ddc882ce2174a27165078c2d9e",
+            "13a428735f88e4169f9ec54525b39ef9",
+            "1f41b5133860a8deb91f556d7a0fa781",
+            "2bb022c71b6cf0a0d0abf67160a1bace",
+            "6b74f4604e5fe48b4b75f2ba87e61381",
+            "c21aa18619dd6f2488d6174028d2c0c1"
+          ],
+          "confidence": 80,
+          "why_it_matters": "Prevents unsupported extrapolation where quarterly filings or reconciliations are pending."
+        }
+      ],
+      "missing_evidence": [
+        "No verified quarterly results evidence was supplied.",
+        "No verified corporate announcement evidence was supplied.",
+        "No verified rbi economic indicator evidence was supplied.",
+        "No verified financial news evidence was supplied.",
+        "Missing deterministic metrics: Revenue growth (YoY), Net profit growth (YoY), EBITDA margin, Return on capital employed (ROCE), Debt-to-equity, Free cash flow, Promoter holding, Promoter shares pledged (+7 more)."
+      ]
+    },
+    "bull_bear_analyst": {
+      "agent_id": "bull_bear_analyst",
+      "security_key": "NSE:id:INE018A01030",
+      "as_of_date": "2026-11-14",
+      "evidence_digest": "f515ec9161cbb98f33b30f5075ee600a4b8a90ba1ef76cf5991157ecba6ab064",
+      "summary": "Challenge review for Larsen & Toubro Limited (NSE:id:INE018A01030): weighed 4 bullish observation(s) against 1 bear/completeness challenge(s) and 2 definition/coverage caveat(s).",
+      "summary_evidence_ids": [
+        "01d598ddc882ce2174a27165078c2d9e",
+        "13a428735f88e4169f9ec54525b39ef9",
+        "1f41b5133860a8deb91f556d7a0fa781",
+        "2bb022c71b6cf0a0d0abf67160a1bace",
+        "6b74f4604e5fe48b4b75f2ba87e61381",
+        "c21aa18619dd6f2488d6174028d2c0c1",
+        "fd6308c767b6591849525e20eb182d01"
+      ],
+      "bull_arguments": [
+        {
+          "claim": "Sourced Operating margin of 10.20 % in FY2026 (consolidated).",
+          "evidence_ids": [
+            "2bb022c71b6cf0a0d0abf67160a1bace",
+            "6b74f4604e5fe48b4b75f2ba87e61381"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        },
+        {
+          "claim": "Sourced Net profit margin of 5.63 % in FY2026 (consolidated).",
+          "evidence_ids": [
+            "6b74f4604e5fe48b4b75f2ba87e61381",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        },
+        {
+          "claim": "Sourced Return on equity (ROE) of 15.54 % in FY2026 (consolidated).",
+          "evidence_ids": [
+            "c21aa18619dd6f2488d6174028d2c0c1",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        },
+        {
+          "claim": "Sourced Operating cash flow of 16740.97 INR crore in FY2026 (consolidated).",
+          "evidence_ids": [
+            "1f41b5133860a8deb91f556d7a0fa781"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        }
+      ],
+      "bear_arguments": [
+        {
+          "claim": "Evidence coverage for Larsen & Toubro Limited is partial (missing categories: quarterly_results, corporate_announcement, rbi_economic_indicator, financial_news); upside thesis lacks full multi-period and valuation confirmation.",
+          "evidence_ids": [
+            "01d598ddc882ce2174a27165078c2d9e",
+            "13a428735f88e4169f9ec54525b39ef9",
+            "1f41b5133860a8deb91f556d7a0fa781",
+            "2bb022c71b6cf0a0d0abf67160a1bace"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Incomplete quarterly shareholding, pledge, or valuation data limits conviction."
+        }
+      ],
+      "contradictory_evidence": [],
+      "hidden_risks": [
+        {
+          "claim": "Accounting definition / comparability caveat: Consolidated total assets of ₹452,549.88 crore and derived borrowings aggregate of ₹121,683.02 crore (non-current ₹63,738.59 cr + current ₹34,778.53 cr + current maturities ₹23,165.90 cr; excludes leases; held-for-sale debt requires review). Promoter holding not separately classified in annual report; left blank.",
+          "evidence_ids": [
+            "01d598ddc882ce2174a27165078c2d9e"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Consolidated Balance Sheet & Overall Financial Review (pp.43-44). Do not reuse unconfirmed Stage 4B page labels 615-621."
+        },
+        {
+          "claim": "Accounting definition / comparability caveat: Consolidated Operating Profit (PBDIT) of ₹29,151 crore for FY2025-26 (before depreciation, interest and tax; excludes exceptional items and other income; financial-services interest included in MCO expenses; not interchangeable with pure EBITDA or EBIT).",
+          "evidence_ids": [
+            "2bb022c71b6cf0a0d0abf67160a1bace"
+          ],
+          "confidence": 85,
+          "why_it_matters": "pp.43-44, Overall Financial Review: Operating Profit (PBDIT) ₹29,151 crore. Retained under operating_profit with explicit definition caveat."
+        }
+      ],
+      "catalysts": [
+        {
+          "claim": "Completion of verified quarterly filings and multi-year comparable statements for Larsen & Toubro Limited.",
+          "evidence_ids": [
+            "01d598ddc882ce2174a27165078c2d9e",
+            "13a428735f88e4169f9ec54525b39ef9",
+            "1f41b5133860a8deb91f556d7a0fa781",
+            "2bb022c71b6cf0a0d0abf67160a1bace"
+          ],
+          "confidence": 75,
+          "why_it_matters": "Would resolve pending governance, pledge, and YoY growth checks."
+        }
+      ],
+      "thesis_invalidation": [
+        {
+          "claim": "Deterioration in verified operating cash flow, owners' ROE, or adverse encumbrance disclosures for Larsen & Toubro Limited.",
+          "evidence_ids": [
+            "01d598ddc882ce2174a27165078c2d9e",
+            "13a428735f88e4169f9ec54525b39ef9",
+            "1f41b5133860a8deb91f556d7a0fa781",
+            "2bb022c71b6cf0a0d0abf67160a1bace"
+          ],
+          "confidence": 80,
+          "why_it_matters": "Would invalidate the fundamental quality supported by current annual-report evidence."
+        }
+      ],
+      "missing_evidence": [
+        "No verified quarterly results evidence was supplied.",
+        "No verified corporate announcement evidence was supplied.",
+        "No verified rbi economic indicator evidence was supplied.",
+        "No verified financial news evidence was supplied.",
+        "Missing deterministic metrics: Revenue growth (YoY), Net profit growth (YoY), EBITDA margin, Return on capital employed (ROCE), Debt-to-equity, Free cash flow, Promoter holding, Promoter shares pledged (+7 more)."
+      ]
+    },
+    "independent_judge": {
+      "agent_id": "independent_judge",
+      "security_key": "NSE:id:INE018A01030",
+      "as_of_date": "2026-11-14",
+      "evidence_digest": "f515ec9161cbb98f33b30f5075ee600a4b8a90ba1ef76cf5991157ecba6ab064",
+      "verdict": "WATCH",
+      "confidence_score": 63,
+      "confidence_reason": "Verified 4 core fundamental metric(s) from primary annual reports, but BUY_CANDIDATE gate is not met because growth, valuation evidence is still pending.",
+      "risk_score": 45,
+      "risk_reason": "Moderate information risk: annual-report financials and owners' ROE are verified, but quarterly Regulation 31 shareholding/pledge filings, ROCE denominator reconciliations, and valuation/YoY series remain pending.",
+      "figure_verifications": [
+        {
+          "figure": "Operating margin (FY2026, consolidated)",
+          "researcher_value": "10.197136952051244 %",
+          "verified_value": "10.197136952051244 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "2bb022c71b6cf0a0d0abf67160a1bace",
+            "6b74f4604e5fe48b4b75f2ba87e61381"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Calculated from same-period operating_profit and revenue source values."
+        },
+        {
+          "figure": "Net profit margin (FY2026, consolidated)",
+          "researcher_value": "5.626247838386066 %",
+          "verified_value": "5.626247838386066 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "6b74f4604e5fe48b4b75f2ba87e61381",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Calculated from same-period net_profit and revenue source values."
+        },
+        {
+          "figure": "Return on equity (ROE) (FY2026, consolidated)",
+          "researcher_value": "15.544151614430818 %",
+          "verified_value": "15.544151614430818 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "c21aa18619dd6f2488d6174028d2c0c1",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Calculated from same-period net_profit and average_shareholders_equity source values. ROE uses explicitly reported average shareholders' equity."
+        },
+        {
+          "figure": "Operating cash flow (FY2026, consolidated)",
+          "researcher_value": "16740.97 INR crore",
+          "verified_value": "16740.97 INR crore",
+          "status": "consistent",
+          "evidence_ids": [
+            "1f41b5133860a8deb91f556d7a0fa781"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Reported by source; no independent source verification is implied."
+        }
+      ],
+      "key_determinants": [
+        {
+          "claim": "Verified Operating margin: 10.197136952051244 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "2bb022c71b6cf0a0d0abf67160a1bace",
+            "6b74f4604e5fe48b4b75f2ba87e61381"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Net profit margin: 5.626247838386066 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "6b74f4604e5fe48b4b75f2ba87e61381",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Return on equity (ROE): 15.544151614430818 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "c21aa18619dd6f2488d6174028d2c0c1",
+            "fd6308c767b6591849525e20eb182d01"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Operating cash flow: 16740.97 INR crore in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "1f41b5133860a8deb91f556d7a0fa781"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        }
+      ],
+      "watchlist_action": "ADD",
+      "conditions_to_revisit": [
+        "Supply Q1-Q4 FY2025-26 SEBI LODR Regulation 31 Table III shareholding and promoter pledge filings.",
+        "Supply prior-year comparable revenue and profit inputs to enable deterministic YoY growth calculation.",
+        "Establish matched consolidated EBIT and average capital employed definitions before computing ROCE.",
+        "Provide verified valuation multiples and sector valuation benchmarks before evaluating BUY_CANDIDATE eligibility."
+      ],
+      "missing_evidence": [
+        "No verified quarterly results evidence was supplied.",
+        "No verified corporate announcement evidence was supplied.",
+        "No verified rbi economic indicator evidence was supplied.",
+        "No verified financial news evidence was supplied.",
+        "Missing deterministic metrics: Revenue growth (YoY), Net profit growth (YoY), EBITDA margin, Return on capital employed (ROCE), Debt-to-equity, Free cash flow, Promoter holding, Promoter shares pledged (+7 more)."
+      ],
+      "independent_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Larsen & Toubro Limited (NSE:id:INE018A01030) as of 2026-11-14. Verified 4 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero.",
+      "reasoning_evidence_ids": [
+        "01d598ddc882ce2174a27165078c2d9e",
+        "13a428735f88e4169f9ec54525b39ef9",
+        "1f41b5133860a8deb91f556d7a0fa781",
+        "2bb022c71b6cf0a0d0abf67160a1bace",
+        "6b74f4604e5fe48b4b75f2ba87e61381",
+        "c21aa18619dd6f2488d6174028d2c0c1",
+        "fd6308c767b6591849525e20eb182d01"
+      ]
+    }
+  },
+  "agent_execution": {
+    "equity_research_analyst": {
+      "request_id": "local-equity_research_analyst",
+      "model": "local-evidence-deterministic-v1"
+    },
+    "bull_bear_analyst": {
+      "request_id": "local-bull_bear_analyst",
+      "model": "local-evidence-deterministic-v1"
+    },
+    "independent_judge": {
+      "request_id": "local-independent_judge",
+      "model": "local-evidence-deterministic-v1"
+    }
+  },
+  "agent_errors": {},
+  "changes_from_previous": {
+    "previous_run_id": null,
+    "changed": false,
+    "note": "No earlier judge report exists."
+  },
+  "trading_enabled": false
+}

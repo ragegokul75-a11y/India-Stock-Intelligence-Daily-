@@ -1,0 +1,834 @@
+{
+  "report_type": "three_agent_research",
+  "sample_label": null,
+  "research_run_id": "16df6d5f-0e4a-4b9d-b3ac-b9f25247692e",
+  "status": "completed",
+  "security": {
+    "security_key": "NSE:id:INE002A01018",
+    "exchange": "NSE",
+    "symbol": "RELIANCE",
+    "company_name": "Reliance Industries Limited",
+    "security_identifier": "INE002A01018",
+    "security_type": "MAINBOARD",
+    "listing_status": "ACTIVE",
+    "source_timestamp": "2026-11-06T10:30:00+00:00"
+  },
+  "as_of_date": "2026-11-14",
+  "evidence_digest": "ea475e77ea896053213acd4432d78b087587ad781d407ba69cd6dc7e80a7d192",
+  "evidence_coverage": {
+    "evidence_items": 8,
+    "by_source_type": {
+      "annual_report": 8
+    },
+    "missing_categories": [
+      "quarterly_results",
+      "corporate_announcement",
+      "rbi_economic_indicator",
+      "financial_news"
+    ],
+    "sample_data": false,
+    "market_screening_is_not_fundamental_evidence": true
+  },
+  "source_references": [
+    {
+      "evidence_id": "0b347ea62ea89f8cf6fbb19a56a0cf35",
+      "security_key": "NSE:id:INE002A01018",
+      "source_type": "annual_report",
+      "source_name": "RIL Integrated Annual Report 2025-26",
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Promoter and promoter group shareholding of 49.11% (664,54,96,096 shares) as at 31-Mar-2026 in the Corporate Governance Report; quarterly Regulation 31 filings remain pending.",
+      "value": 49.11,
+      "unit": "%",
+      "excerpt": "pp.60-61, Corporate Governance Report: 49.11% promoter and promoter group holding at 31-Mar-2026. Quarterly Regulation 31 Table III filings still required.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "promoter_holding",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "11fe0ee67aec55cf8dde64031a3a04ca",
+      "security_key": "NSE:id:INE002A01018",
+      "source_type": "annual_report",
+      "source_name": "RIL Integrated Annual Report 2025-26",
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Average consolidated equity attributable to owners of ₹873,615 crore for FY2025-26 (average of ₹904,030 crore and ₹843,200 crore).",
+      "value": 873615,
+      "unit": "INR crore",
+      "excerpt": "p.197, Derived from FY26 (₹904,030 crore) and FY25 (₹843,200 crore) consolidated owners' equity; yields 9.25% owners' ROE.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "average_shareholders_equity",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "6e56f6426b43e5390c09c2ad831cd2ba",
+      "security_key": "NSE:id:INE002A01018",
+      "source_type": "annual_report",
+      "source_name": "RIL Integrated Annual Report 2025-26",
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated net cash flow from operating activities of ₹192,113 crore for FY2025-26.",
+      "value": 192113,
+      "unit": "INR crore",
+      "excerpt": "p.203, Consolidated Cash Flow Statement: Net cash flow from operating activities ₹192,113 crore.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "operating_cash_flow",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "778dd3479b1b7ab45bf3cf47a89dd3f4",
+      "security_key": "NSE:id:INE002A01018",
+      "source_type": "annual_report",
+      "source_name": "RIL Integrated Annual Report 2025-26",
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated EBITDA of ₹207,911 crore for FY2025-26 (company-defined consolidated EBITDA; not a uniform peer field).",
+      "value": 207911,
+      "unit": "INR crore",
+      "excerpt": "Key Indicators / MD&A: Consolidated EBITDA ₹207,911 crore; do not treat as directly interchangeable with TCS EBIT or L&T PBDIT.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "ebitda",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "7fb7807ac195925c5a4cacd79644ca83",
+      "security_key": "NSE:id:INE002A01018",
+      "source_type": "annual_report",
+      "source_name": "RIL Integrated Annual Report 2025-26",
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated total assets of ₹2,178,140 crore and derived borrowings aggregate of ₹374,421 crore (non-current ₹270,751 cr + current ₹103,670 cr; excludes lease liabilities) as at 31-Mar-2026.",
+      "value": 2178140,
+      "unit": "INR crore",
+      "excerpt": "p.197, Consolidated Balance Sheet. Total borrowings kept unmapped to total_debt pending lease/debt policy review.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": null,
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "80827cdbd42fbb6c0befab1ff7777f67",
+      "security_key": "NSE:id:INE002A01018",
+      "source_type": "annual_report",
+      "source_name": "RIL Integrated Annual Report 2025-26",
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated equity attributable to owners of ₹904,030 crore as at 31-Mar-2026 (FY2025: ₹843,200 crore; total equity including NCI: ₹1,085,866 crore).",
+      "value": 904030,
+      "unit": "INR crore",
+      "excerpt": "p.197, Consolidated Balance Sheet: Equity share capital + Other equity attributable to owners = ₹904,030 crore (FY25: ₹843,200 crore).",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "shareholders_equity",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "a11fa34799f51b1af21e2a9e6a9b75d3",
+      "security_key": "NSE:id:INE002A01018",
+      "source_type": "annual_report",
+      "source_name": "RIL Integrated Annual Report 2025-26",
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated profit attributable to owners of the company of ₹80,775 crore for FY2025-26 (total group profit ₹95,754 crore).",
+      "value": 80775,
+      "unit": "INR crore",
+      "excerpt": "p.199, Consolidated Statement of Profit and Loss: Profit attributable to Owners of the Company ₹80,775 crore (matched to owners' equity for ROE).",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "net_profit",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "c8e4ed2c21b86a1040b6cf7c06a89b3a",
+      "security_key": "NSE:id:INE002A01018",
+      "source_type": "annual_report",
+      "source_name": "RIL Integrated Annual Report 2025-26",
+      "source_url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated revenue from operations of ₹1,075,675 crore for FY2025-26.",
+      "value": 1075675,
+      "unit": "INR crore",
+      "excerpt": "p.199, Consolidated Statement of Profit and Loss: Revenue from operations ₹1,075,675 crore.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "revenue",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    }
+  ],
+  "agent_reports": {
+    "equity_research_analyst": {
+      "agent_id": "equity_research_analyst",
+      "security_key": "NSE:id:INE002A01018",
+      "as_of_date": "2026-11-14",
+      "evidence_digest": "ea475e77ea896053213acd4432d78b087587ad781d407ba69cd6dc7e80a7d192",
+      "executive_summary": "Evidence-backed research for Reliance Industries Limited (NSE:id:INE002A01018) as of 2026-11-14 across 8 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "summary_evidence_ids": [
+        "0b347ea62ea89f8cf6fbb19a56a0cf35",
+        "11fe0ee67aec55cf8dde64031a3a04ca",
+        "6e56f6426b43e5390c09c2ad831cd2ba",
+        "778dd3479b1b7ab45bf3cf47a89dd3f4",
+        "7fb7807ac195925c5a4cacd79644ca83",
+        "80827cdbd42fbb6c0befab1ff7777f67",
+        "a11fa34799f51b1af21e2a9e6a9b75d3",
+        "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+      ],
+      "business_overview": [
+        {
+          "claim": "Consolidated total assets of ₹2,178,140 crore and derived borrowings aggregate of ₹374,421 crore (non-current ₹270,751 cr + current ₹103,670 cr; excludes lease liabilities) as at 31-Mar-2026.",
+          "evidence_ids": [
+            "7fb7807ac195925c5a4cacd79644ca83"
+          ],
+          "confidence": 85,
+          "why_it_matters": "p.197, Consolidated Balance Sheet. Total borrowings kept unmapped to total_debt pending lease/debt policy review."
+        }
+      ],
+      "business_quality": [
+        {
+          "claim": "EBITDA margin is 19.33% for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "778dd3479b1b7ab45bf3cf47a89dd3f4",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Reflects capital efficiency and operating profitability from verified inputs."
+        },
+        {
+          "claim": "Net profit margin is 7.51% for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "a11fa34799f51b1af21e2a9e6a9b75d3",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Reflects capital efficiency and operating profitability from verified inputs."
+        },
+        {
+          "claim": "Return on equity (ROE) is 9.25% for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "11fe0ee67aec55cf8dde64031a3a04ca",
+            "a11fa34799f51b1af21e2a9e6a9b75d3"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Reflects capital efficiency and operating profitability from verified inputs."
+        }
+      ],
+      "financial_performance": [
+        {
+          "claim": "Reliance Industries Limited reported operating cash flow of 192113 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "6e56f6426b43e5390c09c2ad831cd2ba"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Reliance Industries Limited reported ebitda of 207911 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "778dd3479b1b7ab45bf3cf47a89dd3f4"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Reliance Industries Limited reported net profit of 80775 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "a11fa34799f51b1af21e2a9e6a9b75d3"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Reliance Industries Limited reported revenue of 1075675 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Operating cash flow stands at 192113.0 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "6e56f6426b43e5390c09c2ad831cd2ba"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Measures balance-sheet leverage or cash flow conversion."
+        }
+      ],
+      "financial_metrics": [
+        {
+          "metric": "revenue_growth_yoy",
+          "value": null,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "status": "not_available",
+          "note": "A directly preceding fiscal year value is required to calculate year-over-year growth."
+        },
+        {
+          "metric": "profit_growth_yoy",
+          "value": null,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "a11fa34799f51b1af21e2a9e6a9b75d3"
+          ],
+          "status": "not_available",
+          "note": "A directly preceding fiscal year value is required to calculate year-over-year growth."
+        },
+        {
+          "metric": "operating_margin",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "ebitda_margin",
+          "value": 19.328421688707092,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "778dd3479b1b7ab45bf3cf47a89dd3f4",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "status": "reported",
+          "note": "Calculated from same-period ebitda and revenue source values."
+        },
+        {
+          "metric": "net_profit_margin",
+          "value": 7.509238385199991,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "a11fa34799f51b1af21e2a9e6a9b75d3",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "status": "reported",
+          "note": "Calculated from same-period net_profit and revenue source values."
+        },
+        {
+          "metric": "roe",
+          "value": 9.246063769509453,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "11fe0ee67aec55cf8dde64031a3a04ca",
+            "a11fa34799f51b1af21e2a9e6a9b75d3"
+          ],
+          "status": "reported",
+          "note": "Calculated from same-period net_profit and average_shareholders_equity source values. ROE uses explicitly reported average shareholders' equity."
+        },
+        {
+          "metric": "roce",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "debt_to_equity",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "operating_cash_flow",
+          "value": 192113.0,
+          "unit": "INR crore",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "6e56f6426b43e5390c09c2ad831cd2ba"
+          ],
+          "status": "reported",
+          "note": "Reported by source; no independent source verification is implied."
+        },
+        {
+          "metric": "free_cash_flow",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "promoter_holding",
+          "value": 49.11,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "0b347ea62ea89f8cf6fbb19a56a0cf35"
+          ],
+          "status": "reported",
+          "note": "Reported by source; no independent source verification is implied."
+        },
+        {
+          "metric": "promoter_pledging",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "institutional_holding",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "pe_ratio",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "pb_ratio",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "ps_ratio",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "ev_to_ebitda",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "sector_valuation",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "eps_growth_yoy",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        }
+      ],
+      "strengths": [
+        {
+          "claim": "Solid EBITDA margin of 19.33% in FY2026 (consolidated).",
+          "evidence_ids": [
+            "778dd3479b1b7ab45bf3cf47a89dd3f4",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Strong return or margin profile supports internal capital generation."
+        },
+        {
+          "claim": "Positive operating cash flow of 192113.0 INR crore in FY2026 (consolidated).",
+          "evidence_ids": [
+            "6e56f6426b43e5390c09c2ad831cd2ba"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Confirms operating activities generated cash inflows."
+        }
+      ],
+      "weaknesses": [],
+      "governance": [
+        {
+          "claim": "Promoter holding reported at 49.11% for FY2026 (consolidated).",
+          "evidence_ids": [
+            "0b347ea62ea89f8cf6fbb19a56a0cf35"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Ownership and encumbrance disclosures inform governance alignment."
+        }
+      ],
+      "valuation": [],
+      "growth_prospects": [],
+      "key_risks": [],
+      "investment_thesis": [
+        {
+          "claim": "Sourced analysis for Reliance Industries Limited incorporates 8 evidence record(s) as of 2026-11-14; only verified comparable metrics are used, while missing or unverified fields remain unassumed.",
+          "evidence_ids": [
+            "0b347ea62ea89f8cf6fbb19a56a0cf35",
+            "11fe0ee67aec55cf8dde64031a3a04ca",
+            "6e56f6426b43e5390c09c2ad831cd2ba",
+            "778dd3479b1b7ab45bf3cf47a89dd3f4",
+            "7fb7807ac195925c5a4cacd79644ca83",
+            "80827cdbd42fbb6c0befab1ff7777f67"
+          ],
+          "confidence": 80,
+          "why_it_matters": "Prevents unsupported extrapolation where quarterly filings or reconciliations are pending."
+        }
+      ],
+      "missing_evidence": [
+        "No verified quarterly results evidence was supplied.",
+        "No verified corporate announcement evidence was supplied.",
+        "No verified rbi economic indicator evidence was supplied.",
+        "No verified financial news evidence was supplied.",
+        "Missing deterministic metrics: Revenue growth (YoY), Net profit growth (YoY), Operating margin, Return on capital employed (ROCE), Debt-to-equity, Free cash flow, Promoter shares pledged, Institutional holding (+6 more)."
+      ]
+    },
+    "bull_bear_analyst": {
+      "agent_id": "bull_bear_analyst",
+      "security_key": "NSE:id:INE002A01018",
+      "as_of_date": "2026-11-14",
+      "evidence_digest": "ea475e77ea896053213acd4432d78b087587ad781d407ba69cd6dc7e80a7d192",
+      "summary": "Challenge review for Reliance Industries Limited (NSE:id:INE002A01018): weighed 4 bullish observation(s) against 1 bear/completeness challenge(s) and 2 definition/coverage caveat(s).",
+      "summary_evidence_ids": [
+        "0b347ea62ea89f8cf6fbb19a56a0cf35",
+        "11fe0ee67aec55cf8dde64031a3a04ca",
+        "6e56f6426b43e5390c09c2ad831cd2ba",
+        "778dd3479b1b7ab45bf3cf47a89dd3f4",
+        "7fb7807ac195925c5a4cacd79644ca83",
+        "80827cdbd42fbb6c0befab1ff7777f67",
+        "a11fa34799f51b1af21e2a9e6a9b75d3",
+        "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+      ],
+      "bull_arguments": [
+        {
+          "claim": "Sourced EBITDA margin of 19.33 % in FY2026 (consolidated).",
+          "evidence_ids": [
+            "778dd3479b1b7ab45bf3cf47a89dd3f4",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        },
+        {
+          "claim": "Sourced Net profit margin of 7.51 % in FY2026 (consolidated).",
+          "evidence_ids": [
+            "a11fa34799f51b1af21e2a9e6a9b75d3",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        },
+        {
+          "claim": "Sourced Return on equity (ROE) of 9.25 % in FY2026 (consolidated).",
+          "evidence_ids": [
+            "11fe0ee67aec55cf8dde64031a3a04ca",
+            "a11fa34799f51b1af21e2a9e6a9b75d3"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        },
+        {
+          "claim": "Sourced Operating cash flow of 192113.00 INR crore in FY2026 (consolidated).",
+          "evidence_ids": [
+            "6e56f6426b43e5390c09c2ad831cd2ba"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        }
+      ],
+      "bear_arguments": [
+        {
+          "claim": "Evidence coverage for Reliance Industries Limited is partial (missing categories: quarterly_results, corporate_announcement, rbi_economic_indicator, financial_news); upside thesis lacks full multi-period and valuation confirmation.",
+          "evidence_ids": [
+            "0b347ea62ea89f8cf6fbb19a56a0cf35",
+            "11fe0ee67aec55cf8dde64031a3a04ca",
+            "6e56f6426b43e5390c09c2ad831cd2ba",
+            "778dd3479b1b7ab45bf3cf47a89dd3f4"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Incomplete quarterly shareholding, pledge, or valuation data limits conviction."
+        }
+      ],
+      "contradictory_evidence": [],
+      "hidden_risks": [
+        {
+          "claim": "Accounting definition / comparability caveat: Promoter and promoter group shareholding of 49.11% (664,54,96,096 shares) as at 31-Mar-2026 in the Corporate Governance Report; quarterly Regulation 31 filings remain pending.",
+          "evidence_ids": [
+            "0b347ea62ea89f8cf6fbb19a56a0cf35"
+          ],
+          "confidence": 85,
+          "why_it_matters": "pp.60-61, Corporate Governance Report: 49.11% promoter and promoter group holding at 31-Mar-2026. Quarterly Regulation 31 Table III filings still required."
+        },
+        {
+          "claim": "Accounting definition / comparability caveat: Consolidated total assets of ₹2,178,140 crore and derived borrowings aggregate of ₹374,421 crore (non-current ₹270,751 cr + current ₹103,670 cr; excludes lease liabilities) as at 31-Mar-2026.",
+          "evidence_ids": [
+            "7fb7807ac195925c5a4cacd79644ca83"
+          ],
+          "confidence": 85,
+          "why_it_matters": "p.197, Consolidated Balance Sheet. Total borrowings kept unmapped to total_debt pending lease/debt policy review."
+        }
+      ],
+      "catalysts": [
+        {
+          "claim": "Completion of verified quarterly filings and multi-year comparable statements for Reliance Industries Limited.",
+          "evidence_ids": [
+            "0b347ea62ea89f8cf6fbb19a56a0cf35",
+            "11fe0ee67aec55cf8dde64031a3a04ca",
+            "6e56f6426b43e5390c09c2ad831cd2ba",
+            "778dd3479b1b7ab45bf3cf47a89dd3f4"
+          ],
+          "confidence": 75,
+          "why_it_matters": "Would resolve pending governance, pledge, and YoY growth checks."
+        }
+      ],
+      "thesis_invalidation": [
+        {
+          "claim": "Deterioration in verified operating cash flow, owners' ROE, or adverse encumbrance disclosures for Reliance Industries Limited.",
+          "evidence_ids": [
+            "0b347ea62ea89f8cf6fbb19a56a0cf35",
+            "11fe0ee67aec55cf8dde64031a3a04ca",
+            "6e56f6426b43e5390c09c2ad831cd2ba",
+            "778dd3479b1b7ab45bf3cf47a89dd3f4"
+          ],
+          "confidence": 80,
+          "why_it_matters": "Would invalidate the fundamental quality supported by current annual-report evidence."
+        }
+      ],
+      "missing_evidence": [
+        "No verified quarterly results evidence was supplied.",
+        "No verified corporate announcement evidence was supplied.",
+        "No verified rbi economic indicator evidence was supplied.",
+        "No verified financial news evidence was supplied.",
+        "Missing deterministic metrics: Revenue growth (YoY), Net profit growth (YoY), Operating margin, Return on capital employed (ROCE), Debt-to-equity, Free cash flow, Promoter shares pledged, Institutional holding (+6 more)."
+      ]
+    },
+    "independent_judge": {
+      "agent_id": "independent_judge",
+      "security_key": "NSE:id:INE002A01018",
+      "as_of_date": "2026-11-14",
+      "evidence_digest": "ea475e77ea896053213acd4432d78b087587ad781d407ba69cd6dc7e80a7d192",
+      "verdict": "WATCH",
+      "confidence_score": 70,
+      "confidence_reason": "Verified 5 core fundamental metric(s) from primary annual reports, but BUY_CANDIDATE gate is not met because growth, valuation evidence is still pending.",
+      "risk_score": 45,
+      "risk_reason": "Moderate information risk: annual-report financials and owners' ROE are verified, but quarterly Regulation 31 shareholding/pledge filings, ROCE denominator reconciliations, and valuation/YoY series remain pending.",
+      "figure_verifications": [
+        {
+          "figure": "EBITDA margin (FY2026, consolidated)",
+          "researcher_value": "19.328421688707092 %",
+          "verified_value": "19.328421688707092 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "778dd3479b1b7ab45bf3cf47a89dd3f4",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Calculated from same-period ebitda and revenue source values."
+        },
+        {
+          "figure": "Net profit margin (FY2026, consolidated)",
+          "researcher_value": "7.509238385199991 %",
+          "verified_value": "7.509238385199991 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "a11fa34799f51b1af21e2a9e6a9b75d3",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Calculated from same-period net_profit and revenue source values."
+        },
+        {
+          "figure": "Return on equity (ROE) (FY2026, consolidated)",
+          "researcher_value": "9.246063769509453 %",
+          "verified_value": "9.246063769509453 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "11fe0ee67aec55cf8dde64031a3a04ca",
+            "a11fa34799f51b1af21e2a9e6a9b75d3"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Calculated from same-period net_profit and average_shareholders_equity source values. ROE uses explicitly reported average shareholders' equity."
+        },
+        {
+          "figure": "Operating cash flow (FY2026, consolidated)",
+          "researcher_value": "192113.0 INR crore",
+          "verified_value": "192113.0 INR crore",
+          "status": "consistent",
+          "evidence_ids": [
+            "6e56f6426b43e5390c09c2ad831cd2ba"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Reported by source; no independent source verification is implied."
+        },
+        {
+          "figure": "Promoter holding (FY2026, consolidated)",
+          "researcher_value": "49.11 %",
+          "verified_value": "49.11 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "0b347ea62ea89f8cf6fbb19a56a0cf35"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Reported by source; no independent source verification is implied."
+        }
+      ],
+      "key_determinants": [
+        {
+          "claim": "Verified EBITDA margin: 19.328421688707092 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "778dd3479b1b7ab45bf3cf47a89dd3f4",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Net profit margin: 7.509238385199991 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "a11fa34799f51b1af21e2a9e6a9b75d3",
+            "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Return on equity (ROE): 9.246063769509453 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "11fe0ee67aec55cf8dde64031a3a04ca",
+            "a11fa34799f51b1af21e2a9e6a9b75d3"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Operating cash flow: 192113.0 INR crore in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "6e56f6426b43e5390c09c2ad831cd2ba"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Promoter holding: 49.11 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "0b347ea62ea89f8cf6fbb19a56a0cf35"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        }
+      ],
+      "watchlist_action": "ADD",
+      "conditions_to_revisit": [
+        "Supply Q1-Q4 FY2025-26 SEBI LODR Regulation 31 Table III shareholding and promoter pledge filings.",
+        "Supply prior-year comparable revenue and profit inputs to enable deterministic YoY growth calculation.",
+        "Establish matched consolidated EBIT and average capital employed definitions before computing ROCE.",
+        "Provide verified valuation multiples and sector valuation benchmarks before evaluating BUY_CANDIDATE eligibility."
+      ],
+      "missing_evidence": [
+        "No verified quarterly results evidence was supplied.",
+        "No verified corporate announcement evidence was supplied.",
+        "No verified rbi economic indicator evidence was supplied.",
+        "No verified financial news evidence was supplied.",
+        "Missing deterministic metrics: Revenue growth (YoY), Net profit growth (YoY), Operating margin, Return on capital employed (ROCE), Debt-to-equity, Free cash flow, Promoter shares pledged, Institutional holding (+6 more)."
+      ],
+      "independent_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Reliance Industries Limited (NSE:id:INE002A01018) as of 2026-11-14. Verified 5 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero.",
+      "reasoning_evidence_ids": [
+        "0b347ea62ea89f8cf6fbb19a56a0cf35",
+        "11fe0ee67aec55cf8dde64031a3a04ca",
+        "6e56f6426b43e5390c09c2ad831cd2ba",
+        "778dd3479b1b7ab45bf3cf47a89dd3f4",
+        "7fb7807ac195925c5a4cacd79644ca83",
+        "80827cdbd42fbb6c0befab1ff7777f67",
+        "a11fa34799f51b1af21e2a9e6a9b75d3",
+        "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+      ]
+    }
+  },
+  "agent_execution": {
+    "equity_research_analyst": {
+      "request_id": "local-equity_research_analyst",
+      "model": "local-evidence-deterministic-v1"
+    },
+    "bull_bear_analyst": {
+      "request_id": "local-bull_bear_analyst",
+      "model": "local-evidence-deterministic-v1"
+    },
+    "independent_judge": {
+      "request_id": "local-independent_judge",
+      "model": "local-evidence-deterministic-v1"
+    }
+  },
+  "agent_errors": {},
+  "changes_from_previous": {
+    "previous_run_id": null,
+    "changed": false,
+    "note": "No earlier judge report exists."
+  },
+  "trading_enabled": false
+}

@@ -1,0 +1,44 @@
+{
+  "manifest_version": 1,
+  "batch_run_id": "b7b3fa4e-f348-4cff-9991-f56b837c147e",
+  "as_of_date": "2026-11-14",
+  "status": "completed",
+  "total_securities": 3,
+  "attempted_securities": 3,
+  "successful_securities": 3,
+  "failed_securities": 0,
+  "security_ids": [
+    "NSE:id:INE002A01018",
+    "NSE:id:INE467B01029",
+    "NSE:id:INE018A01030"
+  ],
+  "successful_security_ids": [
+    "NSE:id:INE002A01018",
+    "NSE:id:INE467B01029",
+    "NSE:id:INE018A01030"
+  ],
+  "failed_security_ids": [],
+  "errors": [],
+  "started_at": "2026-11-14T17:13:31.269653+00:00",
+  "completion_timestamp": "2026-11-14T17:13:31.630246+00:00",
+  "results": [
+    {
+      "security_id": "NSE:id:INE002A01018",
+      "status": "completed",
+      "research_run_id": "16df6d5f-0e4a-4b9d-b3ac-b9f25247692e",
+      "error_summary": null
+    },
+    {
+      "security_id": "NSE:id:INE467B01029",
+      "status": "completed",
+      "research_run_id": "30115ad8-f05e-4e8a-9e02-3393cc30e97c",
+      "error_summary": null
+    },
+    {
+      "security_id": "NSE:id:INE018A01030",
+      "status": "completed",
+      "research_run_id": "c3e0ea15-0fdc-48c1-9245-4061b068f7d8",
+      "error_summary": null
+    }
+  ]
+}

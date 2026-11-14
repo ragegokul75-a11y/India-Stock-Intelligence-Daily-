@@ -1,0 +1,802 @@
+{
+  "report_type": "three_agent_research",
+  "sample_label": null,
+  "research_run_id": "30115ad8-f05e-4e8a-9e02-3393cc30e97c",
+  "status": "completed",
+  "security": {
+    "security_key": "NSE:id:INE467B01029",
+    "exchange": "NSE",
+    "symbol": "TCS",
+    "company_name": "Tata Consultancy Services Limited",
+    "security_identifier": "INE467B01029",
+    "security_type": "MAINBOARD",
+    "listing_status": "ACTIVE",
+    "source_timestamp": "2026-11-06T10:30:00+00:00"
+  },
+  "as_of_date": "2026-11-14",
+  "evidence_digest": "ed4874684a71ef34d9bf1113e047f24ee9a9f65f0926f358daad251c95a75995",
+  "evidence_coverage": {
+    "evidence_items": 8,
+    "by_source_type": {
+      "annual_report": 8
+    },
+    "missing_categories": [
+      "quarterly_results",
+      "corporate_announcement",
+      "rbi_economic_indicator",
+      "financial_news"
+    ],
+    "sample_data": false,
+    "market_screening_is_not_fundamental_evidence": true
+  },
+  "source_references": [
+    {
+      "evidence_id": "04931dad2982f9a2de20625b6874c6f8",
+      "security_key": "NSE:id:INE467B01029",
+      "source_type": "annual_report",
+      "source_name": "TCS Annual Report 2025-26",
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated profit attributable to shareholders of ₹49,210 crore for FY2025-26 (total group profit ₹49,454 crore).",
+      "value": 49210,
+      "unit": "INR crore",
+      "excerpt": "pp.195-201, Consolidated Statement of Profit and Loss: Profit attributable to shareholders ₹49,210 crore (matched to owners' equity for ROE).",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "net_profit",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "17b47962d43f9ab9d1ca65718dde95d4",
+      "security_key": "NSE:id:INE467B01029",
+      "source_type": "annual_report",
+      "source_name": "TCS Annual Report 2025-26",
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated net cash flows generated from operating activities of ₹52,094 crore for FY2025-26.",
+      "value": 52094,
+      "unit": "INR crore",
+      "excerpt": "p.201, Consolidated Statement of Cash Flows: Net cash generated from operating activities ₹52,094 crore.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "operating_cash_flow",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "7a5afc622072ab26413403b22dff57b0",
+      "security_key": "NSE:id:INE467B01029",
+      "source_type": "annual_report",
+      "source_name": "TCS Annual Report 2025-26",
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Average consolidated equity attributable to shareholders of ₹100,998 crore for FY2025-26 (average of ₹107,240 crore and ₹94,756 crore).",
+      "value": 100998,
+      "unit": "INR crore",
+      "excerpt": "pp.195-201, Derived from FY26 (₹107,240 crore) and FY25 (₹94,756 crore) consolidated owners' equity; yields 48.72% owners' ROE.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "average_shareholders_equity",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "a0f033a08c78b4924de74c170058822d",
+      "security_key": "NSE:id:INE467B01029",
+      "source_type": "annual_report",
+      "source_name": "TCS Annual Report 2025-26",
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Tata Sons Private Limited (holding company and promoter) held 71.74% (2,59,54,99,419 shares) as at 31-Mar-2026; quarterly Regulation 31 filings remain pending.",
+      "value": 71.74,
+      "unit": "%",
+      "excerpt": "p.227, Consolidated Financial Statement Notes: Tata Sons Private Limited holding 71.74% at 31-Mar-2026. Promoter pledge not separately reported; do not assume zero.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "promoter_holding",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "bd289975649f9b854ef8eeb92754ba7a",
+      "security_key": "NSE:id:INE467B01029",
+      "source_type": "annual_report",
+      "source_name": "TCS Annual Report 2025-26",
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated total assets of ₹182,372 crore as at 31-Mar-2026; no separate borrowings line disclosed (lease liabilities and preference shares are not treated as borrowings aggregate; borrowings left blank, not zero).",
+      "value": 182372,
+      "unit": "INR crore",
+      "excerpt": "pp.195-201, Consolidated Balance Sheet: Total assets ₹182,372 crore. Total borrowings intentionally left blank.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": null,
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "d6db4e14607697b1d1c885e7ae98569c",
+      "security_key": "NSE:id:INE467B01029",
+      "source_type": "annual_report",
+      "source_name": "TCS Annual Report 2025-26",
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated equity attributable to shareholders of ₹107,240 crore as at 31-Mar-2026 (FY2025: ₹94,756 crore; total equity including NCI: ₹108,478 crore).",
+      "value": 107240,
+      "unit": "INR crore",
+      "excerpt": "pp.195-201, Consolidated Balance Sheet: Equity attributable to shareholders ₹107,240 crore (FY25: ₹94,756 crore).",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "shareholders_equity",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "da935a002744a62b8ea57d395c79a8ab",
+      "security_key": "NSE:id:INE467B01029",
+      "source_type": "annual_report",
+      "source_name": "TCS Annual Report 2025-26",
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated EBIT of ₹66,838 crore for FY2025-26 (reported after depreciation and amortisation of ₹5,560 crore; excludes other income; not interchangeable with EBITDA).",
+      "value": 66838,
+      "unit": "INR crore",
+      "excerpt": "p.98, Performance Trend - 10 years: Consolidated EBIT ₹66,838 crore; D&A ₹5,560 crore (derived EBITDA proxy ₹72,398 crore is not directly reported).",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "ebit",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    },
+    {
+      "evidence_id": "e87c13b81ccca835ed196a3354738eed",
+      "security_key": "NSE:id:INE467B01029",
+      "source_type": "annual_report",
+      "source_name": "TCS Annual Report 2025-26",
+      "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/ar/annual-report-2025-2026.pdf",
+      "publication_date": "2026-06-30",
+      "reporting_period": "FY2026",
+      "retrieved_at": "2026-11-06T10:30:00+00:00",
+      "claim": "Consolidated revenue from operations of ₹267,021 crore for FY2025-26.",
+      "value": 267021,
+      "unit": "INR crore",
+      "excerpt": "pp.195-201 & p.254, Consolidated Financial Statements: Revenue from operations ₹267,021 crore.",
+      "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+      "source_file": "stage4d_financial_evidence.json",
+      "is_synthetic": false,
+      "metric_key": "revenue",
+      "verification_status": "verified",
+      "financial_basis": "consolidated"
+    }
+  ],
+  "agent_reports": {
+    "equity_research_analyst": {
+      "agent_id": "equity_research_analyst",
+      "security_key": "NSE:id:INE467B01029",
+      "as_of_date": "2026-11-14",
+      "evidence_digest": "ed4874684a71ef34d9bf1113e047f24ee9a9f65f0926f358daad251c95a75995",
+      "executive_summary": "Evidence-backed research for Tata Consultancy Services Limited (NSE:id:INE467B01029) as of 2026-11-14 across 8 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "summary_evidence_ids": [
+        "04931dad2982f9a2de20625b6874c6f8",
+        "17b47962d43f9ab9d1ca65718dde95d4",
+        "7a5afc622072ab26413403b22dff57b0",
+        "a0f033a08c78b4924de74c170058822d",
+        "bd289975649f9b854ef8eeb92754ba7a",
+        "d6db4e14607697b1d1c885e7ae98569c",
+        "da935a002744a62b8ea57d395c79a8ab",
+        "e87c13b81ccca835ed196a3354738eed"
+      ],
+      "business_overview": [
+        {
+          "claim": "Consolidated total assets of ₹182,372 crore as at 31-Mar-2026; no separate borrowings line disclosed (lease liabilities and preference shares are not treated as borrowings aggregate; borrowings left blank, not zero).",
+          "evidence_ids": [
+            "bd289975649f9b854ef8eeb92754ba7a"
+          ],
+          "confidence": 85,
+          "why_it_matters": "pp.195-201, Consolidated Balance Sheet: Total assets ₹182,372 crore. Total borrowings intentionally left blank."
+        }
+      ],
+      "business_quality": [
+        {
+          "claim": "Net profit margin is 18.43% for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "e87c13b81ccca835ed196a3354738eed"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Reflects capital efficiency and operating profitability from verified inputs."
+        },
+        {
+          "claim": "Return on equity (ROE) is 48.72% for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "7a5afc622072ab26413403b22dff57b0"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Reflects capital efficiency and operating profitability from verified inputs."
+        }
+      ],
+      "financial_performance": [
+        {
+          "claim": "Tata Consultancy Services Limited reported net profit of 49210 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Tata Consultancy Services Limited reported operating cash flow of 52094 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "17b47962d43f9ab9d1ca65718dde95d4"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Tata Consultancy Services Limited reported ebit of 66838 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "da935a002744a62b8ea57d395c79a8ab"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Tata Consultancy Services Limited reported revenue of 267021 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "e87c13b81ccca835ed196a3354738eed"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Establishes sourced FY2026 consolidated scale and cash/earnings generation."
+        },
+        {
+          "claim": "Operating cash flow stands at 52094.0 INR crore for FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "17b47962d43f9ab9d1ca65718dde95d4"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Measures balance-sheet leverage or cash flow conversion."
+        }
+      ],
+      "financial_metrics": [
+        {
+          "metric": "revenue_growth_yoy",
+          "value": null,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "e87c13b81ccca835ed196a3354738eed"
+          ],
+          "status": "not_available",
+          "note": "A directly preceding fiscal year value is required to calculate year-over-year growth."
+        },
+        {
+          "metric": "profit_growth_yoy",
+          "value": null,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8"
+          ],
+          "status": "not_available",
+          "note": "A directly preceding fiscal year value is required to calculate year-over-year growth."
+        },
+        {
+          "metric": "operating_margin",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "ebitda_margin",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "net_profit_margin",
+          "value": 18.42926211796076,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "e87c13b81ccca835ed196a3354738eed"
+          ],
+          "status": "reported",
+          "note": "Calculated from same-period net_profit and revenue source values."
+        },
+        {
+          "metric": "roe",
+          "value": 48.72373710370503,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "7a5afc622072ab26413403b22dff57b0"
+          ],
+          "status": "reported",
+          "note": "Calculated from same-period net_profit and average_shareholders_equity source values. ROE uses explicitly reported average shareholders' equity."
+        },
+        {
+          "metric": "roce",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "debt_to_equity",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "operating_cash_flow",
+          "value": 52094.0,
+          "unit": "INR crore",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "17b47962d43f9ab9d1ca65718dde95d4"
+          ],
+          "status": "reported",
+          "note": "Reported by source; no independent source verification is implied."
+        },
+        {
+          "metric": "free_cash_flow",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "promoter_holding",
+          "value": 71.74,
+          "unit": "%",
+          "reporting_period": "FY2026",
+          "financial_basis": "consolidated",
+          "evidence_ids": [
+            "a0f033a08c78b4924de74c170058822d"
+          ],
+          "status": "reported",
+          "note": "Reported by source; no independent source verification is implied."
+        },
+        {
+          "metric": "promoter_pledging",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "institutional_holding",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "pe_ratio",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "pb_ratio",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "ps_ratio",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "ev_to_ebitda",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "sector_valuation",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        },
+        {
+          "metric": "eps_growth_yoy",
+          "value": null,
+          "unit": null,
+          "reporting_period": null,
+          "financial_basis": "consolidated",
+          "evidence_ids": [],
+          "status": "not_available",
+          "note": "No metric-keyed evidence was supplied."
+        }
+      ],
+      "strengths": [
+        {
+          "claim": "Solid Net profit margin of 18.43% in FY2026 (consolidated).",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "e87c13b81ccca835ed196a3354738eed"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Strong return or margin profile supports internal capital generation."
+        },
+        {
+          "claim": "Solid Return on equity (ROE) of 48.72% in FY2026 (consolidated).",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "7a5afc622072ab26413403b22dff57b0"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Strong return or margin profile supports internal capital generation."
+        },
+        {
+          "claim": "Positive operating cash flow of 52094.0 INR crore in FY2026 (consolidated).",
+          "evidence_ids": [
+            "17b47962d43f9ab9d1ca65718dde95d4"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Confirms operating activities generated cash inflows."
+        }
+      ],
+      "weaknesses": [],
+      "governance": [
+        {
+          "claim": "Promoter holding reported at 71.74% for FY2026 (consolidated).",
+          "evidence_ids": [
+            "a0f033a08c78b4924de74c170058822d"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Ownership and encumbrance disclosures inform governance alignment."
+        }
+      ],
+      "valuation": [],
+      "growth_prospects": [],
+      "key_risks": [],
+      "investment_thesis": [
+        {
+          "claim": "Sourced analysis for Tata Consultancy Services Limited incorporates 8 evidence record(s) as of 2026-11-14; only verified comparable metrics are used, while missing or unverified fields remain unassumed.",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "17b47962d43f9ab9d1ca65718dde95d4",
+            "7a5afc622072ab26413403b22dff57b0",
+            "a0f033a08c78b4924de74c170058822d",
+            "bd289975649f9b854ef8eeb92754ba7a",
+            "d6db4e14607697b1d1c885e7ae98569c"
+          ],
+          "confidence": 80,
+          "why_it_matters": "Prevents unsupported extrapolation where quarterly filings or reconciliations are pending."
+        }
+      ],
+      "missing_evidence": [
+        "No verified quarterly results evidence was supplied.",
+        "No verified corporate announcement evidence was supplied.",
+        "No verified rbi economic indicator evidence was supplied.",
+        "No verified financial news evidence was supplied.",
+        "Missing deterministic metrics: Revenue growth (YoY), Net profit growth (YoY), Operating margin, EBITDA margin, Return on capital employed (ROCE), Debt-to-equity, Free cash flow, Promoter shares pledged (+7 more)."
+      ]
+    },
+    "bull_bear_analyst": {
+      "agent_id": "bull_bear_analyst",
+      "security_key": "NSE:id:INE467B01029",
+      "as_of_date": "2026-11-14",
+      "evidence_digest": "ed4874684a71ef34d9bf1113e047f24ee9a9f65f0926f358daad251c95a75995",
+      "summary": "Challenge review for Tata Consultancy Services Limited (NSE:id:INE467B01029): weighed 3 bullish observation(s) against 1 bear/completeness challenge(s) and 2 definition/coverage caveat(s).",
+      "summary_evidence_ids": [
+        "04931dad2982f9a2de20625b6874c6f8",
+        "17b47962d43f9ab9d1ca65718dde95d4",
+        "7a5afc622072ab26413403b22dff57b0",
+        "a0f033a08c78b4924de74c170058822d",
+        "bd289975649f9b854ef8eeb92754ba7a",
+        "d6db4e14607697b1d1c885e7ae98569c",
+        "da935a002744a62b8ea57d395c79a8ab",
+        "e87c13b81ccca835ed196a3354738eed"
+      ],
+      "bull_arguments": [
+        {
+          "claim": "Sourced Net profit margin of 18.43 % in FY2026 (consolidated).",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "e87c13b81ccca835ed196a3354738eed"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        },
+        {
+          "claim": "Sourced Return on equity (ROE) of 48.72 % in FY2026 (consolidated).",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "7a5afc622072ab26413403b22dff57b0"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        },
+        {
+          "claim": "Sourced Operating cash flow of 52094.00 INR crore in FY2026 (consolidated).",
+          "evidence_ids": [
+            "17b47962d43f9ab9d1ca65718dde95d4"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Demonstrates positive operating execution or capital return on a verified basis."
+        }
+      ],
+      "bear_arguments": [
+        {
+          "claim": "Evidence coverage for Tata Consultancy Services Limited is partial (missing categories: quarterly_results, corporate_announcement, rbi_economic_indicator, financial_news); upside thesis lacks full multi-period and valuation confirmation.",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "17b47962d43f9ab9d1ca65718dde95d4",
+            "7a5afc622072ab26413403b22dff57b0",
+            "a0f033a08c78b4924de74c170058822d"
+          ],
+          "confidence": 85,
+          "why_it_matters": "Incomplete quarterly shareholding, pledge, or valuation data limits conviction."
+        }
+      ],
+      "contradictory_evidence": [],
+      "hidden_risks": [
+        {
+          "claim": "Accounting definition / comparability caveat: Tata Sons Private Limited (holding company and promoter) held 71.74% (2,59,54,99,419 shares) as at 31-Mar-2026; quarterly Regulation 31 filings remain pending.",
+          "evidence_ids": [
+            "a0f033a08c78b4924de74c170058822d"
+          ],
+          "confidence": 85,
+          "why_it_matters": "p.227, Consolidated Financial Statement Notes: Tata Sons Private Limited holding 71.74% at 31-Mar-2026. Promoter pledge not separately reported; do not assume zero."
+        },
+        {
+          "claim": "Accounting definition / comparability caveat: Consolidated EBIT of ₹66,838 crore for FY2025-26 (reported after depreciation and amortisation of ₹5,560 crore; excludes other income; not interchangeable with EBITDA).",
+          "evidence_ids": [
+            "da935a002744a62b8ea57d395c79a8ab"
+          ],
+          "confidence": 85,
+          "why_it_matters": "p.98, Performance Trend - 10 years: Consolidated EBIT ₹66,838 crore; D&A ₹5,560 crore (derived EBITDA proxy ₹72,398 crore is not directly reported)."
+        }
+      ],
+      "catalysts": [
+        {
+          "claim": "Completion of verified quarterly filings and multi-year comparable statements for Tata Consultancy Services Limited.",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "17b47962d43f9ab9d1ca65718dde95d4",
+            "7a5afc622072ab26413403b22dff57b0",
+            "a0f033a08c78b4924de74c170058822d"
+          ],
+          "confidence": 75,
+          "why_it_matters": "Would resolve pending governance, pledge, and YoY growth checks."
+        }
+      ],
+      "thesis_invalidation": [
+        {
+          "claim": "Deterioration in verified operating cash flow, owners' ROE, or adverse encumbrance disclosures for Tata Consultancy Services Limited.",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "17b47962d43f9ab9d1ca65718dde95d4",
+            "7a5afc622072ab26413403b22dff57b0",
+            "a0f033a08c78b4924de74c170058822d"
+          ],
+          "confidence": 80,
+          "why_it_matters": "Would invalidate the fundamental quality supported by current annual-report evidence."
+        }
+      ],
+      "missing_evidence": [
+        "No verified quarterly results evidence was supplied.",
+        "No verified corporate announcement evidence was supplied.",
+        "No verified rbi economic indicator evidence was supplied.",
+        "No verified financial news evidence was supplied.",
+        "Missing deterministic metrics: Revenue growth (YoY), Net profit growth (YoY), Operating margin, EBITDA margin, Return on capital employed (ROCE), Debt-to-equity, Free cash flow, Promoter shares pledged (+7 more)."
+      ]
+    },
+    "independent_judge": {
+      "agent_id": "independent_judge",
+      "security_key": "NSE:id:INE467B01029",
+      "as_of_date": "2026-11-14",
+      "evidence_digest": "ed4874684a71ef34d9bf1113e047f24ee9a9f65f0926f358daad251c95a75995",
+      "verdict": "WATCH",
+      "confidence_score": 63,
+      "confidence_reason": "Verified 4 core fundamental metric(s) from primary annual reports, but BUY_CANDIDATE gate is not met because growth, valuation evidence is still pending.",
+      "risk_score": 45,
+      "risk_reason": "Moderate information risk: annual-report financials and owners' ROE are verified, but quarterly Regulation 31 shareholding/pledge filings, ROCE denominator reconciliations, and valuation/YoY series remain pending.",
+      "figure_verifications": [
+        {
+          "figure": "Net profit margin (FY2026, consolidated)",
+          "researcher_value": "18.42926211796076 %",
+          "verified_value": "18.42926211796076 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "e87c13b81ccca835ed196a3354738eed"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Calculated from same-period net_profit and revenue source values."
+        },
+        {
+          "figure": "Return on equity (ROE) (FY2026, consolidated)",
+          "researcher_value": "48.72373710370503 %",
+          "verified_value": "48.72373710370503 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "7a5afc622072ab26413403b22dff57b0"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Calculated from same-period net_profit and average_shareholders_equity source values. ROE uses explicitly reported average shareholders' equity."
+        },
+        {
+          "figure": "Operating cash flow (FY2026, consolidated)",
+          "researcher_value": "52094.0 INR crore",
+          "verified_value": "52094.0 INR crore",
+          "status": "consistent",
+          "evidence_ids": [
+            "17b47962d43f9ab9d1ca65718dde95d4"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Reported by source; no independent source verification is implied."
+        },
+        {
+          "figure": "Promoter holding (FY2026, consolidated)",
+          "researcher_value": "71.74 %",
+          "verified_value": "71.74 %",
+          "status": "consistent",
+          "evidence_ids": [
+            "a0f033a08c78b4924de74c170058822d"
+          ],
+          "reason": "Matches deterministic snapshot (verified): Reported by source; no independent source verification is implied."
+        }
+      ],
+      "key_determinants": [
+        {
+          "claim": "Verified Net profit margin: 18.42926211796076 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "e87c13b81ccca835ed196a3354738eed"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Return on equity (ROE): 48.72373710370503 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "04931dad2982f9a2de20625b6874c6f8",
+            "7a5afc622072ab26413403b22dff57b0"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Operating cash flow: 52094.0 INR crore in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "17b47962d43f9ab9d1ca65718dde95d4"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        },
+        {
+          "claim": "Verified Promoter holding: 71.74 % in FY2026 (consolidated basis).",
+          "evidence_ids": [
+            "a0f033a08c78b4924de74c170058822d"
+          ],
+          "confidence": 90,
+          "why_it_matters": "Directly verified against cited primary reporting."
+        }
+      ],
+      "watchlist_action": "ADD",
+      "conditions_to_revisit": [
+        "Supply Q1-Q4 FY2025-26 SEBI LODR Regulation 31 Table III shareholding and promoter pledge filings.",
+        "Supply prior-year comparable revenue and profit inputs to enable deterministic YoY growth calculation.",
+        "Establish matched consolidated EBIT and average capital employed definitions before computing ROCE.",
+        "Provide verified valuation multiples and sector valuation benchmarks before evaluating BUY_CANDIDATE eligibility."
+      ],
+      "missing_evidence": [
+        "No verified quarterly results evidence was supplied.",
+        "No verified corporate announcement evidence was supplied.",
+        "No verified rbi economic indicator evidence was supplied.",
+        "No verified financial news evidence was supplied.",
+        "Missing deterministic metrics: Revenue growth (YoY), Net profit growth (YoY), Operating margin, EBITDA margin, Return on capital employed (ROCE), Debt-to-equity, Free cash flow, Promoter shares pledged (+7 more)."
+      ],
+      "independent_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Tata Consultancy Services Limited (NSE:id:INE467B01029) as of 2026-11-14. Verified 4 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero.",
+      "reasoning_evidence_ids": [
+        "04931dad2982f9a2de20625b6874c6f8",
+        "17b47962d43f9ab9d1ca65718dde95d4",
+        "7a5afc622072ab26413403b22dff57b0",
+        "a0f033a08c78b4924de74c170058822d",
+        "bd289975649f9b854ef8eeb92754ba7a",
+        "d6db4e14607697b1d1c885e7ae98569c",
+        "da935a002744a62b8ea57d395c79a8ab",
+        "e87c13b81ccca835ed196a3354738eed"
+      ]
+    }
+  },
+  "agent_execution": {
+    "equity_research_analyst": {
+      "request_id": "local-equity_research_analyst",
+      "model": "local-evidence-deterministic-v1"
+    },
+    "bull_bear_analyst": {
+      "request_id": "local-bull_bear_analyst",
+      "model": "local-evidence-deterministic-v1"
+    },
+    "independent_judge": {
+      "request_id": "local-independent_judge",
+      "model": "local-evidence-deterministic-v1"
+    }
+  },
+  "agent_errors": {},
+  "changes_from_previous": {
+    "previous_run_id": null,
+    "changed": false,
+    "note": "No earlier judge report exists."
+  },
+  "trading_enabled": false
+}

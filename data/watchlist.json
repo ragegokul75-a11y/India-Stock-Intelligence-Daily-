@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-11-14T17:44:26.515303+00:00",
+  "items": [
+    {
+      "security_key": "NSE:id:INE040A01034",
+      "symbol": "HDFCBANK",
+      "company_name": "HDFC BANK LTD",
+      "added_by": "user",
+      "reason": "User core bank watch",
+      "added_at": "2026-11-14T17:13:54.108257+00:00",
+      "updated_at": "2026-11-14T17:13:54.108257+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE009A01021",
+      "symbol": "INFY",
+      "company_name": "Infosys Limited",
+      "added_by": "user",
+      "reason": "Re-checked by user",
+      "added_at": "2026-11-14T17:44:20.839362+00:00",
+      "updated_at": "2026-11-14T17:44:20.839362+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE018A01030",
+      "symbol": "LT",
+      "company_name": "Larsen & Toubro Limited",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (WATCH, confidence=63)",
+      "added_at": "2026-11-14T17:16:01.931454+00:00",
+      "updated_at": "2026-11-14T17:44:26.484111+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE002A01018",
+      "symbol": "RELIANCE",
+      "company_name": "Reliance Industries Limited",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (WATCH, confidence=70)",
+      "added_at": "2026-11-14T17:16:01.912899+00:00",
+      "updated_at": "2026-11-14T17:44:26.452120+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE467B01029",
+      "symbol": "TCS",
+      "company_name": "Tata Consultancy Services Limited",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (WATCH, confidence=63)",
+      "added_at": "2026-11-14T17:16:01.951627+00:00",
+      "updated_at": "2026-11-14T17:44:26.513687+00:00"
+    }
+  ]
+}

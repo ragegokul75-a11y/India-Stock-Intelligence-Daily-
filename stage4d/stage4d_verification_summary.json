@@ -1,0 +1,290 @@
+{
+  "stage": "Stage 4D — Three-Agent Execution & Triple-Check Verification",
+  "migrations": {
+    "database_path": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\database\\stock_intelligence.db",
+    "schema_version": 3,
+    "migrations_applied": [
+      {
+        "version": 1,
+        "name": "initial_schema",
+        "applied_at": "2026-11-14T17:13:31.194447+00:00"
+      },
+      {
+        "version": 2,
+        "name": "price_correction_audit",
+        "applied_at": "2026-11-14T17:13:31.194447+00:00"
+      },
+      {
+        "version": 3,
+        "name": "universe_research_batches",
+        "applied_at": "2026-11-14T17:13:31.196379+00:00"
+      }
+    ],
+    "foreign_key_violations": 0
+  },
+  "master_import": {
+    "source_file": "stage4d_stock_master.json",
+    "source_sha256": "3d6185e4ac9518d39f4658c723d093352080180e20fd1f63fefc9cf0c68ea2c9",
+    "raw_file_path": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\security_master\\raw\\3d6185e4ac9518d39f4658c723d093352080180e20fd1f63fefc9cf0c68ea2c9_stage4d_stock_master.json",
+    "records_read": 3,
+    "source_records_inserted": 3,
+    "source_records_already_present": 0,
+    "security_keys": [
+      "NSE:id:INE002A01018",
+      "NSE:id:INE467B01029",
+      "NSE:id:INE018A01030"
+    ],
+    "price_records_written": 0
+  },
+  "evidence_import": {
+    "source_file": "stage4d_financial_evidence.json",
+    "source_sha256": "55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056",
+    "raw_file_path": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\financial_data\\raw\\55da6b170573379a62757326931c9563487c427f77572dd814d57b6e6b94f056_stage4d_financial_evidence.json",
+    "records_read": 23,
+    "records_inserted": 23,
+    "records_already_present": 0
+  },
+  "check_1_deterministic_metrics": {
+    "RELIANCE": {
+      "roe": {
+        "value": 9.2461,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "11fe0ee67aec55cf8dde64031a3a04ca",
+          "a11fa34799f51b1af21e2a9e6a9b75d3"
+        ]
+      },
+      "ebitda_margin": {
+        "value": 19.3284,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "778dd3479b1b7ab45bf3cf47a89dd3f4",
+          "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+        ]
+      },
+      "net_profit_margin": {
+        "value": 7.5092,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "a11fa34799f51b1af21e2a9e6a9b75d3",
+          "c8e4ed2c21b86a1040b6cf7c06a89b3a"
+        ]
+      },
+      "operating_cash_flow": {
+        "value": 192113.0,
+        "unit": "INR crore",
+        "status": "verified",
+        "evidence_ids": [
+          "6e56f6426b43e5390c09c2ad831cd2ba"
+        ]
+      },
+      "promoter_holding": {
+        "value": 49.11,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "0b347ea62ea89f8cf6fbb19a56a0cf35"
+        ]
+      },
+      "roce": {
+        "value": null,
+        "unit": null,
+        "status": "missing",
+        "evidence_ids": []
+      }
+    },
+    "TCS": {
+      "roe": {
+        "value": 48.7237,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "04931dad2982f9a2de20625b6874c6f8",
+          "7a5afc622072ab26413403b22dff57b0"
+        ]
+      },
+      "net_profit_margin": {
+        "value": 18.4293,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "04931dad2982f9a2de20625b6874c6f8",
+          "e87c13b81ccca835ed196a3354738eed"
+        ]
+      },
+      "operating_cash_flow": {
+        "value": 52094.0,
+        "unit": "INR crore",
+        "status": "verified",
+        "evidence_ids": [
+          "17b47962d43f9ab9d1ca65718dde95d4"
+        ]
+      },
+      "promoter_holding": {
+        "value": 71.74,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "a0f033a08c78b4924de74c170058822d"
+        ]
+      },
+      "ebitda_margin": {
+        "value": null,
+        "unit": null,
+        "status": "missing",
+        "evidence_ids": []
+      },
+      "roce": {
+        "value": null,
+        "unit": null,
+        "status": "missing",
+        "evidence_ids": []
+      }
+    },
+    "LT": {
+      "roe": {
+        "value": 15.5442,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "c21aa18619dd6f2488d6174028d2c0c1",
+          "fd6308c767b6591849525e20eb182d01"
+        ]
+      },
+      "operating_margin": {
+        "value": 10.1971,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "2bb022c71b6cf0a0d0abf67160a1bace",
+          "6b74f4604e5fe48b4b75f2ba87e61381"
+        ]
+      },
+      "net_profit_margin": {
+        "value": 5.6262,
+        "unit": "%",
+        "status": "verified",
+        "evidence_ids": [
+          "6b74f4604e5fe48b4b75f2ba87e61381",
+          "fd6308c767b6591849525e20eb182d01"
+        ]
+      },
+      "operating_cash_flow": {
+        "value": 16740.97,
+        "unit": "INR crore",
+        "status": "verified",
+        "evidence_ids": [
+          "1f41b5133860a8deb91f556d7a0fa781"
+        ]
+      },
+      "promoter_holding": {
+        "value": null,
+        "unit": null,
+        "status": "missing",
+        "evidence_ids": []
+      },
+      "ebitda_margin": {
+        "value": null,
+        "unit": null,
+        "status": "missing",
+        "evidence_ids": []
+      },
+      "roce": {
+        "value": null,
+        "unit": null,
+        "status": "missing",
+        "evidence_ids": []
+      }
+    }
+  },
+  "check_2_three_agent_validation": {
+    "NSE:id:INE002A01018": {
+      "research_run_id": "16df6d5f-0e4a-4b9d-b3ac-b9f25247692e",
+      "verdict": "WATCH",
+      "confidence_score": 70,
+      "risk_score": 45,
+      "agents": {
+        "bull_bear_analyst": {
+          "schema_valid": true,
+          "citations_verified": true,
+          "evidence_digest_matched": true
+        },
+        "equity_research_analyst": {
+          "schema_valid": true,
+          "citations_verified": true,
+          "evidence_digest_matched": true
+        },
+        "independent_judge": {
+          "schema_valid": true,
+          "citations_verified": true,
+          "evidence_digest_matched": true
+        }
+      },
+      "report_path": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\research_NSE_id_INE002A01018_2026-11-14_16df6d5f.json"
+    },
+    "NSE:id:INE467B01029": {
+      "research_run_id": "30115ad8-f05e-4e8a-9e02-3393cc30e97c",
+      "verdict": "WATCH",
+      "confidence_score": 63,
+      "risk_score": 45,
+      "agents": {
+        "bull_bear_analyst": {
+          "schema_valid": true,
+          "citations_verified": true,
+          "evidence_digest_matched": true
+        },
+        "equity_research_analyst": {
+          "schema_valid": true,
+          "citations_verified": true,
+          "evidence_digest_matched": true
+        },
+        "independent_judge": {
+          "schema_valid": true,
+          "citations_verified": true,
+          "evidence_digest_matched": true
+        }
+      },
+      "report_path": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\research_NSE_id_INE467B01029_2026-11-14_30115ad8.json"
+    },
+    "NSE:id:INE018A01030": {
+      "research_run_id": "c3e0ea15-0fdc-48c1-9245-4061b068f7d8",
+      "verdict": "WATCH",
+      "confidence_score": 63,
+      "risk_score": 45,
+      "agents": {
+        "bull_bear_analyst": {
+          "schema_valid": true,
+          "citations_verified": true,
+          "evidence_digest_matched": true
+        },
+        "equity_research_analyst": {
+          "schema_valid": true,
+          "citations_verified": true,
+          "evidence_digest_matched": true
+        },
+        "independent_judge": {
+          "schema_valid": true,
+          "citations_verified": true,
+          "evidence_digest_matched": true
+        }
+      },
+      "report_path": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\research_NSE_id_INE018A01030_2026-11-14_c3e0ea15.json"
+    }
+  },
+  "check_3_artifacts_and_isolation": {
+    "excel_report": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\india_stock_report_2026-11-14.xlsx",
+    "pdf_report": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\india_stock_report_2026-11-14.pdf",
+    "manifest_json": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\india_stock_report_2026-11-14_manifest.json",
+    "email_draft": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\data\\reports\\india_stock_report_2026-11-14_email_ready.eml",
+    "stage4b_updated_workbook": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\workbooks\\Stage4B_Annual_Report_Extraction_FY2025-26_updated.xlsx",
+    "stage4c_validation_workbook": "D:\\chatgpt\\India Stock Intelligence Daily\\stage4d\\workbooks\\Stage4C_Financial_Evidence_Validation_FY2025-26.xlsx",
+    "agent_research_rows_in_excel": 3,
+    "agent_output_rows_in_excel": 9,
+    "production_db_sha256_before": "927F6A1BB88BD581A21736B2F5114BF9E7511BC07CFBC7D599363D06AE60AA79",
+    "production_db_sha256_after": "927F6A1BB88BD581A21736B2F5114BF9E7511BC07CFBC7D599363D06AE60AA79",
+    "production_db_untouched": true
+  }
+}

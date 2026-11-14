@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["agent_id", "security_key", "as_of_date", "evidence_digest", "summary", "summary_evidence_ids", "bull_arguments", "bear_arguments", "contradictory_evidence", "hidden_risks", "catalysts", "thesis_invalidation", "missing_evidence"],
+  "properties": {
+    "agent_id": {"type": "string", "enum": ["bull_bear_analyst"]},
+    "security_key": {"type": "string"},
+    "as_of_date": {"type": "string"},
+    "evidence_digest": {"type": "string"},
+    "summary": {"type": "string"},
+    "summary_evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "bull_arguments": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["claim", "evidence_ids", "confidence", "why_it_matters"], "properties": {"claim": {"type": "string"}, "evidence_ids": {"type": "array", "items": {"type": "string"}}, "confidence": {"type": "integer", "minimum": 0, "maximum": 100}, "why_it_matters": {"type": "string"}}}},
+    "bear_arguments": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["claim", "evidence_ids", "confidence", "why_it_matters"], "properties": {"claim": {"type": "string"}, "evidence_ids": {"type": "array", "items": {"type": "string"}}, "confidence": {"type": "integer", "minimum": 0, "maximum": 100}, "why_it_matters": {"type": "string"}}}},
+    "contradictory_evidence": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["claim", "evidence_ids", "confidence", "why_it_matters"], "properties": {"claim": {"type": "string"}, "evidence_ids": {"type": "array", "items": {"type": "string"}}, "confidence": {"type": "integer", "minimum": 0, "maximum": 100}, "why_it_matters": {"type": "string"}}}},
+    "hidden_risks": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["claim", "evidence_ids", "confidence", "why_it_matters"], "properties": {"claim": {"type": "string"}, "evidence_ids": {"type": "array", "items": {"type": "string"}}, "confidence": {"type": "integer", "minimum": 0, "maximum": 100}, "why_it_matters": {"type": "string"}}}},
+    "catalysts": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["claim", "evidence_ids", "confidence", "why_it_matters"], "properties": {"claim": {"type": "string"}, "evidence_ids": {"type": "array", "items": {"type": "string"}}, "confidence": {"type": "integer", "minimum": 0, "maximum": 100}, "why_it_matters": {"type": "string"}}}},
+    "thesis_invalidation": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["claim", "evidence_ids", "confidence", "why_it_matters"], "properties": {"claim": {"type": "string"}, "evidence_ids": {"type": "array", "items": {"type": "string"}}, "confidence": {"type": "integer", "minimum": 0, "maximum": 100}, "why_it_matters": {"type": "string"}}}},
+    "missing_evidence": {"type": "array", "items": {"type": "string"}}
+  }
+}
