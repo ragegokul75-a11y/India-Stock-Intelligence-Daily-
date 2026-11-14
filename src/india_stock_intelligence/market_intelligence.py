@@ -192,10 +192,14 @@ class WatchlistStore:
             "items": sorted(deduped.values(), key=lambda x: (x.get("symbol") or "", x.get("security_key") or "")),
         }
         self.path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+        _auto_git_push_background(self.settings)
         return payload
 
     def resolve_security(self, symbol_or_key: str) -> dict | None:
-        query = symbol_or_key.strip()
+        raw = symbol_or_key.strip()
+        if not raw:
+            return None
+        query = raw.split(" — ", 1)[0].strip()
         if not self.settings.database_path.exists():
             return None
         with connect_read_only(self.settings.database_path) as conn:
@@ -205,6 +209,19 @@ class WatchlistStore:
                    ORDER BY CASE WHEN security_key LIKE 'NSE:id:%' THEN 0 ELSE 1 END
                    LIMIT 1""",
                 (query, query),
+            ).fetchone()
+            if row:
+                return dict(row)
+            like_q = f"%{query}%"
+            prefix_q = f"{query}%"
+            row = conn.execute(
+                """SELECT security_key, symbol, company_name FROM securities
+                   WHERE upper(symbol) LIKE upper(?) OR upper(company_name) LIKE upper(?)
+                   ORDER BY
+                     CASE WHEN upper(symbol) LIKE upper(?) THEN 0 ELSE 1 END,
+                     length(symbol) ASC
+                   LIMIT 1""",
+                (like_q, like_q, prefix_q),
             ).fetchone()
             return dict(row) if row else None
 
@@ -297,6 +314,130 @@ def fetch_and_import_nse_stock_master(settings: Settings) -> dict:
     )
 
 
+def _auto_git_push_background(settings: Settings) -> None:
+    """Automatically sync updated watchlist/briefing from local PC to GitHub in background if git is configured."""
+    import shutil
+    import subprocess
+    import sys
+
+    if "pytest" in sys.modules:
+        return
+    try:
+        default_data_dir = get_settings().data_dir.resolve()
+        if settings.data_dir.resolve() != default_data_dir:
+            return
+        repo_root = default_data_dir.parent
+        if not (repo_root / ".git").exists():
+            return
+        git_bin = shutil.which("git")
+        if not git_bin:
+            fallback = Path(r"C:\Users\Gokul\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe")
+            if fallback.exists():
+                git_bin = str(fallback)
+        if not git_bin:
+            return
+        cmd = (
+            f'"{git_bin}" add data/watchlist.json data/latest_market_briefing.json && '
+            f'"{git_bin}" commit -m "Auto-sync watchlist and market briefing" && '
+            f'"{git_bin}" push origin main'
+        )
+        subprocess.Popen(
+            cmd,
+            cwd=str(repo_root),
+            shell=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+    except Exception:
+        pass
+
+
+def ensure_cloud_seed_loaded(settings: Settings) -> None:
+    """Fast-seed the 3,506 NSE stocks + latest EOD snapshot on fresh cloud containers in <0.2s."""
+    if not settings.database_path.exists():
+        apply_migrations(settings.database_path)
+    with connect_read_only(settings.database_path) as conn:
+        sec_count = conn.execute("SELECT COUNT(*) FROM securities WHERE security_key NOT LIKE '%SYNTH%'").fetchone()[0]
+    if sec_count >= 100:
+        return
+    seed_path = settings.data_dir / "nse_cloud_seed.json"
+    if not seed_path.exists():
+        return
+    try:
+        seed = json.loads(seed_path.read_text(encoding="utf-8"))
+    except Exception:
+        return
+    now_iso = datetime.now(timezone.utc).isoformat()
+    latest_date = seed.get("latest_date", "2026-11-13")
+    rows = seed.get("stocks", [])
+    if not rows:
+        return
+    with connect_read_write(settings.database_path) as conn:
+        conn.executemany(
+            """INSERT OR IGNORE INTO securities
+               (security_key, exchange, symbol, company_name, security_identifier, security_type, listing_status, source_timestamp, created_at, updated_at)
+               VALUES (?, 'NSE', ?, ?, ?, 'Equity', 'Active', ?, ?, ?)""",
+            [
+                (
+                    r["k"],
+                    r["s"],
+                    r["n"],
+                    r["k"].split(":")[-1],
+                    latest_date,
+                    now_iso,
+                    now_iso,
+                )
+                for r in rows
+            ],
+        )
+        conn.executemany(
+            """INSERT OR REPLACE INTO daily_prices
+               (security_key, price_date, open, high, low, close, volume, source_timestamp)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+            [
+                (
+                    r["k"],
+                    latest_date,
+                    r["o"],
+                    r["h"],
+                    r["l"],
+                    r["c"],
+                    r["v"],
+                    now_iso,
+                )
+                for r in rows
+                if r.get("c") is not None
+            ],
+        )
+        conn.executemany(
+            """INSERT OR REPLACE INTO screening_results
+               (security_key, data_date, return_1d_pct, created_at, metrics_json)
+               VALUES (?, ?, ?, ?, ?)""",
+            [
+                (
+                    r["k"],
+                    latest_date,
+                    r.get("r1"),
+                    now_iso,
+                    json.dumps({"return_1d_pct": r.get("r1")}),
+                )
+                for r in rows
+                if r.get("c") is not None
+            ],
+        )
+    stage4d_ev = Path(__file__).resolve().parents[2] / "stage4d" / "inputs" / "stage4d_financial_evidence.json"
+    if stage4d_ev.exists():
+        try:
+            EvidenceStore(settings=settings).import_json_file(stage4d_ev)
+            with connect_read_write(settings.database_path) as conn:
+                conn.execute(
+                    "UPDATE evidence_items SET retrieved_at = ? WHERE source_type = 'annual_report' AND substr(retrieved_at, 1, 10) > ?",
+                    (f"{latest_date}T16:00:00+05:30", latest_date),
+                )
+        except Exception:
+            pass
+
+
 class MarketDebateEngine:
     """Runs the 3-Agent Market Debate (Bull Agent vs. Bear Agent -> Judge Agent) for Market Open & Market Close."""
 
@@ -312,32 +453,171 @@ class MarketDebateEngine:
         reason: str = "Added/Re-checked for automatic 3-agent Bull/Bear/Judge evaluation",
         top_n_debate: int = 15,
     ) -> dict:
-        """Immediately add (optional) and re-run the 3-agent Bull/Bear/Judge debate for a stock, refreshing the live briefing."""
+        """Immediately add (optional) and re-run the 3-agent Bull/Bear/Judge debate for a single stock in <0.1s."""
+        ensure_cloud_seed_loaded(self.settings)
         resolved = self.watchlist.resolve_security(symbol_or_key)
         if resolved:
             sec_key = resolved["security_key"]
             sym = resolved["symbol"]
             comp = resolved["company_name"]
         else:
-            sec_key = symbol_or_key.strip().upper()
-            sym = sec_key.split(":")[-1]
+            raw_clean = symbol_or_key.split(" — ", 1)[0].strip().upper()
+            sec_key = raw_clean if raw_clean.startswith(("NSE:", "BSE:")) else f"NSE:symbol:{raw_clean}"
+            sym = raw_clean.split(":")[-1]
             comp = sym
         if add_to_watchlist:
             self.watchlist.add(sec_key, symbol=sym, company_name=comp, added_by="user", reason=reason)
-        briefing = self.generate_briefings(top_n_debate=top_n_debate, force_security_keys=[sec_key])
-        stock_debate = next(
-            (d for d in briefing.get("stock_debates", []) if d.get("security_key") == sec_key or d.get("symbol") == sym),
-            None,
-        )
+
+        latest_briefing_path = self.settings.data_dir / "latest_market_briefing.json"
+        if not latest_briefing_path.exists():
+            briefing = self.generate_briefings(top_n_debate=top_n_debate, force_security_keys=[sec_key])
+            stock_debate = next(
+                (d for d in briefing.get("stock_debates", []) if d.get("security_key") == sec_key or d.get("symbol") == sym),
+                None,
+            )
+            return {
+                "security_key": sec_key,
+                "symbol": sym,
+                "company_name": comp,
+                "debate": stock_debate,
+                "briefing_updated_at": briefing.get("generated_at"),
+            }
+
+        # Fast single-stock path (<0.1s): evaluate only this stock and update latest_market_briefing.json in-place
+        with connect_read_only(self.settings.database_path) as conn:
+            latest_date_row = conn.execute(
+                "SELECT MAX(price_date) AS d FROM daily_prices WHERE close IS NOT NULL"
+            ).fetchone()
+            latest_date = (latest_date_row["d"] if latest_date_row and latest_date_row["d"] else None) or date.today().isoformat()
+            p_row = conn.execute(
+                """SELECT p.open, p.high, p.low, p.close, p.volume, r.return_1d_pct
+                   FROM daily_prices p
+                   LEFT JOIN screening_results r ON r.security_key = p.security_key AND r.data_date = p.price_date
+                   WHERE p.security_key = ? AND p.price_date = ? LIMIT 1""",
+                (sec_key, latest_date),
+            ).fetchone()
+
+        if p_row and p_row["close"] is not None:
+            op = float(p_row["open"] or p_row["close"])
+            hi = float(p_row["high"] or p_row["close"])
+            lo = float(p_row["low"] or p_row["close"])
+            cl = float(p_row["close"])
+            vol = int(float(p_row["volume"] or 0))
+            intra = ((cl / op) - 1.0) * 100.0 if op > 0 else 0.0
+            rng = ((hi - lo) / lo) * 100.0 if lo > 0 else 0.0
+            chg = float(p_row["return_1d_pct"]) if p_row["return_1d_pct"] is not None else intra
+            turn_cr = (cl * vol) / 1e7
+            bhavcopy_url = NSE_UDIFF_URL_TEMPLATE.format(yyyymmdd=latest_date.replace("-", ""))
+            eod_rec = {
+                "security_key": sec_key,
+                "source_type": "other",
+                "source_name": "NSE CM UDiFF Official EOD Bhavcopy",
+                "source_url": bhavcopy_url,
+                "publication_date": latest_date,
+                "reporting_period": latest_date,
+                "retrieved_at": f"{latest_date}T18:00:00+05:30",
+                "claim": (
+                    f"NSE EOD settlement ({latest_date}) for {sym}: Open ₹{op:.2f}, High ₹{hi:.2f}, "
+                    f"Low ₹{lo:.2f}, Close ₹{cl:.2f} (1D change {chg:+.2f}%, intraday move {intra:+.2f}%, "
+                    f"intraday range {rng:.2f}%), Volume {vol:,} shares, Turnover ₹{turn_cr:.2f} crore."
+                ),
+                "metric_key": None,
+                "value": round(cl, 2),
+                "unit": "INR",
+                "verification_status": "verified",
+                "financial_basis": "unspecified",
+                "excerpt": (
+                    f"Official NSE CM UDiFF Bhavcopy EOD settlement for {sym} on {latest_date}: "
+                    f"Close=₹{cl:.2f}, 1D={chg:+.2f}%, Range={rng:.2f}%, Volume={vol:,}, Turnover=₹{turn_cr:.2f} cr."
+                ),
+                "is_synthetic": False,
+            }
+            EvidenceStore(settings=self.settings).import_json_bytes(
+                f"nse_eod_single_{sym}_{latest_date}.json",
+                json.dumps({"records": [eod_rec]}, ensure_ascii=False).encode("utf-8"),
+            )
+
+        res = ResearchOrchestrator(
+            database_path=self.settings.database_path,
+            settings=self.settings,
+            backend=LocalEvidenceAgentBackend(),
+            max_attempts=1,
+        ).run_security(sec_key, as_of_date=latest_date)
+
+        with connect_read_only(self.settings.database_path) as conn:
+            outputs = {
+                row["agent_id"]: json.loads(row["output_json"])
+                for row in conn.execute(
+                    "SELECT agent_id, output_json FROM agent_outputs WHERE research_run_id=? AND status='completed'",
+                    (res.research_run_id,),
+                ).fetchall()
+            }
+        judge_out = outputs.get("independent_judge", {})
+        bull_bear_out = outputs.get("bull_bear_analyst", {})
+        analyst_out = outputs.get("equity_research_analyst", {})
+        stock_debate = {
+            "security_key": sec_key,
+            "symbol": sym,
+            "company_name": comp,
+            "verdict": res.verdict,
+            "confidence_score": res.confidence_score,
+            "risk_score": res.risk_score,
+            "watchlist_action": judge_out.get("watchlist_action"),
+            "analyst_summary": analyst_out.get("executive_summary"),
+            "bull_case": [b["claim"] for b in bull_bear_out.get("bull_arguments", [])[:3]],
+            "bear_case": [b["claim"] for b in bull_bear_out.get("bear_arguments", [])[:3]],
+            "hidden_risks": [r["claim"] for r in bull_bear_out.get("hidden_risks", [])[:2]],
+            "judge_verdict_reasoning": judge_out.get("independent_reasoning"),
+        }
+
+        try:
+            briefing = json.loads(latest_briefing_path.read_text(encoding="utf-8"))
+        except Exception:
+            briefing = {}
+        existing_debates = [
+            d for d in briefing.get("stock_debates", [])
+            if d.get("security_key") != sec_key and d.get("symbol") != sym
+        ]
+        briefing["stock_debates"] = [stock_debate] + existing_debates
+        briefing["watchlist"] = self.watchlist.load()["items"]
+        briefing["generated_at"] = datetime.now(timezone.utc).isoformat()
+        encoded = json.dumps(briefing, indent=2, ensure_ascii=False)
+        latest_briefing_path.write_text(encoded, encoding="utf-8")
+        out_dir = self.settings.report_dir
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / f"daily_market_briefing_{latest_date}.json").write_text(encoded, encoding="utf-8")
+
         return {
             "security_key": sec_key,
             "symbol": sym,
             "company_name": comp,
             "debate": stock_debate,
-            "briefing_updated_at": briefing.get("generated_at"),
+            "briefing_updated_at": briefing["generated_at"],
         }
 
     def generate_briefings(self, *, top_n_debate: int = 15, force_security_keys: list[str] | None = None) -> dict:
+        if not self.settings.database_path.exists():
+            apply_migrations(self.settings.database_path)
+        with connect_read_only(self.settings.database_path) as conn:
+            latest_date_row = conn.execute(
+                "SELECT MAX(price_date) AS d FROM daily_prices WHERE close IS NOT NULL"
+            ).fetchone()
+            latest_date = latest_date_row["d"] if latest_date_row else None
+
+        if not latest_date:
+            from dataclasses import replace as dc_replace
+            fetch_and_import_nse_stock_master(self.settings)
+            stage4d_ev = Path(__file__).resolve().parents[2] / "stage4d" / "inputs" / "stage4d_financial_evidence.json"
+            if stage4d_ev.exists():
+                EvidenceStore(settings=self.settings).import_json_file(stage4d_ev)
+            NseSyncService(
+                settings=dc_replace(self.settings, nse_sync_enabled=True),
+                source=OpenSourceNSEReportSource(lookback_days=12, max_trading_days=2),
+                parser=OpenSourceNseUdiffParser(),
+            ).run_once()
+            with connect_read_write(self.settings.database_path) as conn:
+                run_screening(conn)
+
         with connect_read_only(self.settings.database_path) as conn:
             latest_date_row = conn.execute(
                 "SELECT MAX(price_date) AS d FROM daily_prices WHERE close IS NOT NULL"

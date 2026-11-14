@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:44:26.522974+00:00",
+  "generated_at": "2026-11-14T18:06:42.126839+00:00",
   "latest_trading_date": "2026-11-13",
   "universe_coverage": {
     "total_registered_securities": 3506,
@@ -265,26 +265,6 @@
   },
   "stock_debates": [
     {
-      "security_key": "NSE:id:INE009A01021",
-      "symbol": "INFY",
-      "company_name": "Infosys Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Infosys Limited (NSE:id:INE009A01021) as of 2026-11-13 across 1 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
-      "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore.) offer potential support watch if fundamentals hold."
-      ],
-      "bear_case": [
-        "Distribution and downside price pressure (-0.84% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore."
-      ],
-      "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Infosys Limited."
-      ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Infosys Limited (NSE:id:INE009A01021) as of 2026-11-13. Verified 1 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.84%, 20d return n/a."
-    },
-    {
       "security_key": "NSE:id:INE002A01018",
       "symbol": "RELIANCE",
       "company_name": "Reliance Industries Limited",
@@ -292,7 +272,7 @@
       "confidence_score": 70,
       "risk_score": 45,
       "watchlist_action": "ADD",
-      "analyst_summary": "Evidence-backed research for Reliance Industries Limited (NSE:id:INE002A01018) as of 2026-11-13 across 18 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for Reliance Industries Limited (NSE:id:INE002A01018) as of 2026-11-13 across 19 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
         "Sourced EBITDA margin of 19.33 % in FY2026 (consolidated).",
         "Sourced Net profit margin of 7.51 % in FY2026 (consolidated).",
@@ -305,7 +285,7 @@
         "Accounting definition / comparability caveat: Consolidated total assets of ₹2,178,140 crore and derived borrowings aggregate of ₹374,421 crore (non-current ₹270,751 cr + current ₹103,670 cr; excludes lease liabilities) as at 31-Mar-2026.",
         "Accounting definition / comparability caveat: Promoter and promoter group shareholding of 49.11% (664,54,96,096 shares) as at 31-Mar-2026 in the Corporate Governance Report; quarterly Regulation 31 filings remain pending."
       ],
-      "judge_verdict_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Reliance Industries Limited (NSE:id:INE002A01018) as of 2026-11-13. Verified 7 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +0.00%, 20d return n/a."
+      "judge_verdict_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Reliance Industries Limited (NSE:id:INE002A01018) as of 2026-11-13. Verified 8 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +0.00%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE018A01030",
@@ -315,7 +295,7 @@
       "confidence_score": 63,
       "risk_score": 45,
       "watchlist_action": "ADD",
-      "analyst_summary": "Evidence-backed research for Larsen & Toubro Limited (NSE:id:INE018A01030) as of 2026-11-13 across 16 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for Larsen & Toubro Limited (NSE:id:INE018A01030) as of 2026-11-13 across 17 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
         "Sourced Operating margin of 10.20 % in FY2026 (consolidated).",
         "Sourced Net profit margin of 5.63 % in FY2026 (consolidated).",
@@ -323,13 +303,14 @@
       ],
       "bear_case": [
         "Distribution and downside price pressure (-0.37% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for LT: Open ₹4145.10, High ₹4193.60, Low ₹4127.60, Close ₹4143.80 (1D change -0.37%, intraday move -0.03%, intraday range 1.60%), Volume 1,585,695 shares, Turnover ₹657.08 crore.",
+        "Distribution and downside price pressure (-0.37% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for LT: Open ₹4145.10, High ₹4193.60, Low ₹4127.60, Close ₹4143.80 (1D change -0.37%, intraday move -0.03%, intraday range 1.60%), Volume 1,585,695 shares, Turnover ₹657.08 crore.",
         "Distribution and downside price pressure (-0.37% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for LT: Open ₹4145.10, High ₹4193.60, Low ₹4127.60, Close ₹4143.80 (1D change -0.37%, intraday move -0.03%, intraday range 1.60%), Volume 1,585,695 shares, Turnover ₹657.08 crore."
       ],
       "hidden_risks": [
         "Accounting definition / comparability caveat: Consolidated total assets of ₹452,549.88 crore and derived borrowings aggregate of ₹121,683.02 crore (non-current ₹63,738.59 cr + current ₹34,778.53 cr + current maturities ₹23,165.90 cr; excludes leases; held-for-sale debt requires review). Promoter holding not separately classified in annual report; left blank.",
         "Accounting definition / comparability caveat: Consolidated Operating Profit (PBDIT) of ₹29,151 crore for FY2025-26 (before depreciation, interest and tax; excludes exceptional items and other income; financial-services interest included in MCO expenses; not interchangeable with pure EBITDA or EBIT)."
       ],
-      "judge_verdict_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Larsen & Toubro Limited (NSE:id:INE018A01030) as of 2026-11-13. Verified 6 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.37%, 20d return n/a."
+      "judge_verdict_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Larsen & Toubro Limited (NSE:id:INE018A01030) as of 2026-11-13. Verified 7 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.37%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE467B01029",
@@ -339,7 +320,7 @@
       "confidence_score": 63,
       "risk_score": 45,
       "watchlist_action": "ADD",
-      "analyst_summary": "Evidence-backed research for Tata Consultancy Services Limited (NSE:id:INE467B01029) as of 2026-11-13 across 18 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for Tata Consultancy Services Limited (NSE:id:INE467B01029) as of 2026-11-13 across 19 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
         "Sourced Net profit margin of 18.43 % in FY2026 (consolidated).",
         "Sourced Return on equity (ROE) of 48.72 % in FY2026 (consolidated).",
@@ -347,13 +328,14 @@
       ],
       "bear_case": [
         "Distribution and downside price pressure (-1.43% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for TCS: Open ₹2438.60, High ₹2450.30, Low ₹2400.20, Close ₹2407.50 (1D change -1.43%, intraday move -1.28%, intraday range 2.09%), Volume 3,344,738 shares, Turnover ₹805.25 crore.",
+        "Distribution and downside price pressure (-1.43% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for TCS: Open ₹2438.60, High ₹2450.30, Low ₹2400.20, Close ₹2407.50 (1D change -1.43%, intraday move -1.28%, intraday range 2.09%), Volume 3,344,738 shares, Turnover ₹805.25 crore.",
         "Distribution and downside price pressure (-1.43% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for TCS: Open ₹2438.60, High ₹2450.30, Low ₹2400.20, Close ₹2407.50 (1D change -1.43%, intraday move -1.28%, intraday range 2.09%), Volume 3,344,738 shares, Turnover ₹805.25 crore."
       ],
       "hidden_risks": [
         "Accounting definition / comparability caveat: Consolidated EBIT of ₹66,838 crore for FY2025-26 (reported after depreciation and amortisation of ₹5,560 crore; excludes other income; not interchangeable with EBITDA).",
         "Accounting definition / comparability caveat: Tata Sons Private Limited (holding company and promoter) held 71.74% (2,59,54,99,419 shares) as at 31-Mar-2026; quarterly Regulation 31 filings remain pending."
       ],
-      "judge_verdict_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Tata Consultancy Services Limited (NSE:id:INE467B01029) as of 2026-11-13. Verified 6 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -1.43%, 20d return n/a."
+      "judge_verdict_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Tata Consultancy Services Limited (NSE:id:INE467B01029) as of 2026-11-13. Verified 7 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -1.43%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE040A01034",
@@ -363,19 +345,43 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for HDFC Bank Limited (NSE:id:INE040A01034) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for HDFC Bank Limited (NSE:id:INE040A01034) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.) offer potential support watch if fundamentals hold."
       ],
       "bear_case": [
+        "Distribution and downside price pressure (-1.02% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.",
         "Distribution and downside price pressure (-1.02% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.",
         "Distribution and downside price pressure (-1.02% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for HDFC Bank Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for HDFC Bank Limited (NSE:id:INE040A01034) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -1.02%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for HDFC Bank Limited (NSE:id:INE040A01034) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -1.02%, 20d return n/a."
+    },
+    {
+      "security_key": "NSE:id:INE009A01021",
+      "symbol": "INFY",
+      "company_name": "Infosys Limited",
+      "verdict": "INCONCLUSIVE",
+      "confidence_score": 20,
+      "risk_score": null,
+      "watchlist_action": "NOT_SET",
+      "analyst_summary": "Evidence-backed research for Infosys Limited (NSE:id:INE009A01021) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "bull_case": [
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore.) offer potential support watch if fundamentals hold.",
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore.) offer potential support watch if fundamentals hold."
+      ],
+      "bear_case": [
+        "Distribution and downside price pressure (-0.84% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore.",
+        "Distribution and downside price pressure (-0.84% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore."
+      ],
+      "hidden_risks": [
+        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Infosys Limited."
+      ],
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Infosys Limited (NSE:id:INE009A01021) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.84%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE419M01035",
@@ -385,19 +391,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for TD Power Systems Limited (NSE:id:INE419M01035) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for TD Power Systems Limited (NSE:id:INE419M01035) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "Positive EOD momentum (+1.86% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore.",
         "Positive EOD momentum (+1.86% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore.",
         "Positive EOD momentum (+1.86% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore."
       ],
       "bear_case": [
+        "Short-term price strength (+1.86% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore.",
         "Short-term price strength (+1.86% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore.",
         "Short-term price strength (+1.86% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for TD Power Systems Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for TD Power Systems Limited (NSE:id:INE419M01035) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +1.86%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for TD Power Systems Limited (NSE:id:INE419M01035) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +1.86%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE07Y701011",
@@ -407,19 +415,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Hitachi Energy India Limited (NSE:id:INE07Y701011) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for Hitachi Energy India Limited (NSE:id:INE07Y701011) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "Positive EOD momentum (+10.68% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore.",
         "Positive EOD momentum (+10.68% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore.",
         "Positive EOD momentum (+10.68% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore."
       ],
       "bear_case": [
+        "Short-term price strength (+10.68% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore.",
         "Short-term price strength (+10.68% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore.",
         "Short-term price strength (+10.68% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Hitachi Energy India Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Hitachi Energy India Limited (NSE:id:INE07Y701011) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +10.68%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Hitachi Energy India Limited (NSE:id:INE07Y701011) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +10.68%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE371P01015",
@@ -429,19 +439,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Amber Enterprises India Limited (NSE:id:INE371P01015) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for Amber Enterprises India Limited (NSE:id:INE371P01015) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "Positive EOD momentum (+9.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore.",
         "Positive EOD momentum (+9.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore.",
         "Positive EOD momentum (+9.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore."
       ],
       "bear_case": [
+        "Short-term price strength (+9.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore.",
         "Short-term price strength (+9.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore.",
         "Short-term price strength (+9.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Amber Enterprises India Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Amber Enterprises India Limited (NSE:id:INE371P01015) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +9.07%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Amber Enterprises India Limited (NSE:id:INE371P01015) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +9.07%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE090A01021",
@@ -451,19 +463,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for ICICI Bank Limited (NSE:id:INE090A01021) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for ICICI Bank Limited (NSE:id:INE090A01021) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.) offer potential support watch if fundamentals hold."
       ],
       "bear_case": [
+        "Distribution and downside price pressure (-0.40% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.",
         "Distribution and downside price pressure (-0.40% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.",
         "Distribution and downside price pressure (-0.40% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for ICICI Bank Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for ICICI Bank Limited (NSE:id:INE090A01021) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.40%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for ICICI Bank Limited (NSE:id:INE090A01021) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.40%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE062A01020",
@@ -473,19 +487,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for State Bank of India (NSE:id:INE062A01020) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for State Bank of India (NSE:id:INE062A01020) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.) offer potential support watch if fundamentals hold."
       ],
       "bear_case": [
+        "Distribution and downside price pressure (-0.60% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.",
         "Distribution and downside price pressure (-0.60% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.",
         "Distribution and downside price pressure (-0.60% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for State Bank of India."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for State Bank of India (NSE:id:INE062A01020) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.60%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for State Bank of India (NSE:id:INE062A01020) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.60%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE0ZCQ01019",
@@ -495,19 +511,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for BLS Polymers Limited (NSE:id:INE0ZCQ01019) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for BLS Polymers Limited (NSE:id:INE0ZCQ01019) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "Positive EOD momentum (+15.54% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore.",
         "Positive EOD momentum (+15.54% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore.",
         "Positive EOD momentum (+15.54% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore."
       ],
       "bear_case": [
+        "Short-term price strength (+15.54% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore.",
         "Short-term price strength (+15.54% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore.",
         "Short-term price strength (+15.54% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for BLS Polymers Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for BLS Polymers Limited (NSE:id:INE0ZCQ01019) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +15.54%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for BLS Polymers Limited (NSE:id:INE0ZCQ01019) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +15.54%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE303R01014",
@@ -517,19 +535,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Kalyan Jewellers India Limited (NSE:id:INE303R01014) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for Kalyan Jewellers India Limited (NSE:id:INE303R01014) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.) offer potential support watch if fundamentals hold."
       ],
       "bear_case": [
+        "Distribution and downside price pressure (-1.96% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.",
         "Distribution and downside price pressure (-1.96% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.",
         "Distribution and downside price pressure (-1.96% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Kalyan Jewellers India Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Kalyan Jewellers India Limited (NSE:id:INE303R01014) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -1.96%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Kalyan Jewellers India Limited (NSE:id:INE303R01014) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -1.96%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE713T01028",
@@ -539,19 +559,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Apollo Micro Systems Limited (NSE:id:INE713T01028) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for Apollo Micro Systems Limited (NSE:id:INE713T01028) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "Positive EOD momentum (+8.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore.",
         "Positive EOD momentum (+8.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore.",
         "Positive EOD momentum (+8.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore."
       ],
       "bear_case": [
+        "Short-term price strength (+8.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore.",
         "Short-term price strength (+8.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore.",
         "Short-term price strength (+8.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Apollo Micro Systems Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Apollo Micro Systems Limited (NSE:id:INE713T01028) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +8.07%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Apollo Micro Systems Limited (NSE:id:INE713T01028) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +8.07%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE255X01014",
@@ -561,19 +583,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Mstc Limited (NSE:id:INE255X01014) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for Mstc Limited (NSE:id:INE255X01014) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore.",
         "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore.",
         "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore."
       ],
       "bear_case": [
+        "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore.",
         "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore.",
         "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Mstc Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Mstc Limited (NSE:id:INE255X01014) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +20.00%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Mstc Limited (NSE:id:INE255X01014) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +20.00%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE294Z01018",
@@ -583,19 +607,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for The Anup Engineering Limited (NSE:id:INE294Z01018) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for The Anup Engineering Limited (NSE:id:INE294Z01018) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore.",
         "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore.",
         "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore."
       ],
       "bear_case": [
+        "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore.",
         "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore.",
         "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for The Anup Engineering Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for The Anup Engineering Limited (NSE:id:INE294Z01018) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +20.00%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for The Anup Engineering Limited (NSE:id:INE294Z01018) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +20.00%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE0OWX01025",
@@ -605,19 +631,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for VISDEM TECHNOSYS LIMITED (NSE:id:INE0OWX01025) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for VISDEM TECHNOSYS LIMITED (NSE:id:INE0OWX01025) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "Positive EOD momentum (+19.93% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore.",
         "Positive EOD momentum (+19.93% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore.",
         "Positive EOD momentum (+19.93% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore."
       ],
       "bear_case": [
+        "Short-term price strength (+19.93% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore.",
         "Short-term price strength (+19.93% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore.",
         "Short-term price strength (+19.93% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for VISDEM TECHNOSYS LIMITED."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for VISDEM TECHNOSYS LIMITED (NSE:id:INE0OWX01025) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +19.93%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for VISDEM TECHNOSYS LIMITED (NSE:id:INE0OWX01025) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +19.93%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE124Y01028",
@@ -627,19 +655,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Pashupati Cotspin Limited (NSE:id:INE124Y01028) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for Pashupati Cotspin Limited (NSE:id:INE124Y01028) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.) offer potential support watch if fundamentals hold."
       ],
       "bear_case": [
+        "Distribution and downside price pressure (-58.06% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.",
         "Distribution and downside price pressure (-58.06% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.",
         "Distribution and downside price pressure (-58.06% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Pashupati Cotspin Limited."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Pashupati Cotspin Limited (NSE:id:INE124Y01028) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -58.06%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Pashupati Cotspin Limited (NSE:id:INE124Y01028) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -58.06%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE132901013",
@@ -649,19 +679,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for MATRIX GEO SOLUTIONS LTD (NSE:id:INE132901013) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for MATRIX GEO SOLUTIONS LTD (NSE:id:INE132901013) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.) offer potential support watch if fundamentals hold."
       ],
       "bear_case": [
+        "Distribution and downside price pressure (-15.34% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.",
         "Distribution and downside price pressure (-15.34% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.",
         "Distribution and downside price pressure (-15.34% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for MATRIX GEO SOLUTIONS LTD."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for MATRIX GEO SOLUTIONS LTD (NSE:id:INE132901013) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -15.34%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for MATRIX GEO SOLUTIONS LTD (NSE:id:INE132901013) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -15.34%, 20d return n/a."
     },
     {
       "security_key": "NSE:id:INE0U0J01015",
@@ -671,19 +703,21 @@
       "confidence_score": 20,
       "risk_score": null,
       "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for YAAP DIGITAL LIMITED (NSE:id:INE0U0J01015) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Evidence-backed research for YAAP DIGITAL LIMITED (NSE:id:INE0U0J01015) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
       "bull_case": [
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.) offer potential support watch if fundamentals hold.",
         "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.) offer potential support watch if fundamentals hold."
       ],
       "bear_case": [
+        "Distribution and downside price pressure (-12.73% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.",
         "Distribution and downside price pressure (-12.73% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.",
         "Distribution and downside price pressure (-12.73% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore."
       ],
       "hidden_risks": [
         "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for YAAP DIGITAL LIMITED."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for YAAP DIGITAL LIMITED (NSE:id:INE0U0J01015) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -12.73%, 20d return n/a."
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for YAAP DIGITAL LIMITED (NSE:id:INE0U0J01015) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -12.73%, 20d return n/a."
     }
   ],
   "watchlist": [
@@ -695,6 +729,15 @@
       "reason": "User core bank watch",
       "added_at": "2026-11-14T17:13:54.108257+00:00",
       "updated_at": "2026-11-14T17:13:54.108257+00:00"
+    },
+    {
+      "security_key": "INDIAN BANK",
+      "symbol": "INDIAN BANK",
+      "company_name": "INDIAN BANK",
+      "added_by": "user",
+      "reason": "Track automatically with Bull/Bear/Judge agents at Open & Close",
+      "added_at": "2026-11-14T18:05:59.241293+00:00",
+      "updated_at": "2026-11-14T18:06:33.800092+00:00"
     },
     {
       "security_key": "NSE:id:INE009A01021",
@@ -712,7 +755,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (WATCH, confidence=63)",
       "added_at": "2026-11-14T17:16:01.931454+00:00",
-      "updated_at": "2026-11-14T17:44:26.484111+00:00"
+      "updated_at": "2026-11-14T18:06:42.093342+00:00"
     },
     {
       "security_key": "NSE:id:INE002A01018",
@@ -721,7 +764,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (WATCH, confidence=70)",
       "added_at": "2026-11-14T17:16:01.912899+00:00",
-      "updated_at": "2026-11-14T17:44:26.452120+00:00"
+      "updated_at": "2026-11-14T18:06:42.064695+00:00"
     },
     {
       "security_key": "NSE:id:INE467B01029",
@@ -730,7 +773,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (WATCH, confidence=63)",
       "added_at": "2026-11-14T17:16:01.951627+00:00",
-      "updated_at": "2026-11-14T17:44:26.513687+00:00"
+      "updated_at": "2026-11-14T18:06:42.117911+00:00"
     }
   ]
 }
