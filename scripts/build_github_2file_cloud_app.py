@@ -125,6 +125,7 @@ def build_bundle() -> None:
             "data/latest_market_briefing.json",
             "data/watchlist.json",
             "data/nse_cloud_seed.json",
+            "data/google_news_cache.json",
         ):
             target = ROOT / rel
             if target.exists():
