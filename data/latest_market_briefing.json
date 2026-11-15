@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T18:06:42.126839+00:00",
+  "generated_at": "2026-11-15T05:55:02.683826+00:00",
   "latest_trading_date": "2026-11-13",
   "universe_coverage": {
     "total_registered_securities": 3506,
@@ -264,6 +264,26 @@
     ]
   },
   "stock_debates": [
+    {
+      "security_key": "NSE:id:INE885A01032",
+      "symbol": "ARE&M",
+      "company_name": "Amara Raja Energy & Mobility Limited",
+      "verdict": "INCONCLUSIVE",
+      "confidence_score": 20,
+      "risk_score": null,
+      "watchlist_action": "NOT_SET",
+      "analyst_summary": "Evidence-backed research for Amara Raja Energy & Mobility Limited (NSE:id:INE885A01032) as of 2026-11-13 across 1 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "bull_case": [
+        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for ARE&M: Open ₹754.00, High ₹758.00, Low ₹746.00, Close ₹751.80 (1D change -0.30%, intraday move -0.29%, intraday range 1.61%), Volume 230,213 shares, Turnover ₹17.31 crore.) offer potential support watch if fundamentals hold."
+      ],
+      "bear_case": [
+        "Distribution and downside price pressure (-0.30% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for ARE&M: Open ₹754.00, High ₹758.00, Low ₹746.00, Close ₹751.80 (1D change -0.30%, intraday move -0.29%, intraday range 1.61%), Volume 230,213 shares, Turnover ₹17.31 crore."
+      ],
+      "hidden_risks": [
+        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Amara Raja Energy & Mobility Limited."
+      ],
+      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Amara Raja Energy & Mobility Limited (NSE:id:INE885A01032) as of 2026-11-13. Verified 1 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.30%, 20d return n/a."
+    },
     {
       "security_key": "NSE:id:INE002A01018",
       "symbol": "RELIANCE",
@@ -721,6 +741,15 @@
     }
   ],
   "watchlist": [
+    {
+      "security_key": "NSE:id:INE885A01032",
+      "symbol": "ARE&M",
+      "company_name": "Amara Raja Energy & Mobility Limited",
+      "added_by": "user",
+      "reason": "Added & re-checked via Search Bar",
+      "added_at": "2026-11-15T05:55:01.910436+00:00",
+      "updated_at": "2026-11-15T05:55:01.910436+00:00"
+    },
     {
       "security_key": "NSE:id:INE040A01034",
       "symbol": "HDFCBANK",

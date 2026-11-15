@@ -84,7 +84,7 @@ def _ensure_cloud_files_extracted() -> None:
     with zipfile.ZipFile(io.BytesIO(raw_zip), "r") as zf:
         for member in zf.namelist():
             dest = _BOOT_ROOT / member
-            if member.startswith("src/") or not dest.exists():
+            if member.startswith("src/") or member == "data/nse_cloud_seed.json" or not dest.exists():
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_bytes(zf.read(member))
 

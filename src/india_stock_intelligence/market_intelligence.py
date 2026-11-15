@@ -357,7 +357,7 @@ def _auto_git_push_background(settings: Settings) -> None:
         cmd = (
             f'"{git_bin}" add data/watchlist.json data/latest_market_briefing.json && '
             f'"{git_bin}" commit -m "Auto-sync watchlist and market briefing" && '
-            f'"{git_bin}" push origin main'
+            f'"{git_bin}" push --force origin main'
         )
         subprocess.Popen(
             cmd,
