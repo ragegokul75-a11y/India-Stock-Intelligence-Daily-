@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T06:45:52.141356+00:00",
+  "updated_at": "2026-11-15T06:45:52.718864+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -69,9 +69,9 @@
       "symbol": "INDIANB",
       "company_name": "INDIAN BANK",
       "added_by": "user",
-      "reason": "Track INDIAN BANK automatically with Bull/Bear/Judge agents",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=61/100)",
       "added_at": "2026-11-15T06:19:28.248515+00:00",
-      "updated_at": "2026-11-15T06:19:28.248515+00:00"
+      "updated_at": "2026-11-15T06:45:52.718864+00:00"
     },
     {
       "security_key": "NSE:id:INE009A01021",
