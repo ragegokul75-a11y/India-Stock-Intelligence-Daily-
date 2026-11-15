@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-15T05:55:02.683826+00:00",
+  "generated_at": "2026-11-15T06:18:34.253252+00:00",
   "latest_trading_date": "2026-11-13",
   "universe_coverage": {
-    "total_registered_securities": 3506,
+    "total_registered_securities": 3551,
     "traded_securities_on_date": 3456,
-    "advancers": 1216,
-    "decliners": 2078,
-    "unchanged": 162,
-    "advance_decline_ratio": 0.59,
+    "advancers": 1222,
+    "decliners": 2089,
+    "unchanged": 145,
+    "advance_decline_ratio": 0.58,
     "average_change_pct": -0.25
   },
   "market_open_expectation": {
     "title": "Pre-Market / Market Open Expectation (Based on 2026-11-13 EOD Settlement)",
     "stance": "CAUTIOUS_BEARISH_BIAS",
-    "expectation_summary": "CAUTIOUS / DEFENSIVE OPEN EXPECTED: Decliners (2078) outweigh advancers (1216), A/D ratio 0.59x. Prioritize verified balance-sheet quality and avoid unverified momentum chases.",
+    "expectation_summary": "CAUTIOUS / DEFENSIVE OPEN EXPECTED: Decliners (2089) outweigh advancers (1222), A/D ratio 0.58x. Prioritize verified balance-sheet quality and avoid unverified momentum chases.",
     "bull_agent_opening_case": [
-      "Breadth support: 1216 NSE stocks advanced with an advance/decline ratio of 0.59x on 2026-11-13.",
-      "Leadership momentum in top gainers led by MSTCLTD (+20.00%), ANUP (+20.00%), VISDEM (+19.93%), URBAN-RE (+19.90%), BTML (+19.06%).",
+      "Breadth support: 1222 NSE stocks advanced with an advance/decline ratio of 0.58x on 2026-11-13.",
+      "Leadership momentum in top gainers led by MSTCLTD (+20.00%), ANUP (+20.00%), VISDEM (+19.93%), URBAN-RE (+19.90%), NMSTEEL (+19.83%).",
       "Institutional/high-value turnover concentrated in liquid leaders (TDPOWERSYS, POWERINDIA, HDFCBANK, RELIANCE, AMBER)."
     ],
     "bear_agent_opening_case": [
-      "Downside pressure across 2078 declining NSE stocks (average universe move -0.25%).",
+      "Downside pressure across 2089 declining NSE stocks (average universe move -0.25%).",
       "Sharp drawdowns in laggards led by PASHUPATI (-58.06%), MGSL (-15.34%), YAAP (-12.73%), QLINE (-11.84%), V2RETAIL (-11.83%).",
       "Most broad-market stocks lack verified multi-period fundamental and quarterly pledge disclosures; price momentum alone is not fundamental support."
     ],
@@ -28,56 +28,56 @@
     "stocks_to_watch_at_open": [
       {
         "symbol": "TDPOWERSYS",
-        "company_name": "TD Power Systems Limited",
+        "company_name": "TD POWER SYSTEMS LTD.",
         "close": 637.55,
         "change_pct": 1.86,
         "range_pct": 8.86
       },
       {
         "symbol": "POWERINDIA",
-        "company_name": "Hitachi Energy India Limited",
+        "company_name": "HITACHI ENERGY INDIA LTD",
         "close": 31595.0,
         "change_pct": 10.68,
         "range_pct": 7.68
       },
       {
         "symbol": "HDFCBANK",
-        "company_name": "HDFC Bank Limited",
+        "company_name": "HDFC BANK LTD",
         "close": 804.0,
         "change_pct": -1.02,
         "range_pct": 1.35
       },
       {
         "symbol": "RELIANCE",
-        "company_name": "Reliance Industries Limited",
+        "company_name": "RELIANCE INDUSTRIES LTD",
         "close": 1339.7,
         "change_pct": 0.0,
         "range_pct": 2.02
       },
       {
         "symbol": "AMBER",
-        "company_name": "Amber Enterprises India Limited",
+        "company_name": "AMBER ENTERPRISES (I) LTD",
         "close": 6772.0,
         "change_pct": 9.07,
         "range_pct": 16.33
       },
       {
         "symbol": "ICICIBANK",
-        "company_name": "ICICI Bank Limited",
+        "company_name": "ICICI BANK LTD.",
         "close": 1583.6,
         "change_pct": -0.4,
         "range_pct": 1.27
       },
       {
         "symbol": "SBIN",
-        "company_name": "State Bank of India",
+        "company_name": "STATE BANK OF INDIA",
         "close": 1080.0,
         "change_pct": -0.6,
         "range_pct": 1.54
       },
       {
         "symbol": "BLSPOLY",
-        "company_name": "BLS Polymers Limited",
+        "company_name": "BLS POLYMERS LIMITED",
         "close": 271.23,
         "change_pct": 15.54,
         "range_pct": 21.21
@@ -87,18 +87,18 @@
   "market_close_summary": {
     "title": "Post-Market / Market Close 3-Agent Review (2026-11-13)",
     "stance": "CAUTIOUS_BEARISH_BIAS",
-    "judge_final_verdict": "MARKET CLOSE VERDICT (2026-11-13): The Judge weighed the Bull Agent's breadth/momentum case (1216 advancers) against the Bear Agent's drawdown and fundamental-completeness challenges (2078 decliners). Final Market Stance: CAUTIOUS_BEARISH_BIAS. 19 priority/watchlist stocks completed full 3-agent debate.",
+    "judge_final_verdict": "MARKET CLOSE VERDICT (2026-11-13): The Judge weighed the Bull Agent's breadth/momentum case (1222 advancers) against the Bear Agent's drawdown and fundamental-completeness challenges (2089 decliners). Final Market Stance: CAUTIOUS_BEARISH_BIAS. 20 priority/watchlist stocks completed full 3-agent debate.",
     "top_gainers": [
       {
         "symbol": "MSTCLTD",
-        "company_name": "Mstc Limited",
+        "company_name": "MSTC LIMITED",
         "close": 783.35,
         "change_pct": 20.0,
         "volume": 6328161.0
       },
       {
         "symbol": "ANUP",
-        "company_name": "The Anup Engineering Limited",
+        "company_name": "THE ANUP ENGINEERING LTD",
         "close": 1725.0,
         "change_pct": 20.0,
         "volume": 1256904.0
@@ -118,8 +118,15 @@
         "volume": 236800.0
       },
       {
+        "symbol": "NMSTEEL",
+        "company_name": "NEWMALAYALAM STEEL LTD",
+        "close": 27.5,
+        "change_pct": 19.83,
+        "volume": 36800.0
+      },
+      {
         "symbol": "BTML",
-        "company_name": "Bodhi Tree Multimedia Limited",
+        "company_name": "BODHI TREE MULTIMEDIA LTD",
         "close": 6.87,
         "change_pct": 19.06,
         "volume": 3069848.0
@@ -133,23 +140,16 @@
       },
       {
         "symbol": "ALICON",
-        "company_name": "Alicon Castalloy Limited",
+        "company_name": "ALICON CASTALLOY LIMITED",
         "close": 976.15,
         "change_pct": 17.32,
         "volume": 3378534.0
-      },
-      {
-        "symbol": "ANTGRAPHIC",
-        "company_name": "Antarctica Limited",
-        "close": 0.84,
-        "change_pct": 16.67,
-        "volume": 5214044.0
       }
     ],
     "top_losers": [
       {
         "symbol": "PASHUPATI",
-        "company_name": "Pashupati Cotspin Limited",
+        "company_name": "PASHUPATI COTSPIN LIMITED",
         "close": 35.1,
         "change_pct": -58.06,
         "volume": 10649690.0
@@ -177,7 +177,7 @@
       },
       {
         "symbol": "V2RETAIL",
-        "company_name": "V2 Retail Limited",
+        "company_name": "V2 RETAIL LIMITED",
         "close": 164.1,
         "change_pct": -11.83,
         "volume": 41821033.0
@@ -207,56 +207,56 @@
     "most_active_by_turnover": [
       {
         "symbol": "TDPOWERSYS",
-        "company_name": "TD Power Systems Limited",
+        "company_name": "TD POWER SYSTEMS LTD.",
         "close": 637.55,
         "change_pct": 1.86,
         "volume": 51490686.0
       },
       {
         "symbol": "POWERINDIA",
-        "company_name": "Hitachi Energy India Limited",
+        "company_name": "HITACHI ENERGY INDIA LTD",
         "close": 31595.0,
         "change_pct": 10.68,
         "volume": 892554.0
       },
       {
         "symbol": "HDFCBANK",
-        "company_name": "HDFC Bank Limited",
+        "company_name": "HDFC BANK LTD",
         "close": 804.0,
         "change_pct": -1.02,
         "volume": 23442886.0
       },
       {
         "symbol": "RELIANCE",
-        "company_name": "Reliance Industries Limited",
+        "company_name": "RELIANCE INDUSTRIES LTD",
         "close": 1339.7,
         "change_pct": 0.0,
         "volume": 13756247.0
       },
       {
         "symbol": "AMBER",
-        "company_name": "Amber Enterprises India Limited",
+        "company_name": "AMBER ENTERPRISES (I) LTD",
         "close": 6772.0,
         "change_pct": 9.07,
         "volume": 2720361.0
       },
       {
         "symbol": "ICICIBANK",
-        "company_name": "ICICI Bank Limited",
+        "company_name": "ICICI BANK LTD.",
         "close": 1583.6,
         "change_pct": -0.4,
         "volume": 11440109.0
       },
       {
         "symbol": "SBIN",
-        "company_name": "State Bank of India",
+        "company_name": "STATE BANK OF INDIA",
         "close": 1080.0,
         "change_pct": -0.6,
         "volume": 15886106.0
       },
       {
         "symbol": "BLSPOLY",
-        "company_name": "BLS Polymers Limited",
+        "company_name": "BLS POLYMERS LIMITED",
         "close": 271.23,
         "change_pct": 15.54,
         "volume": 62550381.0
@@ -265,499 +265,1193 @@
   },
   "stock_debates": [
     {
-      "security_key": "NSE:id:INE885A01032",
-      "symbol": "ARE&M",
-      "company_name": "Amara Raja Energy & Mobility Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Amara Raja Energy & Mobility Limited (NSE:id:INE885A01032) as of 2026-11-13 across 1 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
-      "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for ARE&M: Open ₹754.00, High ₹758.00, Low ₹746.00, Close ₹751.80 (1D change -0.30%, intraday move -0.29%, intraday range 1.61%), Volume 230,213 shares, Turnover ₹17.31 crore.) offer potential support watch if fundamentals hold."
-      ],
-      "bear_case": [
-        "Distribution and downside price pressure (-0.30% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for ARE&M: Open ₹754.00, High ₹758.00, Low ₹746.00, Close ₹751.80 (1D change -0.30%, intraday move -0.29%, intraday range 1.61%), Volume 230,213 shares, Turnover ₹17.31 crore."
-      ],
-      "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Amara Raja Energy & Mobility Limited."
-      ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Amara Raja Energy & Mobility Limited (NSE:id:INE885A01032) as of 2026-11-13. Verified 1 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.30%, 20d return n/a."
-    },
-    {
       "security_key": "NSE:id:INE002A01018",
       "symbol": "RELIANCE",
-      "company_name": "Reliance Industries Limited",
-      "verdict": "WATCH",
+      "company_name": "RELIANCE INDUSTRIES LTD",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 70,
+      "bear_score": 30,
       "confidence_score": 70,
-      "risk_score": 45,
+      "risk_score": 30,
       "watchlist_action": "ADD",
-      "analyst_summary": "Evidence-backed research for Reliance Industries Limited (NSE:id:INE002A01018) as of 2026-11-13 across 19 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for RELIANCE INDUSTRIES LTD (RELIANCE) on 2026-11-13: Close ₹1339.70 (1D +0.00%, 5D +1.49%), Volume 13,756,247 (0.78x 5D avg), Turnover ₹1842.92 Cr (Rank #4).",
       "bull_case": [
-        "Sourced EBITDA margin of 19.33 % in FY2026 (consolidated).",
-        "Sourced Net profit margin of 7.51 % in FY2026 (consolidated).",
-        "Sourced Return on equity (ROE) of 9.25 % in FY2026 (consolidated)."
+        "📈 5-Session NSE Uptrend (+1.49% 5D gain, 5/5 positive closes): RELIANCE rallied +3.45% from its 5-day base of ₹1295.00 to settle at ₹1339.70 on 2026-11-13 (1D move +0.00%, intraday range ₹1324.00–₹1350.70), recovering +1.19% off the session low (59% candle range position).",
+        "🏛️ Liquid NSE Cash-Market Depth: RELIANCE recorded 13,756,247 shares (₹1842.92 Cr daily turnover, 0.78x of 5-day average 17,524,186 shares), ranking #4 out of 3456 traded NSE stocks (Top 0.1% liquidity).",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹1339.70 finished above estimated session VWAP (₹1338.13) and in the upper 80% of the 5-day price channel (₹1295.00–₹1350.70), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.78x): Holding support at S1 ₹1325.56 (S2 ₹1311.43) sets up an immediate move to R1 ₹1352.26 (+0.94%), R2 ₹1364.83 (+1.88%), and a 5-day breakout above ₹1350.70.",
+        "📊 Verified Fundamental Catalyst: Sourced EBITDA margin of 19.33 % in FY2026 (consolidated)."
       ],
       "bear_case": [
-        "Evidence coverage for Reliance Industries Limited is partial (missing categories: quarterly_results, corporate_announcement, rbi_economic_indicator, financial_news); upside thesis lacks full multi-period and valuation confirmation."
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.81% from Day's High ₹1350.70): Sellers capped RELIANCE at ₹1350.70 and forced a close at ₹1339.70, leaving the stock -0.81% below its 5-day peak of ₹1350.70.",
+        "⚠️ Sub-Average Volume Conviction (0.78x of 5-Day Avg): Volume of 13,756,247 shares fell short of the 5-day average (17,524,186 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹1350.70 / R1 ₹1352.26.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹1350.70): At 80% of its 5-day range, chasing RELIANCE near ₹1339.70 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹1325.56: A breach of S1 ₹1325.56 (-1.06%) invalidates the bull setup and opens a drop to S2 ₹1311.43 (-2.11%) and the 5-day low ₹1295.00 (Stop-Loss ₹1284.64).",
+        "📊 Fundamental Risk Flag: Evidence coverage for RELIANCE INDUSTRIES LTD is partial (missing categories: quarterly_results, corporate_announcement, rbi_economic_indicator, financial_news); upside thesis lacks full multi-period and valuation confirmation."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.81% pullback from ₹1350.70, but look at the full 5-day NSE structure: RELIANCE has +1.49% 5-day momentum (5/5 up sessions) with volume at 0.78x of the 5-day average (13,756,247 vs 17,524,186 avg) and ₹1842.92 Cr turnover (Rank #4). Buyers defended ₹1324.00 (59% candle close), keeping S1 ₹1325.56 intact for a push to R1 ₹1352.26 and R2 ₹1364.83!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹1352.26 and R2 ₹1364.83, yet buyers could not hold ₹1350.70 today and settled at ₹1339.70 vs VWAP ₹1338.13 (-0.81% off the 5-day high ₹1350.70). Unless RELIANCE breaks above ₹1352.26 on volume > 17,524,186 shares, any slip below S1 ₹1325.56 triggers a slide toward S2 ₹1311.43!\"",
       "hidden_risks": [
-        "Accounting definition / comparability caveat: Consolidated total assets of ₹2,178,140 crore and derived borrowings aggregate of ₹374,421 crore (non-current ₹270,751 cr + current ₹103,670 cr; excludes lease liabilities) as at 31-Mar-2026.",
-        "Accounting definition / comparability caveat: Promoter and promoter group shareholding of 49.11% (664,54,96,096 shares) as at 31-Mar-2026 in the Corporate Governance Report; quarterly Regulation 31 filings remain pending."
+        "Intraday volatility band is 2.02% (₹1324.00–₹1350.70); breach of S1 ₹1325.56 exposes S2 ₹1311.43 (Stop-Loss ₹1284.64).",
+        "5-Day range spans ₹1295.00 to ₹1350.70; overhead supply sits at R1 ₹1352.26 and R2 ₹1364.83."
       ],
-      "judge_verdict_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Reliance Industries Limited (NSE:id:INE002A01018) as of 2026-11-13. Verified 8 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +0.00%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 70/100 vs. Bear Score: 30/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for RELIANCE INDUSTRIES LTD (RELIANCE) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹1339.70 (1D +0.00%, 5D +1.49%, 5/5 positive sessions, 59% intraday candle close vs VWAP ₹1338.13); (2) Volume & Liquidity: 13,756,247 shares (0.78x of 5D avg 17,524,186, Turnover ₹1842.92 Cr, NSE Rank #4/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹1325.56–₹1339.70 zone; target R1 ₹1352.26 & R2 ₹1364.83 (5D breakout ₹1350.70). Stop-loss: ₹1284.64.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 1336.6,
+        "high": 1350.7,
+        "low": 1324.0,
+        "close": 1339.7,
+        "vwap": 1338.13,
+        "return_1d_pct": 0.0,
+        "return_5d_pct": 1.49,
+        "up_sessions_5d": "5/5",
+        "volume": 13756247,
+        "avg_volume_5d": 17524186,
+        "volume_ratio_5d": 0.78,
+        "turnover_cr": 1842.92,
+        "nse_liquidity_rank": "#4 / 3456 (Top 0.1%)",
+        "support_s1": 1325.56,
+        "support_s2": 1311.43,
+        "resistance_r1": 1352.26,
+        "resistance_r2": 1364.83,
+        "high_5d": 1350.7,
+        "low_5d": 1295.0,
+        "stop_loss": 1284.64,
+        "risk_reward": "1.78x"
+      }
     },
     {
       "security_key": "NSE:id:INE018A01030",
       "symbol": "LT",
-      "company_name": "Larsen & Toubro Limited",
-      "verdict": "WATCH",
-      "confidence_score": 63,
-      "risk_score": 45,
-      "watchlist_action": "ADD",
-      "analyst_summary": "Evidence-backed research for Larsen & Toubro Limited (NSE:id:INE018A01030) as of 2026-11-13 across 17 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "LARSEN & TOUBRO LTD.",
+      "verdict": "NEUTRAL / HOLD — WATCH BREAKOUT",
+      "debate_winner": "⚖️ SPLIT DECISION — TACTICAL RANGE DEBATE",
+      "bull_score": 52,
+      "bear_score": 48,
+      "confidence_score": 52,
+      "risk_score": 48,
+      "watchlist_action": "HOLD_WATCH",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for LARSEN & TOUBRO LTD. (LT) on 2026-11-13: Close ₹4143.80 (1D -0.37%, 5D +0.63%), Volume 1,585,695 (0.59x 5D avg), Turnover ₹657.08 Cr (Rank #30).",
       "bull_case": [
-        "Sourced Operating margin of 10.20 % in FY2026 (consolidated).",
-        "Sourced Net profit margin of 5.63 % in FY2026 (consolidated).",
-        "Sourced Return on equity (ROE) of 15.54 % in FY2026 (consolidated)."
+        "📈 5-Session NSE Uptrend (+0.63% 5D gain, 3/5 positive closes): LT rallied +3.70% from its 5-day base of ₹3996.10 to settle at ₹4143.80 on 2026-11-13 (1D move -0.37%, intraday range ₹4127.60–₹4193.60), recovering +0.39% off the session low (25% candle range position).",
+        "🏛️ Bullish Volume Dry-Up on Pullback (0.59x of 5-Day Avg): Today's -0.37% dip occurred on just 1,585,695 shares vs the 5-day average of 2,703,027 shares (₹657.08 Cr turnover, NSE Rank #30 / 3456), proving institutions are not dumping shares.",
+        "⚡ Mean-Reversion Value Toward VWAP (₹4155.00): Trading at ₹4143.80 (56% of the 5-day ₹3996.10–₹4259.00 channel), LT sits right at Pivot ₹4155.00 where reclaiming ₹4155.00 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 2.82x): Holding support at S1 ₹4116.40 (S2 ₹4089.00) sets up an immediate move to R1 ₹4182.40 (+0.93%), R2 ₹4221.00 (+1.86%), and a 5-day breakout above ₹4259.00.",
+        "📊 Verified Fundamental Catalyst: Sourced Operating margin of 10.20 % in FY2026 (consolidated)."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-0.37% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for LT: Open ₹4145.10, High ₹4193.60, Low ₹4127.60, Close ₹4143.80 (1D change -0.37%, intraday move -0.03%, intraday range 1.60%), Volume 1,585,695 shares, Turnover ₹657.08 crore.",
-        "Distribution and downside price pressure (-0.37% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for LT: Open ₹4145.10, High ₹4193.60, Low ₹4127.60, Close ₹4143.80 (1D change -0.37%, intraday move -0.03%, intraday range 1.60%), Volume 1,585,695 shares, Turnover ₹657.08 crore.",
-        "Distribution and downside price pressure (-0.37% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for LT: Open ₹4145.10, High ₹4193.60, Low ₹4127.60, Close ₹4143.80 (1D change -0.37%, intraday move -0.03%, intraday range 1.60%), Volume 1,585,695 shares, Turnover ₹657.08 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-1.19% from Day's High ₹4193.60): Sellers capped LT at ₹4193.60 and forced a close at ₹4143.80, leaving the stock -2.70% below its 5-day peak of ₹4259.00.",
+        "⚠️ Sub-Average Volume Conviction (0.59x of 5-Day Avg): Volume of 1,585,695 shares fell short of the 5-day average (2,703,027 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹4193.60 / R1 ₹4182.40.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹4143.80 below session VWAP (₹4155.00) and Open (₹4145.10) confirms bears controlled the afternoon close (3/5 up sessions over 5 days, 5D return +0.63%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹4116.40: A breach of S1 ₹4116.40 (-0.66%) invalidates the bull setup and opens a drop to S2 ₹4089.00 (-1.32%) and the 5-day low ₹3996.10 (Stop-Loss ₹3964.13)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -1.19% pullback from ₹4193.60, but look at the full 5-day NSE structure: LT has +0.63% 5-day momentum (3/5 up sessions) with volume at 0.59x of the 5-day average (1,585,695 vs 2,703,027 avg) and ₹657.08 Cr turnover (Rank #30). Buyers defended ₹4127.60 (25% candle close), keeping S1 ₹4116.40 intact for a push to R1 ₹4182.40 and R2 ₹4221.00!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹4182.40 and R2 ₹4221.00, yet buyers could not hold ₹4193.60 today and settled at ₹4143.80 vs VWAP ₹4155.00 (-2.70% off the 5-day high ₹4259.00). Unless LT breaks above ₹4182.40 on volume > 2,703,027 shares, any slip below S1 ₹4116.40 triggers a slide toward S2 ₹4089.00!\"",
       "hidden_risks": [
-        "Accounting definition / comparability caveat: Consolidated total assets of ₹452,549.88 crore and derived borrowings aggregate of ₹121,683.02 crore (non-current ₹63,738.59 cr + current ₹34,778.53 cr + current maturities ₹23,165.90 cr; excludes leases; held-for-sale debt requires review). Promoter holding not separately classified in annual report; left blank.",
-        "Accounting definition / comparability caveat: Consolidated Operating Profit (PBDIT) of ₹29,151 crore for FY2025-26 (before depreciation, interest and tax; excludes exceptional items and other income; financial-services interest included in MCO expenses; not interchangeable with pure EBITDA or EBIT)."
+        "Intraday volatility band is 1.60% (₹4127.60–₹4193.60); breach of S1 ₹4116.40 exposes S2 ₹4089.00 (Stop-Loss ₹3964.13).",
+        "5-Day range spans ₹3996.10 to ₹4259.00; overhead supply sits at R1 ₹4182.40 and R2 ₹4221.00."
       ],
-      "judge_verdict_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Larsen & Toubro Limited (NSE:id:INE018A01030) as of 2026-11-13. Verified 7 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.37%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (⚖️ SPLIT DECISION — TACTICAL RANGE DEBATE | Bull Score: 52/100 vs. Bear Score: 48/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for LARSEN & TOUBRO LTD. (LT) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹4143.80 (1D -0.37%, 5D +0.63%, 3/5 positive sessions, 25% intraday candle close vs VWAP ₹4155.00); (2) Volume & Liquidity: 1,585,695 shares (0.59x of 5D avg 2,703,027, Turnover ₹657.08 Cr, NSE Rank #30/3456); (3) Final Directive [NEUTRAL / HOLD — WATCH BREAKOUT]: Wait for directional breakout: Buy only above R1 ₹4182.40 for ₹4221.00 target, or reduce if S1 ₹4116.40 breaks toward S2 ₹4089.00.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 4145.1,
+        "high": 4193.6,
+        "low": 4127.6,
+        "close": 4143.8,
+        "vwap": 4155.0,
+        "return_1d_pct": -0.37,
+        "return_5d_pct": 0.63,
+        "up_sessions_5d": "3/5",
+        "volume": 1585695,
+        "avg_volume_5d": 2703027,
+        "volume_ratio_5d": 0.59,
+        "turnover_cr": 657.08,
+        "nse_liquidity_rank": "#30 / 3456 (Top 0.9%)",
+        "support_s1": 4116.4,
+        "support_s2": 4089.0,
+        "resistance_r1": 4182.4,
+        "resistance_r2": 4221.0,
+        "high_5d": 4259.0,
+        "low_5d": 3996.1,
+        "stop_loss": 3964.13,
+        "risk_reward": "2.82x"
+      }
     },
     {
       "security_key": "NSE:id:INE467B01029",
       "symbol": "TCS",
-      "company_name": "Tata Consultancy Services Limited",
-      "verdict": "WATCH",
-      "confidence_score": 63,
-      "risk_score": 45,
-      "watchlist_action": "ADD",
-      "analyst_summary": "Evidence-backed research for Tata Consultancy Services Limited (NSE:id:INE467B01029) as of 2026-11-13 across 19 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "TATA CONSULTANCY SERV LT",
+      "verdict": "STRONG BEARISH — AVOID / EXIT",
+      "debate_winner": "🐻 AGENT 2 (BEAR) WINS THE DEBATE",
+      "bull_score": 18,
+      "bear_score": 82,
+      "confidence_score": 82,
+      "risk_score": 82,
+      "watchlist_action": "AVOID",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for TATA CONSULTANCY SERV LT (TCS) on 2026-11-13: Close ₹2407.50 (1D -1.43%, 5D -3.64%), Volume 3,344,738 (0.97x 5D avg), Turnover ₹805.25 Cr (Rank #22).",
       "bull_case": [
-        "Sourced Net profit margin of 18.43 % in FY2026 (consolidated).",
-        "Sourced Return on equity (ROE) of 48.72 % in FY2026 (consolidated).",
-        "Sourced Operating cash flow of 52094.00 INR crore in FY2026 (consolidated)."
+        "📈 Demand Absorption Near Support (₹2407.50 close vs ₹2400.20 intraday low): Despite a -1.43% 1D pullback, buyers stepped in at ₹2400.20 to lift TCS +0.30% off the day's low (15% candle recovery) while holding +0.30% above the 5-day floor of ₹2400.20.",
+        "🏛️ Liquid NSE Cash-Market Depth: TCS recorded 3,344,738 shares (₹805.25 Cr daily turnover, 0.97x of 5-day average 3,463,347 shares), ranking #22 out of 3456 traded NSE stocks (Top 0.6% liquidity).",
+        "⚡ Mean-Reversion Value Toward VWAP (₹2419.33): Trading at ₹2407.50 (4% of the 5-day ₹2400.20–₹2565.00 channel), TCS sits right at Pivot ₹2419.33 where reclaiming ₹2419.33 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 3.24x): Holding support at S1 ₹2388.36 (S2 ₹2369.23) sets up an immediate move to R1 ₹2438.46 (+1.29%), R2 ₹2469.43 (+2.57%), and a 5-day breakout above ₹2565.00.",
+        "📊 Verified Fundamental Catalyst: Sourced Net profit margin of 18.43 % in FY2026 (consolidated)."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-1.43% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for TCS: Open ₹2438.60, High ₹2450.30, Low ₹2400.20, Close ₹2407.50 (1D change -1.43%, intraday move -1.28%, intraday range 2.09%), Volume 3,344,738 shares, Turnover ₹805.25 crore.",
-        "Distribution and downside price pressure (-1.43% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for TCS: Open ₹2438.60, High ₹2450.30, Low ₹2400.20, Close ₹2407.50 (1D change -1.43%, intraday move -1.28%, intraday range 2.09%), Volume 3,344,738 shares, Turnover ₹805.25 crore.",
-        "Distribution and downside price pressure (-1.43% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for TCS: Open ₹2438.60, High ₹2450.30, Low ₹2400.20, Close ₹2407.50 (1D change -1.43%, intraday move -1.28%, intraday range 2.09%), Volume 3,344,738 shares, Turnover ₹805.25 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-1.75% from Day's High ₹2450.30): Sellers capped TCS at ₹2450.30 and forced a close at ₹2407.50, leaving the stock -6.14% below its 5-day peak of ₹2565.00.",
+        "⚠️ Sub-Average Volume Conviction (0.97x of 5-Day Avg): Volume of 3,344,738 shares fell short of the 5-day average (3,463,347 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹2450.30 / R1 ₹2438.46.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹2407.50 below session VWAP (₹2419.33) and Open (₹2438.60) confirms bears controlled the afternoon close (0/5 up sessions over 5 days, 5D return -3.64%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹2388.36: A breach of S1 ₹2388.36 (-0.80%) invalidates the bull setup and opens a drop to S2 ₹2369.23 (-1.59%) and the 5-day low ₹2400.20 (Stop-Loss ₹2369.23)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -1.75% pullback from ₹2450.30, but look at the full 5-day NSE structure: TCS has -3.64% 5-day momentum (0/5 up sessions) with volume at 0.97x of the 5-day average (3,344,738 vs 3,463,347 avg) and ₹805.25 Cr turnover (Rank #22). Buyers defended ₹2400.20 (15% candle close), keeping S1 ₹2388.36 intact for a push to R1 ₹2438.46 and R2 ₹2469.43!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹2438.46 and R2 ₹2469.43, yet buyers could not hold ₹2450.30 today and settled at ₹2407.50 vs VWAP ₹2419.33 (-6.14% off the 5-day high ₹2565.00). Unless TCS breaks above ₹2438.46 on volume > 3,463,347 shares, any slip below S1 ₹2388.36 triggers a slide toward S2 ₹2369.23!\"",
       "hidden_risks": [
-        "Accounting definition / comparability caveat: Consolidated EBIT of ₹66,838 crore for FY2025-26 (reported after depreciation and amortisation of ₹5,560 crore; excludes other income; not interchangeable with EBITDA).",
-        "Accounting definition / comparability caveat: Tata Sons Private Limited (holding company and promoter) held 71.74% (2,59,54,99,419 shares) as at 31-Mar-2026; quarterly Regulation 31 filings remain pending."
+        "Intraday volatility band is 2.09% (₹2400.20–₹2450.30); breach of S1 ₹2388.36 exposes S2 ₹2369.23 (Stop-Loss ₹2369.23).",
+        "5-Day range spans ₹2400.20 to ₹2565.00; overhead supply sits at R1 ₹2438.46 and R2 ₹2469.43."
       ],
-      "judge_verdict_reasoning": "WATCH: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Tata Consultancy Services Limited (NSE:id:INE467B01029) as of 2026-11-13. Verified 7 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: growth, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -1.43%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐻 AGENT 2 (BEAR) WINS THE DEBATE | Bull Score: 18/100 vs. Bear Score: 82/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for TATA CONSULTANCY SERV LT (TCS) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹2407.50 (1D -1.43%, 5D -3.64%, 0/5 positive sessions, 15% intraday candle close vs VWAP ₹2419.33); (2) Volume & Liquidity: 3,344,738 shares (0.97x of 5D avg 3,463,347, Turnover ₹805.25 Cr, NSE Rank #22/3456); (3) Final Directive [STRONG BEARISH — AVOID / EXIT]: Stay defensive / exit rallies near ₹2419.33; heavy supply pressure risks a slide below S1 ₹2388.36 toward S2 ₹2369.23.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 2438.6,
+        "high": 2450.3,
+        "low": 2400.2,
+        "close": 2407.5,
+        "vwap": 2419.33,
+        "return_1d_pct": -1.43,
+        "return_5d_pct": -3.64,
+        "up_sessions_5d": "0/5",
+        "volume": 3344738,
+        "avg_volume_5d": 3463347,
+        "volume_ratio_5d": 0.97,
+        "turnover_cr": 805.25,
+        "nse_liquidity_rank": "#22 / 3456 (Top 0.6%)",
+        "support_s1": 2388.36,
+        "support_s2": 2369.23,
+        "resistance_r1": 2438.46,
+        "resistance_r2": 2469.43,
+        "high_5d": 2565.0,
+        "low_5d": 2400.2,
+        "stop_loss": 2369.23,
+        "risk_reward": "3.24x"
+      }
+    },
+    {
+      "security_key": "NSE:id:INE885A01032",
+      "symbol": "ARE&M",
+      "company_name": "AMARA RAJA ENERGY MOB LTD",
+      "verdict": "MODERATE BULLISH — BUY ON DIPS",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 57,
+      "bear_score": 43,
+      "confidence_score": 57,
+      "risk_score": 43,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for AMARA RAJA ENERGY MOB LTD (ARE&M) on 2026-11-13: Close ₹751.80 (1D -0.30%, 5D +3.23%), Volume 230,213 (0.47x 5D avg), Turnover ₹17.31 Cr (Rank #686).",
+      "bull_case": [
+        "📈 5-Session NSE Uptrend (+3.23% 5D gain, 1/5 positive closes): ARE&M rallied +3.88% from its 5-day base of ₹723.70 to settle at ₹751.80 on 2026-11-13 (1D move -0.30%, intraday range ₹746.00–₹758.00), recovering +0.78% off the session low (48% candle range position).",
+        "🏛️ Bullish Volume Dry-Up on Pullback (0.47x of 5-Day Avg): Today's -0.30% dip occurred on just 230,213 shares vs the 5-day average of 484,699 shares (₹17.31 Cr turnover, NSE Rank #686 / 3456), proving institutions are not dumping shares.",
+        "⚡ Mean-Reversion Value Toward VWAP (₹751.93): Trading at ₹751.80 (56% of the 5-day ₹723.70–₹773.95 channel), ARE&M sits right at Pivot ₹751.93 where reclaiming ₹751.93 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 2.04x): Holding support at S1 ₹745.86 (S2 ₹739.93) sets up an immediate move to R1 ₹757.86 (+0.81%), R2 ₹763.93 (+1.61%), and a 5-day breakout above ₹773.95."
+      ],
+      "bear_case": [
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.82% from Day's High ₹758.00): Sellers capped ARE&M at ₹758.00 and forced a close at ₹751.80, leaving the stock -2.86% below its 5-day peak of ₹773.95.",
+        "⚠️ Sub-Average Volume Conviction (0.47x of 5-Day Avg): Volume of 230,213 shares fell short of the 5-day average (484,699 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹758.00 / R1 ₹757.86.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹751.80 below session VWAP (₹751.93) and Open (₹754.00) confirms bears controlled the afternoon close (1/5 up sessions over 5 days, 5D return +3.23%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹745.86: A breach of S1 ₹745.86 (-0.79%) invalidates the bull setup and opens a drop to S2 ₹739.93 (-1.58%) and the 5-day low ₹723.70 (Stop-Loss ₹717.91)."
+      ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.82% pullback from ₹758.00, but look at the full 5-day NSE structure: ARE&M has +3.23% 5-day momentum (1/5 up sessions) with volume at 0.47x of the 5-day average (230,213 vs 484,699 avg) and ₹17.31 Cr turnover (Rank #686). Buyers defended ₹746.00 (48% candle close), keeping S1 ₹745.86 intact for a push to R1 ₹757.86 and R2 ₹763.93!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹757.86 and R2 ₹763.93, yet buyers could not hold ₹758.00 today and settled at ₹751.80 vs VWAP ₹751.93 (-2.86% off the 5-day high ₹773.95). Unless ARE&M breaks above ₹757.86 on volume > 484,699 shares, any slip below S1 ₹745.86 triggers a slide toward S2 ₹739.93!\"",
+      "hidden_risks": [
+        "Intraday volatility band is 1.61% (₹746.00–₹758.00); breach of S1 ₹745.86 exposes S2 ₹739.93 (Stop-Loss ₹717.91).",
+        "5-Day range spans ₹723.70 to ₹773.95; overhead supply sits at R1 ₹757.86 and R2 ₹763.93."
+      ],
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 57/100 vs. Bear Score: 43/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for AMARA RAJA ENERGY MOB LTD (ARE&M) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹751.80 (1D -0.30%, 5D +3.23%, 1/5 positive sessions, 48% intraday candle close vs VWAP ₹751.93); (2) Volume & Liquidity: 230,213 shares (0.47x of 5D avg 484,699, Turnover ₹17.31 Cr, NSE Rank #686/3456); (3) Final Directive [MODERATE BULLISH — BUY ON DIPS]: Buy on dips above Support S1 ₹745.86; breakout above R1 ₹757.86 targets R2 ₹763.93 and 5D High ₹773.95. Stop-loss: ₹717.91.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 754.0,
+        "high": 758.0,
+        "low": 746.0,
+        "close": 751.8,
+        "vwap": 751.93,
+        "return_1d_pct": -0.3,
+        "return_5d_pct": 3.23,
+        "up_sessions_5d": "1/5",
+        "volume": 230213,
+        "avg_volume_5d": 484699,
+        "volume_ratio_5d": 0.47,
+        "turnover_cr": 17.31,
+        "nse_liquidity_rank": "#686 / 3456 (Top 19.8%)",
+        "support_s1": 745.86,
+        "support_s2": 739.93,
+        "resistance_r1": 757.86,
+        "resistance_r2": 763.93,
+        "high_5d": 773.95,
+        "low_5d": 723.7,
+        "stop_loss": 717.91,
+        "risk_reward": "2.04x"
+      }
     },
     {
       "security_key": "NSE:id:INE040A01034",
       "symbol": "HDFCBANK",
-      "company_name": "HDFC Bank Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for HDFC Bank Limited (NSE:id:INE040A01034) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "HDFC BANK LTD",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 70,
+      "bear_score": 30,
+      "confidence_score": 70,
+      "risk_score": 30,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for HDFC BANK LTD (HDFCBANK) on 2026-11-13: Close ₹804.00 (1D -1.02%, 5D +2.00%), Volume 23,442,886 (0.46x 5D avg), Turnover ₹1884.81 Cr (Rank #3).",
       "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.) offer potential support watch if fundamentals hold."
+        "📈 5-Session NSE Uptrend (+2.00% 5D gain, 4/5 positive closes): HDFCBANK rallied +6.62% from its 5-day base of ₹754.05 to settle at ₹804.00 on 2026-11-13 (1D move -1.02%, intraday range ₹798.00–₹808.80), recovering +0.75% off the session low (56% candle range position).",
+        "🏛️ Bullish Volume Dry-Up on Pullback (0.46x of 5-Day Avg): Today's -1.02% dip occurred on just 23,442,886 shares vs the 5-day average of 51,288,805 shares (₹1884.81 Cr turnover, NSE Rank #3 / 3456), proving institutions are not dumping shares.",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹804.00 finished above estimated session VWAP (₹803.60) and in the upper 78% of the 5-day price channel (₹754.05–₹817.85), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.86x): Holding support at S1 ₹798.40 (S2 ₹792.80) sets up an immediate move to R1 ₹809.20 (+0.65%), R2 ₹814.40 (+1.29%), and a 5-day breakout above ₹817.85."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-1.02% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.",
-        "Distribution and downside price pressure (-1.02% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore.",
-        "Distribution and downside price pressure (-1.02% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for HDFCBANK: Open ₹808.00, High ₹808.80, Low ₹798.00, Close ₹804.00 (1D change -1.02%, intraday move -0.50%, intraday range 1.35%), Volume 23,442,886 shares, Turnover ₹1884.81 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.59% from Day's High ₹808.80): Sellers capped HDFCBANK at ₹808.80 and forced a close at ₹804.00, leaving the stock -1.69% below its 5-day peak of ₹817.85.",
+        "⚠️ Sub-Average Volume Conviction (0.46x of 5-Day Avg): Volume of 23,442,886 shares fell short of the 5-day average (51,288,805 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹808.80 / R1 ₹809.20.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹817.85): At 78% of its 5-day range, chasing HDFCBANK near ₹804.00 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹798.40: A breach of S1 ₹798.40 (-0.70%) invalidates the bull setup and opens a drop to S2 ₹792.80 (-1.39%) and the 5-day low ₹754.05 (Stop-Loss ₹748.02)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.59% pullback from ₹808.80, but look at the full 5-day NSE structure: HDFCBANK has +2.00% 5-day momentum (4/5 up sessions) with volume at 0.46x of the 5-day average (23,442,886 vs 51,288,805 avg) and ₹1884.81 Cr turnover (Rank #3). Buyers defended ₹798.00 (56% candle close), keeping S1 ₹798.40 intact for a push to R1 ₹809.20 and R2 ₹814.40!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹809.20 and R2 ₹814.40, yet buyers could not hold ₹808.80 today and settled at ₹804.00 vs VWAP ₹803.60 (-1.69% off the 5-day high ₹817.85). Unless HDFCBANK breaks above ₹809.20 on volume > 51,288,805 shares, any slip below S1 ₹798.40 triggers a slide toward S2 ₹792.80!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for HDFC Bank Limited."
+        "Intraday volatility band is 1.35% (₹798.00–₹808.80); breach of S1 ₹798.40 exposes S2 ₹792.80 (Stop-Loss ₹748.02).",
+        "5-Day range spans ₹754.05 to ₹817.85; overhead supply sits at R1 ₹809.20 and R2 ₹814.40."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for HDFC Bank Limited (NSE:id:INE040A01034) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -1.02%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 70/100 vs. Bear Score: 30/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for HDFC BANK LTD (HDFCBANK) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹804.00 (1D -1.02%, 5D +2.00%, 4/5 positive sessions, 56% intraday candle close vs VWAP ₹803.60); (2) Volume & Liquidity: 23,442,886 shares (0.46x of 5D avg 51,288,805, Turnover ₹1884.81 Cr, NSE Rank #3/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹798.40–₹804.00 zone; target R1 ₹809.20 & R2 ₹814.40 (5D breakout ₹817.85). Stop-loss: ₹748.02.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 808.0,
+        "high": 808.8,
+        "low": 798.0,
+        "close": 804.0,
+        "vwap": 803.6,
+        "return_1d_pct": -1.02,
+        "return_5d_pct": 2.0,
+        "up_sessions_5d": "4/5",
+        "volume": 23442886,
+        "avg_volume_5d": 51288805,
+        "volume_ratio_5d": 0.46,
+        "turnover_cr": 1884.81,
+        "nse_liquidity_rank": "#3 / 3456 (Top 0.1%)",
+        "support_s1": 798.4,
+        "support_s2": 792.8,
+        "resistance_r1": 809.2,
+        "resistance_r2": 814.4,
+        "high_5d": 817.85,
+        "low_5d": 754.05,
+        "stop_loss": 748.02,
+        "risk_reward": "1.86x"
+      }
     },
     {
       "security_key": "NSE:id:INE009A01021",
       "symbol": "INFY",
-      "company_name": "Infosys Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Infosys Limited (NSE:id:INE009A01021) as of 2026-11-13 across 2 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "INFOSYS LIMITED",
+      "verdict": "STRONG BEARISH — AVOID / EXIT",
+      "debate_winner": "🐻 AGENT 2 (BEAR) WINS THE DEBATE",
+      "bull_score": 27,
+      "bear_score": 73,
+      "confidence_score": 73,
+      "risk_score": 73,
+      "watchlist_action": "AVOID",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for INFOSYS LIMITED (INFY) on 2026-11-13: Close ₹1141.50 (1D -0.84%, 5D -3.38%), Volume 5,936,229 (0.62x 5D avg), Turnover ₹677.62 Cr (Rank #27).",
       "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore.) offer potential support watch if fundamentals hold."
+        "📈 Demand Absorption Near Support (₹1141.50 close vs ₹1135.50 intraday low): Despite a -0.84% 1D pullback, buyers stepped in at ₹1135.50 to lift INFY +0.53% off the day's low (31% candle recovery) while holding +0.59% above the 5-day floor of ₹1134.80.",
+        "🏛️ Bullish Volume Dry-Up on Pullback (0.62x of 5-Day Avg): Today's -0.84% dip occurred on just 5,936,229 shares vs the 5-day average of 9,609,732 shares (₹677.62 Cr turnover, NSE Rank #27 / 3456), proving institutions are not dumping shares.",
+        "⚡ Mean-Reversion Value Toward VWAP (₹1144.00): Trading at ₹1141.50 (10% of the 5-day ₹1134.80–₹1198.80 channel), INFY sits right at Pivot ₹1144.00 where reclaiming ₹1144.00 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 2.59x): Holding support at S1 ₹1133.00 (S2 ₹1124.50) sets up an immediate move to R1 ₹1152.50 (+0.96%), R2 ₹1163.50 (+1.93%), and a 5-day breakout above ₹1198.80."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-0.84% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore.",
-        "Distribution and downside price pressure (-0.84% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for INFY: Open ₹1147.50, High ₹1155.00, Low ₹1135.50, Close ₹1141.50 (1D change -0.84%, intraday move -0.52%, intraday range 1.72%), Volume 5,936,229 shares, Turnover ₹677.62 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-1.17% from Day's High ₹1155.00): Sellers capped INFY at ₹1155.00 and forced a close at ₹1141.50, leaving the stock -4.78% below its 5-day peak of ₹1198.80.",
+        "⚠️ Sub-Average Volume Conviction (0.62x of 5-Day Avg): Volume of 5,936,229 shares fell short of the 5-day average (9,609,732 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹1155.00 / R1 ₹1152.50.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹1141.50 below session VWAP (₹1144.00) and Open (₹1147.50) confirms bears controlled the afternoon close (1/5 up sessions over 5 days, 5D return -3.38%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹1133.00: A breach of S1 ₹1133.00 (-0.74%) invalidates the bull setup and opens a drop to S2 ₹1124.50 (-1.49%) and the 5-day low ₹1134.80 (Stop-Loss ₹1124.50)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -1.17% pullback from ₹1155.00, but look at the full 5-day NSE structure: INFY has -3.38% 5-day momentum (1/5 up sessions) with volume at 0.62x of the 5-day average (5,936,229 vs 9,609,732 avg) and ₹677.62 Cr turnover (Rank #27). Buyers defended ₹1135.50 (31% candle close), keeping S1 ₹1133.00 intact for a push to R1 ₹1152.50 and R2 ₹1163.50!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹1152.50 and R2 ₹1163.50, yet buyers could not hold ₹1155.00 today and settled at ₹1141.50 vs VWAP ₹1144.00 (-4.78% off the 5-day high ₹1198.80). Unless INFY breaks above ₹1152.50 on volume > 9,609,732 shares, any slip below S1 ₹1133.00 triggers a slide toward S2 ₹1124.50!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Infosys Limited."
+        "Intraday volatility band is 1.72% (₹1135.50–₹1155.00); breach of S1 ₹1133.00 exposes S2 ₹1124.50 (Stop-Loss ₹1124.50).",
+        "5-Day range spans ₹1134.80 to ₹1198.80; overhead supply sits at R1 ₹1152.50 and R2 ₹1163.50."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Infosys Limited (NSE:id:INE009A01021) as of 2026-11-13. Verified 2 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.84%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐻 AGENT 2 (BEAR) WINS THE DEBATE | Bull Score: 27/100 vs. Bear Score: 73/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for INFOSYS LIMITED (INFY) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹1141.50 (1D -0.84%, 5D -3.38%, 1/5 positive sessions, 31% intraday candle close vs VWAP ₹1144.00); (2) Volume & Liquidity: 5,936,229 shares (0.62x of 5D avg 9,609,732, Turnover ₹677.62 Cr, NSE Rank #27/3456); (3) Final Directive [STRONG BEARISH — AVOID / EXIT]: Stay defensive / exit rallies near ₹1144.00; heavy supply pressure risks a slide below S1 ₹1133.00 toward S2 ₹1124.50.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 1147.5,
+        "high": 1155.0,
+        "low": 1135.5,
+        "close": 1141.5,
+        "vwap": 1144.0,
+        "return_1d_pct": -0.84,
+        "return_5d_pct": -3.38,
+        "up_sessions_5d": "1/5",
+        "volume": 5936229,
+        "avg_volume_5d": 9609732,
+        "volume_ratio_5d": 0.62,
+        "turnover_cr": 677.62,
+        "nse_liquidity_rank": "#27 / 3456 (Top 0.8%)",
+        "support_s1": 1133.0,
+        "support_s2": 1124.5,
+        "resistance_r1": 1152.5,
+        "resistance_r2": 1163.5,
+        "high_5d": 1198.8,
+        "low_5d": 1134.8,
+        "stop_loss": 1124.5,
+        "risk_reward": "2.59x"
+      }
     },
     {
       "security_key": "NSE:id:INE419M01035",
       "symbol": "TDPOWERSYS",
-      "company_name": "TD Power Systems Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for TD Power Systems Limited (NSE:id:INE419M01035) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "TD POWER SYSTEMS LTD.",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 73,
+      "bear_score": 27,
+      "confidence_score": 73,
+      "risk_score": 27,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for TD POWER SYSTEMS LTD. (TDPOWERSYS) on 2026-11-13: Close ₹637.55 (1D +1.86%, 5D +10.59%), Volume 51,490,686 (2.44x 5D avg), Turnover ₹3282.79 Cr (Rank #1).",
       "bull_case": [
-        "Positive EOD momentum (+1.86% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore.",
-        "Positive EOD momentum (+1.86% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore.",
-        "Positive EOD momentum (+1.86% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore."
+        "📈 5-Session NSE Uptrend (+10.59% 5D gain, 3/5 positive closes): TDPOWERSYS rallied +14.45% from its 5-day base of ₹557.05 to settle at ₹637.55 on 2026-11-13 (1D move +1.86%, intraday range ₹630.10–₹685.90), recovering +1.18% off the session low (13% candle range position).",
+        "🏛️ Institutional Volume Expansion (2.44x of 5-Day Avg): TDPOWERSYS traded 51,490,686 shares vs its 5-day average of 21,124,969 shares (₹3282.79 Cr turnover, NSE Liquidity Rank #1 / 3456 — Top 0.0%), confirming strong accumulation.",
+        "⚡ Mean-Reversion Value Toward VWAP (₹651.18): Trading at ₹637.55 (62% of the 5-day ₹557.05–₹685.90 channel), TDPOWERSYS sits right at Pivot ₹651.18 where reclaiming ₹651.18 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 3.29x): Holding support at S1 ₹616.46 (S2 ₹595.38) sets up an immediate move to R1 ₹672.26 (+5.44%), R2 ₹706.98 (+10.89%), and a 5-day breakout above ₹685.90."
       ],
       "bear_case": [
-        "Short-term price strength (+1.86% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore.",
-        "Short-term price strength (+1.86% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore.",
-        "Short-term price strength (+1.86% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for TDPOWERSYS: Open ₹654.95, High ₹685.90, Low ₹630.10, Close ₹637.55 (1D change +1.86%, intraday move -2.66%, intraday range 8.86%), Volume 51,490,686 shares, Turnover ₹3282.79 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-7.05% from Day's High ₹685.90): Sellers capped TDPOWERSYS at ₹685.90 and forced a close at ₹637.55, leaving the stock -7.05% below its 5-day peak of ₹685.90.",
+        "⚠️ Intraday Volatility & Supply Churn (8.86% High-Low Swing): Wide intraday gyrations between ₹630.10 and ₹685.90 on 51,490,686 shares expose buyers to profit-taking at resistance R1 ₹672.26.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹637.55 below session VWAP (₹651.18) and Open (₹654.95) confirms bears controlled the afternoon close (3/5 up sessions over 5 days, 5D return +10.59%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹616.46: A breach of S1 ₹616.46 (-3.31%) invalidates the bull setup and opens a drop to S2 ₹595.38 (-6.61%) and the 5-day low ₹557.05 (Stop-Loss ₹552.59)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -7.05% pullback from ₹685.90, but look at the full 5-day NSE structure: TDPOWERSYS has +10.59% 5-day momentum (3/5 up sessions) with volume at 2.44x of the 5-day average (51,490,686 vs 21,124,969 avg) and ₹3282.79 Cr turnover (Rank #1). Buyers defended ₹630.10 (13% candle close), keeping S1 ₹616.46 intact for a push to R1 ₹672.26 and R2 ₹706.98!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹672.26 and R2 ₹706.98, yet buyers could not hold ₹685.90 today and settled at ₹637.55 vs VWAP ₹651.18 (-7.05% off the 5-day high ₹685.90). Unless TDPOWERSYS breaks above ₹672.26 on volume > 21,124,969 shares, any slip below S1 ₹616.46 triggers a slide toward S2 ₹595.38!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for TD Power Systems Limited."
+        "Intraday volatility band is 8.86% (₹630.10–₹685.90); breach of S1 ₹616.46 exposes S2 ₹595.38 (Stop-Loss ₹552.59).",
+        "5-Day range spans ₹557.05 to ₹685.90; overhead supply sits at R1 ₹672.26 and R2 ₹706.98."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for TD Power Systems Limited (NSE:id:INE419M01035) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +1.86%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 73/100 vs. Bear Score: 27/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for TD POWER SYSTEMS LTD. (TDPOWERSYS) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹637.55 (1D +1.86%, 5D +10.59%, 3/5 positive sessions, 13% intraday candle close vs VWAP ₹651.18); (2) Volume & Liquidity: 51,490,686 shares (2.44x of 5D avg 21,124,969, Turnover ₹3282.79 Cr, NSE Rank #1/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹616.46–₹637.55 zone; target R1 ₹672.26 & R2 ₹706.98 (5D breakout ₹685.90). Stop-loss: ₹552.59.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 654.95,
+        "high": 685.9,
+        "low": 630.1,
+        "close": 637.55,
+        "vwap": 651.18,
+        "return_1d_pct": 1.86,
+        "return_5d_pct": 10.59,
+        "up_sessions_5d": "3/5",
+        "volume": 51490686,
+        "avg_volume_5d": 21124969,
+        "volume_ratio_5d": 2.44,
+        "turnover_cr": 3282.79,
+        "nse_liquidity_rank": "#1 / 3456 (Top 0.0%)",
+        "support_s1": 616.46,
+        "support_s2": 595.38,
+        "resistance_r1": 672.26,
+        "resistance_r2": 706.98,
+        "high_5d": 685.9,
+        "low_5d": 557.05,
+        "stop_loss": 552.59,
+        "risk_reward": "3.29x"
+      }
     },
     {
       "security_key": "NSE:id:INE07Y701011",
       "symbol": "POWERINDIA",
-      "company_name": "Hitachi Energy India Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Hitachi Energy India Limited (NSE:id:INE07Y701011) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "HITACHI ENERGY INDIA LTD",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 92,
+      "bear_score": 8,
+      "confidence_score": 92,
+      "risk_score": 8,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for HITACHI ENERGY INDIA LTD (POWERINDIA) on 2026-11-13: Close ₹31595.00 (1D +10.68%, 5D +13.65%), Volume 892,554 (2.54x 5D avg), Turnover ₹2820.02 Cr (Rank #2).",
       "bull_case": [
-        "Positive EOD momentum (+10.68% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore.",
-        "Positive EOD momentum (+10.68% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore.",
-        "Positive EOD momentum (+10.68% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore."
+        "📈 5-Session NSE Uptrend (+13.65% 5D gain, 4/5 positive closes): POWERINDIA rallied +18.27% from its 5-day base of ₹26715.00 to settle at ₹31595.00 on 2026-11-13 (1D move +10.68%, intraday range ₹29950.00–₹32250.00), recovering +5.49% off the session low (72% candle range position).",
+        "🏛️ Institutional Volume Expansion (2.54x of 5-Day Avg): POWERINDIA traded 892,554 shares vs its 5-day average of 351,106 shares (₹2820.02 Cr turnover, NSE Liquidity Rank #2 / 3456 — Top 0.1%), confirming strong accumulation.",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹31595.00 finished above estimated session VWAP (₹31265.00) and in the upper 88% of the 5-day price channel (₹26715.00–₹32250.00), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.50x): Holding support at S1 ₹30280.00 (S2 ₹28965.00) sets up an immediate move to R1 ₹32580.00 (+3.12%), R2 ₹33565.00 (+6.24%), and a 5-day breakout above ₹32250.00."
       ],
       "bear_case": [
-        "Short-term price strength (+10.68% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore.",
-        "Short-term price strength (+10.68% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore.",
-        "Short-term price strength (+10.68% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for POWERINDIA: Open ₹29990.00, High ₹32250.00, Low ₹29950.00, Close ₹31595.00 (1D change +10.68%, intraday move +5.35%, intraday range 7.68%), Volume 892,554 shares, Turnover ₹2820.02 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-2.03% from Day's High ₹32250.00): Sellers capped POWERINDIA at ₹32250.00 and forced a close at ₹31595.00, leaving the stock -2.03% below its 5-day peak of ₹32250.00.",
+        "⚠️ Intraday Volatility & Supply Churn (7.68% High-Low Swing): Wide intraday gyrations between ₹29950.00 and ₹32250.00 on 892,554 shares expose buyers to profit-taking at resistance R1 ₹32580.00.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹32250.00): At 88% of its 5-day range, chasing POWERINDIA near ₹31595.00 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹30280.00: A breach of S1 ₹30280.00 (-4.16%) invalidates the bull setup and opens a drop to S2 ₹28965.00 (-8.32%) and the 5-day low ₹26715.00 (Stop-Loss ₹26501.28)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -2.03% pullback from ₹32250.00, but look at the full 5-day NSE structure: POWERINDIA has +13.65% 5-day momentum (4/5 up sessions) with volume at 2.54x of the 5-day average (892,554 vs 351,106 avg) and ₹2820.02 Cr turnover (Rank #2). Buyers defended ₹29950.00 (72% candle close), keeping S1 ₹30280.00 intact for a push to R1 ₹32580.00 and R2 ₹33565.00!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹32580.00 and R2 ₹33565.00, yet buyers could not hold ₹32250.00 today and settled at ₹31595.00 vs VWAP ₹31265.00 (-2.03% off the 5-day high ₹32250.00). Unless POWERINDIA breaks above ₹32580.00 on volume > 351,106 shares, any slip below S1 ₹30280.00 triggers a slide toward S2 ₹28965.00!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Hitachi Energy India Limited."
+        "Intraday volatility band is 7.68% (₹29950.00–₹32250.00); breach of S1 ₹30280.00 exposes S2 ₹28965.00 (Stop-Loss ₹26501.28).",
+        "5-Day range spans ₹26715.00 to ₹32250.00; overhead supply sits at R1 ₹32580.00 and R2 ₹33565.00."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Hitachi Energy India Limited (NSE:id:INE07Y701011) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +10.68%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 92/100 vs. Bear Score: 8/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for HITACHI ENERGY INDIA LTD (POWERINDIA) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹31595.00 (1D +10.68%, 5D +13.65%, 4/5 positive sessions, 72% intraday candle close vs VWAP ₹31265.00); (2) Volume & Liquidity: 892,554 shares (2.54x of 5D avg 351,106, Turnover ₹2820.02 Cr, NSE Rank #2/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹30280.00–₹31595.00 zone; target R1 ₹32580.00 & R2 ₹33565.00 (5D breakout ₹32250.00). Stop-loss: ₹26501.28.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 29990.0,
+        "high": 32250.0,
+        "low": 29950.0,
+        "close": 31595.0,
+        "vwap": 31265.0,
+        "return_1d_pct": 10.68,
+        "return_5d_pct": 13.65,
+        "up_sessions_5d": "4/5",
+        "volume": 892554,
+        "avg_volume_5d": 351106,
+        "volume_ratio_5d": 2.54,
+        "turnover_cr": 2820.02,
+        "nse_liquidity_rank": "#2 / 3456 (Top 0.1%)",
+        "support_s1": 30280.0,
+        "support_s2": 28965.0,
+        "resistance_r1": 32580.0,
+        "resistance_r2": 33565.0,
+        "high_5d": 32250.0,
+        "low_5d": 26715.0,
+        "stop_loss": 26501.28,
+        "risk_reward": "1.50x"
+      }
     },
     {
       "security_key": "NSE:id:INE371P01015",
       "symbol": "AMBER",
-      "company_name": "Amber Enterprises India Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Amber Enterprises India Limited (NSE:id:INE371P01015) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "AMBER ENTERPRISES (I) LTD",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 92,
+      "bear_score": 8,
+      "confidence_score": 92,
+      "risk_score": 8,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for AMBER ENTERPRISES (I) LTD (AMBER) on 2026-11-13: Close ₹6772.00 (1D +9.07%, 5D +5.76%), Volume 2,720,361 (3.35x 5D avg), Turnover ₹1842.23 Cr (Rank #5).",
       "bull_case": [
-        "Positive EOD momentum (+9.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore.",
-        "Positive EOD momentum (+9.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore.",
-        "Positive EOD momentum (+9.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore."
+        "📈 5-Session NSE Uptrend (+5.76% 5D gain, 2/5 positive closes): AMBER rallied +12.87% from its 5-day base of ₹6000.00 to settle at ₹6772.00 on 2026-11-13 (1D move +9.07%, intraday range ₹6000.00–₹6980.00), recovering +12.87% off the session low (79% candle range position).",
+        "🏛️ Institutional Volume Expansion (3.35x of 5-Day Avg): AMBER traded 2,720,361 shares vs its 5-day average of 812,878 shares (₹1842.23 Cr turnover, NSE Liquidity Rank #5 / 3456 — Top 0.1%), confirming strong accumulation.",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹6772.00 finished above estimated session VWAP (₹6584.00) and in the upper 79% of the 5-day price channel (₹6000.00–₹6980.00), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.36x): Holding support at S1 ₹6188.00 (S2 ₹5604.00) sets up an immediate move to R1 ₹7168.00 (+5.85%), R2 ₹7564.00 (+11.70%), and a 5-day breakout above ₹6980.00."
       ],
       "bear_case": [
-        "Short-term price strength (+9.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore.",
-        "Short-term price strength (+9.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore.",
-        "Short-term price strength (+9.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for AMBER: Open ₹6056.00, High ₹6980.00, Low ₹6000.00, Close ₹6772.00 (1D change +9.07%, intraday move +11.82%, intraday range 16.33%), Volume 2,720,361 shares, Turnover ₹1842.23 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-2.98% from Day's High ₹6980.00): Sellers capped AMBER at ₹6980.00 and forced a close at ₹6772.00, leaving the stock -2.98% below its 5-day peak of ₹6980.00.",
+        "⚠️ Intraday Volatility & Supply Churn (16.33% High-Low Swing): Wide intraday gyrations between ₹6000.00 and ₹6980.00 on 2,720,361 shares expose buyers to profit-taking at resistance R1 ₹7168.00.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹6980.00): At 79% of its 5-day range, chasing AMBER near ₹6772.00 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹6188.00: A breach of S1 ₹6188.00 (-8.62%) invalidates the bull setup and opens a drop to S2 ₹5604.00 (-17.25%) and the 5-day low ₹6000.00 (Stop-Loss ₹5604.00)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -2.98% pullback from ₹6980.00, but look at the full 5-day NSE structure: AMBER has +5.76% 5-day momentum (2/5 up sessions) with volume at 3.35x of the 5-day average (2,720,361 vs 812,878 avg) and ₹1842.23 Cr turnover (Rank #5). Buyers defended ₹6000.00 (79% candle close), keeping S1 ₹6188.00 intact for a push to R1 ₹7168.00 and R2 ₹7564.00!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹7168.00 and R2 ₹7564.00, yet buyers could not hold ₹6980.00 today and settled at ₹6772.00 vs VWAP ₹6584.00 (-2.98% off the 5-day high ₹6980.00). Unless AMBER breaks above ₹7168.00 on volume > 812,878 shares, any slip below S1 ₹6188.00 triggers a slide toward S2 ₹5604.00!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Amber Enterprises India Limited."
+        "Intraday volatility band is 16.33% (₹6000.00–₹6980.00); breach of S1 ₹6188.00 exposes S2 ₹5604.00 (Stop-Loss ₹5604.00).",
+        "5-Day range spans ₹6000.00 to ₹6980.00; overhead supply sits at R1 ₹7168.00 and R2 ₹7564.00."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Amber Enterprises India Limited (NSE:id:INE371P01015) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +9.07%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 92/100 vs. Bear Score: 8/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for AMBER ENTERPRISES (I) LTD (AMBER) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹6772.00 (1D +9.07%, 5D +5.76%, 2/5 positive sessions, 79% intraday candle close vs VWAP ₹6584.00); (2) Volume & Liquidity: 2,720,361 shares (3.35x of 5D avg 812,878, Turnover ₹1842.23 Cr, NSE Rank #5/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹6188.00–₹6772.00 zone; target R1 ₹7168.00 & R2 ₹7564.00 (5D breakout ₹6980.00). Stop-loss: ₹5604.00.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 6056.0,
+        "high": 6980.0,
+        "low": 6000.0,
+        "close": 6772.0,
+        "vwap": 6584.0,
+        "return_1d_pct": 9.07,
+        "return_5d_pct": 5.76,
+        "up_sessions_5d": "2/5",
+        "volume": 2720361,
+        "avg_volume_5d": 812878,
+        "volume_ratio_5d": 3.35,
+        "turnover_cr": 1842.23,
+        "nse_liquidity_rank": "#5 / 3456 (Top 0.1%)",
+        "support_s1": 6188.0,
+        "support_s2": 5604.0,
+        "resistance_r1": 7168.0,
+        "resistance_r2": 7564.0,
+        "high_5d": 6980.0,
+        "low_5d": 6000.0,
+        "stop_loss": 5604.0,
+        "risk_reward": "1.36x"
+      }
     },
     {
       "security_key": "NSE:id:INE090A01021",
       "symbol": "ICICIBANK",
-      "company_name": "ICICI Bank Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for ICICI Bank Limited (NSE:id:INE090A01021) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "ICICI BANK LTD.",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 72,
+      "bear_score": 28,
+      "confidence_score": 72,
+      "risk_score": 28,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for ICICI BANK LTD. (ICICIBANK) on 2026-11-13: Close ₹1583.60 (1D -0.40%, 5D +0.79%), Volume 11,440,109 (0.46x 5D avg), Turnover ₹1811.66 Cr (Rank #6).",
       "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.) offer potential support watch if fundamentals hold."
+        "📈 5-Session NSE Uptrend (+0.79% 5D gain, 3/5 positive closes): ICICIBANK rallied +5.25% from its 5-day base of ₹1504.60 to settle at ₹1583.60 on 2026-11-13 (1D move -0.40%, intraday range ₹1566.10–₹1586.00), recovering +1.12% off the session low (88% candle range position).",
+        "🏛️ Bullish Volume Dry-Up on Pullback (0.46x of 5-Day Avg): Today's -0.40% dip occurred on just 11,440,109 shares vs the 5-day average of 24,969,887 shares (₹1811.66 Cr turnover, NSE Rank #6 / 3456), proving institutions are not dumping shares.",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹1583.60 finished above estimated session VWAP (₹1578.57) and in the upper 71% of the 5-day price channel (₹1504.60–₹1616.00), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.19x): Holding support at S1 ₹1571.14 (S2 ₹1558.67) sets up an immediate move to R1 ₹1591.04 (+0.47%), R2 ₹1598.47 (+0.94%), and a 5-day breakout above ₹1616.00."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-0.40% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.",
-        "Distribution and downside price pressure (-0.40% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore.",
-        "Distribution and downside price pressure (-0.40% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for ICICIBANK: Open ₹1576.10, High ₹1586.00, Low ₹1566.10, Close ₹1583.60 (1D change -0.40%, intraday move +0.48%, intraday range 1.27%), Volume 11,440,109 shares, Turnover ₹1811.66 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.15% from Day's High ₹1586.00): Sellers capped ICICIBANK at ₹1586.00 and forced a close at ₹1583.60, leaving the stock -2.00% below its 5-day peak of ₹1616.00.",
+        "⚠️ Sub-Average Volume Conviction (0.46x of 5-Day Avg): Volume of 11,440,109 shares fell short of the 5-day average (24,969,887 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹1586.00 / R1 ₹1591.04.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹1616.00): At 71% of its 5-day range, chasing ICICIBANK near ₹1583.60 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹1571.14: A breach of S1 ₹1571.14 (-0.79%) invalidates the bull setup and opens a drop to S2 ₹1558.67 (-1.57%) and the 5-day low ₹1504.60 (Stop-Loss ₹1492.56)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.15% pullback from ₹1586.00, but look at the full 5-day NSE structure: ICICIBANK has +0.79% 5-day momentum (3/5 up sessions) with volume at 0.46x of the 5-day average (11,440,109 vs 24,969,887 avg) and ₹1811.66 Cr turnover (Rank #6). Buyers defended ₹1566.10 (88% candle close), keeping S1 ₹1571.14 intact for a push to R1 ₹1591.04 and R2 ₹1598.47!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹1591.04 and R2 ₹1598.47, yet buyers could not hold ₹1586.00 today and settled at ₹1583.60 vs VWAP ₹1578.57 (-2.00% off the 5-day high ₹1616.00). Unless ICICIBANK breaks above ₹1591.04 on volume > 24,969,887 shares, any slip below S1 ₹1571.14 triggers a slide toward S2 ₹1558.67!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for ICICI Bank Limited."
+        "Intraday volatility band is 1.27% (₹1566.10–₹1586.00); breach of S1 ₹1571.14 exposes S2 ₹1558.67 (Stop-Loss ₹1492.56).",
+        "5-Day range spans ₹1504.60 to ₹1616.00; overhead supply sits at R1 ₹1591.04 and R2 ₹1598.47."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for ICICI Bank Limited (NSE:id:INE090A01021) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.40%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 72/100 vs. Bear Score: 28/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for ICICI BANK LTD. (ICICIBANK) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹1583.60 (1D -0.40%, 5D +0.79%, 3/5 positive sessions, 88% intraday candle close vs VWAP ₹1578.57); (2) Volume & Liquidity: 11,440,109 shares (0.46x of 5D avg 24,969,887, Turnover ₹1811.66 Cr, NSE Rank #6/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹1571.14–₹1583.60 zone; target R1 ₹1591.04 & R2 ₹1598.47 (5D breakout ₹1616.00). Stop-loss: ₹1492.56.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 1576.1,
+        "high": 1586.0,
+        "low": 1566.1,
+        "close": 1583.6,
+        "vwap": 1578.57,
+        "return_1d_pct": -0.4,
+        "return_5d_pct": 0.79,
+        "up_sessions_5d": "3/5",
+        "volume": 11440109,
+        "avg_volume_5d": 24969887,
+        "volume_ratio_5d": 0.46,
+        "turnover_cr": 1811.66,
+        "nse_liquidity_rank": "#6 / 3456 (Top 0.2%)",
+        "support_s1": 1571.14,
+        "support_s2": 1558.67,
+        "resistance_r1": 1591.04,
+        "resistance_r2": 1598.47,
+        "high_5d": 1616.0,
+        "low_5d": 1504.6,
+        "stop_loss": 1492.56,
+        "risk_reward": "1.19x"
+      }
     },
     {
       "security_key": "NSE:id:INE062A01020",
       "symbol": "SBIN",
-      "company_name": "State Bank of India",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for State Bank of India (NSE:id:INE062A01020) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "STATE BANK OF INDIA",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 70,
+      "bear_score": 30,
+      "confidence_score": 70,
+      "risk_score": 30,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for STATE BANK OF INDIA (SBIN) on 2026-11-13: Close ₹1080.00 (1D -0.60%, 5D +6.04%), Volume 15,886,106 (0.74x 5D avg), Turnover ₹1715.70 Cr (Rank #7).",
       "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.) offer potential support watch if fundamentals hold."
+        "📈 5-Session NSE Uptrend (+6.04% 5D gain, 4/5 positive closes): SBIN rallied +9.04% from its 5-day base of ₹990.50 to settle at ₹1080.00 on 2026-11-13 (1D move -0.60%, intraday range ₹1074.15–₹1090.70), recovering +0.54% off the session low (35% candle range position).",
+        "🏛️ Bullish Volume Dry-Up on Pullback (0.74x of 5-Day Avg): Today's -0.60% dip occurred on just 15,886,106 shares vs the 5-day average of 21,513,631 shares (₹1715.70 Cr turnover, NSE Rank #7 / 3456), proving institutions are not dumping shares.",
+        "⚡ Mean-Reversion Value Toward VWAP (₹1081.62): Trading at ₹1080.00 (89% of the 5-day ₹990.50–₹1090.70 channel), SBIN sits right at Pivot ₹1081.62 where reclaiming ₹1081.62 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 2.44x): Holding support at S1 ₹1072.54 (S2 ₹1065.07) sets up an immediate move to R1 ₹1089.09 (+0.84%), R2 ₹1098.17 (+1.68%), and a 5-day breakout above ₹1090.70."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-0.60% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.",
-        "Distribution and downside price pressure (-0.60% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore.",
-        "Distribution and downside price pressure (-0.60% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for SBIN: Open ₹1090.00, High ₹1090.70, Low ₹1074.15, Close ₹1080.00 (1D change -0.60%, intraday move -0.92%, intraday range 1.54%), Volume 15,886,106 shares, Turnover ₹1715.70 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.98% from Day's High ₹1090.70): Sellers capped SBIN at ₹1090.70 and forced a close at ₹1080.00, leaving the stock -0.98% below its 5-day peak of ₹1090.70.",
+        "⚠️ Sub-Average Volume Conviction (0.74x of 5-Day Avg): Volume of 15,886,106 shares fell short of the 5-day average (21,513,631 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹1090.70 / R1 ₹1089.09.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹1080.00 below session VWAP (₹1081.62) and Open (₹1090.00) confirms bears controlled the afternoon close (4/5 up sessions over 5 days, 5D return +6.04%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹1072.54: A breach of S1 ₹1072.54 (-0.69%) invalidates the bull setup and opens a drop to S2 ₹1065.07 (-1.38%) and the 5-day low ₹990.50 (Stop-Loss ₹982.58)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.98% pullback from ₹1090.70, but look at the full 5-day NSE structure: SBIN has +6.04% 5-day momentum (4/5 up sessions) with volume at 0.74x of the 5-day average (15,886,106 vs 21,513,631 avg) and ₹1715.70 Cr turnover (Rank #7). Buyers defended ₹1074.15 (35% candle close), keeping S1 ₹1072.54 intact for a push to R1 ₹1089.09 and R2 ₹1098.17!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹1089.09 and R2 ₹1098.17, yet buyers could not hold ₹1090.70 today and settled at ₹1080.00 vs VWAP ₹1081.62 (-0.98% off the 5-day high ₹1090.70). Unless SBIN breaks above ₹1089.09 on volume > 21,513,631 shares, any slip below S1 ₹1072.54 triggers a slide toward S2 ₹1065.07!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for State Bank of India."
+        "Intraday volatility band is 1.54% (₹1074.15–₹1090.70); breach of S1 ₹1072.54 exposes S2 ₹1065.07 (Stop-Loss ₹982.58).",
+        "5-Day range spans ₹990.50 to ₹1090.70; overhead supply sits at R1 ₹1089.09 and R2 ₹1098.17."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for State Bank of India (NSE:id:INE062A01020) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -0.60%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 70/100 vs. Bear Score: 30/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for STATE BANK OF INDIA (SBIN) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹1080.00 (1D -0.60%, 5D +6.04%, 4/5 positive sessions, 35% intraday candle close vs VWAP ₹1081.62); (2) Volume & Liquidity: 15,886,106 shares (0.74x of 5D avg 21,513,631, Turnover ₹1715.70 Cr, NSE Rank #7/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹1072.54–₹1080.00 zone; target R1 ₹1089.09 & R2 ₹1098.17 (5D breakout ₹1090.70). Stop-loss: ₹982.58.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 1090.0,
+        "high": 1090.7,
+        "low": 1074.15,
+        "close": 1080.0,
+        "vwap": 1081.62,
+        "return_1d_pct": -0.6,
+        "return_5d_pct": 6.04,
+        "up_sessions_5d": "4/5",
+        "volume": 15886106,
+        "avg_volume_5d": 21513631,
+        "volume_ratio_5d": 0.74,
+        "turnover_cr": 1715.7,
+        "nse_liquidity_rank": "#7 / 3456 (Top 0.2%)",
+        "support_s1": 1072.54,
+        "support_s2": 1065.07,
+        "resistance_r1": 1089.09,
+        "resistance_r2": 1098.17,
+        "high_5d": 1090.7,
+        "low_5d": 990.5,
+        "stop_loss": 982.58,
+        "risk_reward": "2.44x"
+      }
     },
     {
       "security_key": "NSE:id:INE0ZCQ01019",
       "symbol": "BLSPOLY",
-      "company_name": "BLS Polymers Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for BLS Polymers Limited (NSE:id:INE0ZCQ01019) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "BLS POLYMERS LIMITED",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 92,
+      "bear_score": 8,
+      "confidence_score": 92,
+      "risk_score": 8,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for BLS POLYMERS LIMITED (BLSPOLY) on 2026-11-13: Close ₹271.23 (1D +15.54%, 5D +15.03%), Volume 62,550,381 (3.88x 5D avg), Turnover ₹1696.55 Cr (Rank #8).",
       "bull_case": [
-        "Positive EOD momentum (+15.54% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore.",
-        "Positive EOD momentum (+15.54% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore.",
-        "Positive EOD momentum (+15.54% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore."
+        "📈 5-Session NSE Uptrend (+15.03% 5D gain, 3/5 positive closes): BLSPOLY rallied +17.92% from its 5-day base of ₹230.01 to settle at ₹271.23 on 2026-11-13 (1D move +15.54%, intraday range ₹230.01–₹278.80), recovering +17.92% off the session low (84% candle range position).",
+        "🏛️ Institutional Volume Expansion (3.88x of 5-Day Avg): BLSPOLY traded 62,550,381 shares vs its 5-day average of 16,110,191 shares (₹1696.55 Cr turnover, NSE Liquidity Rank #8 / 3456 — Top 0.2%), confirming strong accumulation.",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹271.23 finished above estimated session VWAP (₹260.01) and in the upper 84% of the 5-day price channel (₹230.01–₹278.80), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.25x): Holding support at S1 ₹241.22 (S2 ₹211.22) sets up an immediate move to R1 ₹290.01 (+6.92%), R2 ₹308.80 (+13.85%), and a 5-day breakout above ₹278.80."
       ],
       "bear_case": [
-        "Short-term price strength (+15.54% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore.",
-        "Short-term price strength (+15.54% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore.",
-        "Short-term price strength (+15.54% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for BLSPOLY: Open ₹231.72, High ₹278.80, Low ₹230.01, Close ₹271.23 (1D change +15.54%, intraday move +17.05%, intraday range 21.21%), Volume 62,550,381 shares, Turnover ₹1696.55 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-2.72% from Day's High ₹278.80): Sellers capped BLSPOLY at ₹278.80 and forced a close at ₹271.23, leaving the stock -2.72% below its 5-day peak of ₹278.80.",
+        "⚠️ Intraday Volatility & Supply Churn (21.21% High-Low Swing): Wide intraday gyrations between ₹230.01 and ₹278.80 on 62,550,381 shares expose buyers to profit-taking at resistance R1 ₹290.01.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹278.80): At 84% of its 5-day range, chasing BLSPOLY near ₹271.23 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹241.22: A breach of S1 ₹241.22 (-11.06%) invalidates the bull setup and opens a drop to S2 ₹211.22 (-22.13%) and the 5-day low ₹230.01 (Stop-Loss ₹211.22)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -2.72% pullback from ₹278.80, but look at the full 5-day NSE structure: BLSPOLY has +15.03% 5-day momentum (3/5 up sessions) with volume at 3.88x of the 5-day average (62,550,381 vs 16,110,191 avg) and ₹1696.55 Cr turnover (Rank #8). Buyers defended ₹230.01 (84% candle close), keeping S1 ₹241.22 intact for a push to R1 ₹290.01 and R2 ₹308.80!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹290.01 and R2 ₹308.80, yet buyers could not hold ₹278.80 today and settled at ₹271.23 vs VWAP ₹260.01 (-2.72% off the 5-day high ₹278.80). Unless BLSPOLY breaks above ₹290.01 on volume > 16,110,191 shares, any slip below S1 ₹241.22 triggers a slide toward S2 ₹211.22!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for BLS Polymers Limited."
+        "Intraday volatility band is 21.21% (₹230.01–₹278.80); breach of S1 ₹241.22 exposes S2 ₹211.22 (Stop-Loss ₹211.22).",
+        "5-Day range spans ₹230.01 to ₹278.80; overhead supply sits at R1 ₹290.01 and R2 ₹308.80."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for BLS Polymers Limited (NSE:id:INE0ZCQ01019) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +15.54%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 92/100 vs. Bear Score: 8/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for BLS POLYMERS LIMITED (BLSPOLY) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹271.23 (1D +15.54%, 5D +15.03%, 3/5 positive sessions, 84% intraday candle close vs VWAP ₹260.01); (2) Volume & Liquidity: 62,550,381 shares (3.88x of 5D avg 16,110,191, Turnover ₹1696.55 Cr, NSE Rank #8/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹241.22–₹271.23 zone; target R1 ₹290.01 & R2 ₹308.80 (5D breakout ₹278.80). Stop-loss: ₹211.22.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 231.72,
+        "high": 278.8,
+        "low": 230.01,
+        "close": 271.23,
+        "vwap": 260.01,
+        "return_1d_pct": 15.54,
+        "return_5d_pct": 15.03,
+        "up_sessions_5d": "3/5",
+        "volume": 62550381,
+        "avg_volume_5d": 16110191,
+        "volume_ratio_5d": 3.88,
+        "turnover_cr": 1696.55,
+        "nse_liquidity_rank": "#8 / 3456 (Top 0.2%)",
+        "support_s1": 241.22,
+        "support_s2": 211.22,
+        "resistance_r1": 290.01,
+        "resistance_r2": 308.8,
+        "high_5d": 278.8,
+        "low_5d": 230.01,
+        "stop_loss": 211.22,
+        "risk_reward": "1.25x"
+      }
     },
     {
       "security_key": "NSE:id:INE303R01014",
       "symbol": "KALYANKJIL",
-      "company_name": "Kalyan Jewellers India Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Kalyan Jewellers India Limited (NSE:id:INE303R01014) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "KALYAN JEWELLERS IND LTD",
+      "verdict": "MODERATE BULLISH — BUY ON DIPS",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 65,
+      "bear_score": 35,
+      "confidence_score": 65,
+      "risk_score": 35,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for KALYAN JEWELLERS IND LTD (KALYANKJIL) on 2026-11-13: Close ₹697.00 (1D -1.96%, 5D +17.99%), Volume 20,803,821 (0.59x 5D avg), Turnover ₹1450.03 Cr (Rank #9).",
       "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.) offer potential support watch if fundamentals hold."
+        "📈 5-Session NSE Uptrend (+17.99% 5D gain, 4/5 positive closes): KALYANKJIL rallied +26.20% from its 5-day base of ₹552.30 to settle at ₹697.00 on 2026-11-13 (1D move -1.96%, intraday range ₹685.10–₹718.05), recovering +1.74% off the session low (36% candle range position).",
+        "🏛️ Bullish Volume Dry-Up on Pullback (0.59x of 5-Day Avg): Today's -1.96% dip occurred on just 20,803,821 shares vs the 5-day average of 35,115,443 shares (₹1450.03 Cr turnover, NSE Rank #9 / 3456), proving institutions are not dumping shares.",
+        "⚡ Mean-Reversion Value Toward VWAP (₹700.05): Trading at ₹697.00 (87% of the 5-day ₹552.30–₹718.05 channel), KALYANKJIL sits right at Pivot ₹700.05 where reclaiming ₹700.05 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 2.41x): Holding support at S1 ₹682.05 (S2 ₹667.10) sets up an immediate move to R1 ₹715.00 (+2.58%), R2 ₹733.00 (+5.16%), and a 5-day breakout above ₹718.05."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-1.96% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.",
-        "Distribution and downside price pressure (-1.96% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore.",
-        "Distribution and downside price pressure (-1.96% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for KALYANKJIL: Open ₹718.00, High ₹718.05, Low ₹685.10, Close ₹697.00 (1D change -1.96%, intraday move -2.92%, intraday range 4.81%), Volume 20,803,821 shares, Turnover ₹1450.03 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-2.93% from Day's High ₹718.05): Sellers capped KALYANKJIL at ₹718.05 and forced a close at ₹697.00, leaving the stock -2.93% below its 5-day peak of ₹718.05.",
+        "⚠️ Sub-Average Volume Conviction (0.59x of 5-Day Avg): Volume of 20,803,821 shares fell short of the 5-day average (35,115,443 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹718.05 / R1 ₹715.00.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹697.00 below session VWAP (₹700.05) and Open (₹718.00) confirms bears controlled the afternoon close (4/5 up sessions over 5 days, 5D return +17.99%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹682.05: A breach of S1 ₹682.05 (-2.14%) invalidates the bull setup and opens a drop to S2 ₹667.10 (-4.29%) and the 5-day low ₹552.30 (Stop-Loss ₹547.88)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -2.93% pullback from ₹718.05, but look at the full 5-day NSE structure: KALYANKJIL has +17.99% 5-day momentum (4/5 up sessions) with volume at 0.59x of the 5-day average (20,803,821 vs 35,115,443 avg) and ₹1450.03 Cr turnover (Rank #9). Buyers defended ₹685.10 (36% candle close), keeping S1 ₹682.05 intact for a push to R1 ₹715.00 and R2 ₹733.00!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹715.00 and R2 ₹733.00, yet buyers could not hold ₹718.05 today and settled at ₹697.00 vs VWAP ₹700.05 (-2.93% off the 5-day high ₹718.05). Unless KALYANKJIL breaks above ₹715.00 on volume > 35,115,443 shares, any slip below S1 ₹682.05 triggers a slide toward S2 ₹667.10!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Kalyan Jewellers India Limited."
+        "Intraday volatility band is 4.81% (₹685.10–₹718.05); breach of S1 ₹682.05 exposes S2 ₹667.10 (Stop-Loss ₹547.88).",
+        "5-Day range spans ₹552.30 to ₹718.05; overhead supply sits at R1 ₹715.00 and R2 ₹733.00."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Kalyan Jewellers India Limited (NSE:id:INE303R01014) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -1.96%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 65/100 vs. Bear Score: 35/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for KALYAN JEWELLERS IND LTD (KALYANKJIL) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹697.00 (1D -1.96%, 5D +17.99%, 4/5 positive sessions, 36% intraday candle close vs VWAP ₹700.05); (2) Volume & Liquidity: 20,803,821 shares (0.59x of 5D avg 35,115,443, Turnover ₹1450.03 Cr, NSE Rank #9/3456); (3) Final Directive [MODERATE BULLISH — BUY ON DIPS]: Buy on dips above Support S1 ₹682.05; breakout above R1 ₹715.00 targets R2 ₹733.00 and 5D High ₹718.05. Stop-loss: ₹547.88.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 718.0,
+        "high": 718.05,
+        "low": 685.1,
+        "close": 697.0,
+        "vwap": 700.05,
+        "return_1d_pct": -1.96,
+        "return_5d_pct": 17.99,
+        "up_sessions_5d": "4/5",
+        "volume": 20803821,
+        "avg_volume_5d": 35115443,
+        "volume_ratio_5d": 0.59,
+        "turnover_cr": 1450.03,
+        "nse_liquidity_rank": "#9 / 3456 (Top 0.3%)",
+        "support_s1": 682.05,
+        "support_s2": 667.1,
+        "resistance_r1": 715.0,
+        "resistance_r2": 733.0,
+        "high_5d": 718.05,
+        "low_5d": 552.3,
+        "stop_loss": 547.88,
+        "risk_reward": "2.41x"
+      }
     },
     {
       "security_key": "NSE:id:INE713T01028",
       "symbol": "APOLLO",
-      "company_name": "Apollo Micro Systems Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Apollo Micro Systems Limited (NSE:id:INE713T01028) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "APOLLO MICRO SYSTEMS LTD",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 92,
+      "bear_score": 8,
+      "confidence_score": 92,
+      "risk_score": 8,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for APOLLO MICRO SYSTEMS LTD (APOLLO) on 2026-11-13: Close ₹475.60 (1D +8.07%, 5D +14.98%), Volume 28,668,453 (1.69x 5D avg), Turnover ₹1363.47 Cr (Rank #10).",
       "bull_case": [
-        "Positive EOD momentum (+8.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore.",
-        "Positive EOD momentum (+8.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore.",
-        "Positive EOD momentum (+8.07% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore."
+        "📈 5-Session NSE Uptrend (+14.98% 5D gain, 3/5 positive closes): APOLLO rallied +17.72% from its 5-day base of ₹404.00 to settle at ₹475.60 on 2026-11-13 (1D move +8.07%, intraday range ₹435.05–₹478.00), recovering +9.32% off the session low (94% candle range position).",
+        "🏛️ Institutional Volume Expansion (1.69x of 5-Day Avg): APOLLO traded 28,668,453 shares vs its 5-day average of 16,974,735 shares (₹1363.47 Cr turnover, NSE Liquidity Rank #10 / 3456 — Top 0.3%), confirming strong accumulation.",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹475.60 finished above estimated session VWAP (₹462.88) and in the upper 97% of the 5-day price channel (₹404.00–₹478.00), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.09x): Holding support at S1 ₹447.76 (S2 ₹419.93) sets up an immediate move to R1 ₹490.71 (+3.18%), R2 ₹505.83 (+6.36%), and a 5-day breakout above ₹478.00."
       ],
       "bear_case": [
-        "Short-term price strength (+8.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore.",
-        "Short-term price strength (+8.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore.",
-        "Short-term price strength (+8.07% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for APOLLO: Open ₹440.00, High ₹478.00, Low ₹435.05, Close ₹475.60 (1D change +8.07%, intraday move +8.09%, intraday range 9.87%), Volume 28,668,453 shares, Turnover ₹1363.47 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.50% from Day's High ₹478.00): Sellers capped APOLLO at ₹478.00 and forced a close at ₹475.60, leaving the stock -0.50% below its 5-day peak of ₹478.00.",
+        "⚠️ Intraday Volatility & Supply Churn (9.87% High-Low Swing): Wide intraday gyrations between ₹435.05 and ₹478.00 on 28,668,453 shares expose buyers to profit-taking at resistance R1 ₹490.71.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹478.00): At 97% of its 5-day range, chasing APOLLO near ₹475.60 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹447.76: A breach of S1 ₹447.76 (-5.85%) invalidates the bull setup and opens a drop to S2 ₹419.93 (-11.71%) and the 5-day low ₹404.00 (Stop-Loss ₹400.77)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.50% pullback from ₹478.00, but look at the full 5-day NSE structure: APOLLO has +14.98% 5-day momentum (3/5 up sessions) with volume at 1.69x of the 5-day average (28,668,453 vs 16,974,735 avg) and ₹1363.47 Cr turnover (Rank #10). Buyers defended ₹435.05 (94% candle close), keeping S1 ₹447.76 intact for a push to R1 ₹490.71 and R2 ₹505.83!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹490.71 and R2 ₹505.83, yet buyers could not hold ₹478.00 today and settled at ₹475.60 vs VWAP ₹462.88 (-0.50% off the 5-day high ₹478.00). Unless APOLLO breaks above ₹490.71 on volume > 16,974,735 shares, any slip below S1 ₹447.76 triggers a slide toward S2 ₹419.93!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Apollo Micro Systems Limited."
+        "Intraday volatility band is 9.87% (₹435.05–₹478.00); breach of S1 ₹447.76 exposes S2 ₹419.93 (Stop-Loss ₹400.77).",
+        "5-Day range spans ₹404.00 to ₹478.00; overhead supply sits at R1 ₹490.71 and R2 ₹505.83."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Apollo Micro Systems Limited (NSE:id:INE713T01028) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +8.07%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 92/100 vs. Bear Score: 8/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for APOLLO MICRO SYSTEMS LTD (APOLLO) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹475.60 (1D +8.07%, 5D +14.98%, 3/5 positive sessions, 94% intraday candle close vs VWAP ₹462.88); (2) Volume & Liquidity: 28,668,453 shares (1.69x of 5D avg 16,974,735, Turnover ₹1363.47 Cr, NSE Rank #10/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹447.76–₹475.60 zone; target R1 ₹490.71 & R2 ₹505.83 (5D breakout ₹478.00). Stop-loss: ₹400.77.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 440.0,
+        "high": 478.0,
+        "low": 435.05,
+        "close": 475.6,
+        "vwap": 462.88,
+        "return_1d_pct": 8.07,
+        "return_5d_pct": 14.98,
+        "up_sessions_5d": "3/5",
+        "volume": 28668453,
+        "avg_volume_5d": 16974735,
+        "volume_ratio_5d": 1.69,
+        "turnover_cr": 1363.47,
+        "nse_liquidity_rank": "#10 / 3456 (Top 0.3%)",
+        "support_s1": 447.76,
+        "support_s2": 419.93,
+        "resistance_r1": 490.71,
+        "resistance_r2": 505.83,
+        "high_5d": 478.0,
+        "low_5d": 404.0,
+        "stop_loss": 400.77,
+        "risk_reward": "1.09x"
+      }
     },
     {
       "security_key": "NSE:id:INE255X01014",
       "symbol": "MSTCLTD",
-      "company_name": "Mstc Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Mstc Limited (NSE:id:INE255X01014) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "MSTC LIMITED",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 92,
+      "bear_score": 8,
+      "confidence_score": 92,
+      "risk_score": 8,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for MSTC LIMITED (MSTCLTD) on 2026-11-13: Close ₹783.35 (1D +20.00%, 5D +32.82%), Volume 6,328,161 (4.01x 5D avg), Turnover ₹495.72 Cr (Rank #48).",
       "bull_case": [
-        "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore.",
-        "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore.",
-        "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore."
+        "📈 5-Session NSE Uptrend (+32.82% 5D gain, 3/5 positive closes): MSTCLTD rallied +36.50% from its 5-day base of ₹573.90 to settle at ₹783.35 on 2026-11-13 (1D move +20.00%, intraday range ₹690.00–₹783.35), recovering +13.53% off the session low (100% candle range position).",
+        "🏛️ Institutional Volume Expansion (4.01x of 5-Day Avg): MSTCLTD traded 6,328,161 shares vs its 5-day average of 1,576,810 shares (₹495.72 Cr turnover, NSE Liquidity Rank #48 / 3456 — Top 1.4%), confirming strong accumulation.",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹783.35 finished above estimated session VWAP (₹752.23) and in the upper 100% of the 5-day price channel (₹573.90–₹783.35), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.00x): Holding support at S1 ₹721.11 (S2 ₹658.88) sets up an immediate move to R1 ₹814.46 (+3.97%), R2 ₹845.58 (+7.94%), and a 5-day breakout above ₹783.35."
       ],
       "bear_case": [
-        "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore.",
-        "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore.",
-        "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for MSTCLTD: Open ₹700.05, High ₹783.35, Low ₹690.00, Close ₹783.35 (1D change +20.00%, intraday move +11.90%, intraday range 13.53%), Volume 6,328,161 shares, Turnover ₹495.72 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.00% from Day's High ₹783.35): Sellers capped MSTCLTD at ₹783.35 and forced a close at ₹783.35, leaving the stock +0.00% below its 5-day peak of ₹783.35.",
+        "⚠️ Intraday Volatility & Supply Churn (13.53% High-Low Swing): Wide intraday gyrations between ₹690.00 and ₹783.35 on 6,328,161 shares expose buyers to profit-taking at resistance R1 ₹814.46.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹783.35): At 100% of its 5-day range, chasing MSTCLTD near ₹783.35 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹721.11: A breach of S1 ₹721.11 (-7.95%) invalidates the bull setup and opens a drop to S2 ₹658.88 (-15.89%) and the 5-day low ₹573.90 (Stop-Loss ₹569.31)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.00% pullback from ₹783.35, but look at the full 5-day NSE structure: MSTCLTD has +32.82% 5-day momentum (3/5 up sessions) with volume at 4.01x of the 5-day average (6,328,161 vs 1,576,810 avg) and ₹495.72 Cr turnover (Rank #48). Buyers defended ₹690.00 (100% candle close), keeping S1 ₹721.11 intact for a push to R1 ₹814.46 and R2 ₹845.58!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹814.46 and R2 ₹845.58, yet buyers could not hold ₹783.35 today and settled at ₹783.35 vs VWAP ₹752.23 (+0.00% off the 5-day high ₹783.35). Unless MSTCLTD breaks above ₹814.46 on volume > 1,576,810 shares, any slip below S1 ₹721.11 triggers a slide toward S2 ₹658.88!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Mstc Limited."
+        "Intraday volatility band is 13.53% (₹690.00–₹783.35); breach of S1 ₹721.11 exposes S2 ₹658.88 (Stop-Loss ₹569.31).",
+        "5-Day range spans ₹573.90 to ₹783.35; overhead supply sits at R1 ₹814.46 and R2 ₹845.58."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Mstc Limited (NSE:id:INE255X01014) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +20.00%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 92/100 vs. Bear Score: 8/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for MSTC LIMITED (MSTCLTD) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹783.35 (1D +20.00%, 5D +32.82%, 3/5 positive sessions, 100% intraday candle close vs VWAP ₹752.23); (2) Volume & Liquidity: 6,328,161 shares (4.01x of 5D avg 1,576,810, Turnover ₹495.72 Cr, NSE Rank #48/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹721.11–₹783.35 zone; target R1 ₹814.46 & R2 ₹845.58 (5D breakout ₹783.35). Stop-loss: ₹569.31.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 700.05,
+        "high": 783.35,
+        "low": 690.0,
+        "close": 783.35,
+        "vwap": 752.23,
+        "return_1d_pct": 20.0,
+        "return_5d_pct": 32.82,
+        "up_sessions_5d": "3/5",
+        "volume": 6328161,
+        "avg_volume_5d": 1576810,
+        "volume_ratio_5d": 4.01,
+        "turnover_cr": 495.72,
+        "nse_liquidity_rank": "#48 / 3456 (Top 1.4%)",
+        "support_s1": 721.11,
+        "support_s2": 658.88,
+        "resistance_r1": 814.46,
+        "resistance_r2": 845.58,
+        "high_5d": 783.35,
+        "low_5d": 573.9,
+        "stop_loss": 569.31,
+        "risk_reward": "1.00x"
+      }
     },
     {
       "security_key": "NSE:id:INE294Z01018",
       "symbol": "ANUP",
-      "company_name": "The Anup Engineering Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for The Anup Engineering Limited (NSE:id:INE294Z01018) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "THE ANUP ENGINEERING LTD",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 92,
+      "bear_score": 8,
+      "confidence_score": 92,
+      "risk_score": 8,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for THE ANUP ENGINEERING LTD (ANUP) on 2026-11-13: Close ₹1725.00 (1D +20.00%, 5D +28.26%), Volume 1,256,904 (4.04x 5D avg), Turnover ₹216.82 Cr (Rank #130).",
       "bull_case": [
-        "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore.",
-        "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore.",
-        "Positive EOD momentum (+20.00% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore."
+        "📈 5-Session NSE Uptrend (+28.26% 5D gain, 3/5 positive closes): ANUP rallied +36.66% from its 5-day base of ₹1262.30 to settle at ₹1725.00 on 2026-11-13 (1D move +20.00%, intraday range ₹1441.60–₹1725.00), recovering +19.66% off the session low (100% candle range position).",
+        "🏛️ Institutional Volume Expansion (4.04x of 5-Day Avg): ANUP traded 1,256,904 shares vs its 5-day average of 311,321 shares (₹216.82 Cr turnover, NSE Liquidity Rank #130 / 3456 — Top 3.8%), confirming strong accumulation.",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹1725.00 finished above estimated session VWAP (₹1630.53) and in the upper 100% of the 5-day price channel (₹1262.30–₹1725.00), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.00x): Holding support at S1 ₹1536.06 (S2 ₹1347.13) sets up an immediate move to R1 ₹1819.46 (+5.48%), R2 ₹1913.93 (+10.95%), and a 5-day breakout above ₹1725.00."
       ],
       "bear_case": [
-        "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore.",
-        "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore.",
-        "Short-term price strength (+20.00% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for ANUP: Open ₹1464.00, High ₹1725.00, Low ₹1441.60, Close ₹1725.00 (1D change +20.00%, intraday move +17.83%, intraday range 19.66%), Volume 1,256,904 shares, Turnover ₹216.82 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.00% from Day's High ₹1725.00): Sellers capped ANUP at ₹1725.00 and forced a close at ₹1725.00, leaving the stock +0.00% below its 5-day peak of ₹1725.00.",
+        "⚠️ Intraday Volatility & Supply Churn (19.66% High-Low Swing): Wide intraday gyrations between ₹1441.60 and ₹1725.00 on 1,256,904 shares expose buyers to profit-taking at resistance R1 ₹1819.46.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹1725.00): At 100% of its 5-day range, chasing ANUP near ₹1725.00 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹1536.06: A breach of S1 ₹1536.06 (-10.95%) invalidates the bull setup and opens a drop to S2 ₹1347.13 (-21.91%) and the 5-day low ₹1262.30 (Stop-Loss ₹1252.20)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.00% pullback from ₹1725.00, but look at the full 5-day NSE structure: ANUP has +28.26% 5-day momentum (3/5 up sessions) with volume at 4.04x of the 5-day average (1,256,904 vs 311,321 avg) and ₹216.82 Cr turnover (Rank #130). Buyers defended ₹1441.60 (100% candle close), keeping S1 ₹1536.06 intact for a push to R1 ₹1819.46 and R2 ₹1913.93!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹1819.46 and R2 ₹1913.93, yet buyers could not hold ₹1725.00 today and settled at ₹1725.00 vs VWAP ₹1630.53 (+0.00% off the 5-day high ₹1725.00). Unless ANUP breaks above ₹1819.46 on volume > 311,321 shares, any slip below S1 ₹1536.06 triggers a slide toward S2 ₹1347.13!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for The Anup Engineering Limited."
+        "Intraday volatility band is 19.66% (₹1441.60–₹1725.00); breach of S1 ₹1536.06 exposes S2 ₹1347.13 (Stop-Loss ₹1252.20).",
+        "5-Day range spans ₹1262.30 to ₹1725.00; overhead supply sits at R1 ₹1819.46 and R2 ₹1913.93."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for The Anup Engineering Limited (NSE:id:INE294Z01018) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +20.00%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 92/100 vs. Bear Score: 8/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for THE ANUP ENGINEERING LTD (ANUP) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹1725.00 (1D +20.00%, 5D +28.26%, 3/5 positive sessions, 100% intraday candle close vs VWAP ₹1630.53); (2) Volume & Liquidity: 1,256,904 shares (4.04x of 5D avg 311,321, Turnover ₹216.82 Cr, NSE Rank #130/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹1536.06–₹1725.00 zone; target R1 ₹1819.46 & R2 ₹1913.93 (5D breakout ₹1725.00). Stop-loss: ₹1252.20.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 1464.0,
+        "high": 1725.0,
+        "low": 1441.6,
+        "close": 1725.0,
+        "vwap": 1630.53,
+        "return_1d_pct": 20.0,
+        "return_5d_pct": 28.26,
+        "up_sessions_5d": "3/5",
+        "volume": 1256904,
+        "avg_volume_5d": 311321,
+        "volume_ratio_5d": 4.04,
+        "turnover_cr": 216.82,
+        "nse_liquidity_rank": "#130 / 3456 (Top 3.8%)",
+        "support_s1": 1536.06,
+        "support_s2": 1347.13,
+        "resistance_r1": 1819.46,
+        "resistance_r2": 1913.93,
+        "high_5d": 1725.0,
+        "low_5d": 1262.3,
+        "stop_loss": 1252.2,
+        "risk_reward": "1.00x"
+      }
     },
     {
       "security_key": "NSE:id:INE0OWX01025",
       "symbol": "VISDEM",
       "company_name": "VISDEM TECHNOSYS LIMITED",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for VISDEM TECHNOSYS LIMITED (NSE:id:INE0OWX01025) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "verdict": "STRONG BULLISH — BUY / ACCUMULATE",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 92,
+      "bear_score": 8,
+      "confidence_score": 92,
+      "risk_score": 8,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for VISDEM TECHNOSYS LIMITED (VISDEM) on 2026-11-13: Close ₹127.25 (1D +19.93%, 5D +9.04%), Volume 61,200 (3.14x 5D avg), Turnover ₹0.78 Cr (Rank #1838).",
       "bull_case": [
-        "Positive EOD momentum (+19.93% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore.",
-        "Positive EOD momentum (+19.93% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore.",
-        "Positive EOD momentum (+19.93% 1D return) with active NSE institutional liquidity: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore."
+        "📈 5-Session NSE Uptrend (+9.04% 5D gain, 2/5 positive closes): VISDEM rallied +27.00% from its 5-day base of ₹100.20 to settle at ₹127.25 on 2026-11-13 (1D move +19.93%, intraday range ₹100.20–₹127.30), recovering +27.00% off the session low (100% candle range position).",
+        "🏛️ Institutional Volume Expansion (3.14x of 5-Day Avg): VISDEM traded 61,200 shares vs its 5-day average of 19,500 shares (₹0.78 Cr turnover, NSE Liquidity Rank #1838 / 3456 — Top 53.2%), confirming strong accumulation.",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹127.25 finished above estimated session VWAP (₹118.25) and in the upper 100% of the 5-day price channel (₹100.20–₹127.30), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.00x): Holding support at S1 ₹109.20 (S2 ₹91.15) sets up an immediate move to R1 ₹136.30 (+7.11%), R2 ₹145.35 (+14.22%), and a 5-day breakout above ₹127.30."
       ],
       "bear_case": [
-        "Short-term price strength (+19.93% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore.",
-        "Short-term price strength (+19.93% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore.",
-        "Short-term price strength (+19.93% 1D move) faces mean-reversion and intraday volatility risk without full multi-period valuation & quarterly filing support: NSE EOD settlement (2026-11-13) for VISDEM: Open ₹109.95, High ₹127.30, Low ₹100.20, Close ₹127.25 (1D change +19.93%, intraday move +15.73%, intraday range 27.05%), Volume 61,200 shares, Turnover ₹0.78 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.04% from Day's High ₹127.30): Sellers capped VISDEM at ₹127.30 and forced a close at ₹127.25, leaving the stock -0.04% below its 5-day peak of ₹127.30.",
+        "⚠️ Intraday Volatility & Supply Churn (27.05% High-Low Swing): Wide intraday gyrations between ₹100.20 and ₹127.30 on 61,200 shares expose buyers to profit-taking at resistance R1 ₹136.30.",
+        "🛑 Resistance Exhaustion Near 5-Day High (₹127.30): At 100% of its 5-day range, chasing VISDEM near ₹127.25 carries pullback risk if broader NSE decliners (1,739 stocks) weigh on sentiment.",
+        "🚨 Downside Breakdown Trigger Below S1 ₹109.20: A breach of S1 ₹109.20 (-14.18%) invalidates the bull setup and opens a drop to S2 ₹91.15 (-28.37%) and the 5-day low ₹100.20 (Stop-Loss ₹91.15)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.04% pullback from ₹127.30, but look at the full 5-day NSE structure: VISDEM has +9.04% 5-day momentum (2/5 up sessions) with volume at 3.14x of the 5-day average (61,200 vs 19,500 avg) and ₹0.78 Cr turnover (Rank #1838). Buyers defended ₹100.20 (100% candle close), keeping S1 ₹109.20 intact for a push to R1 ₹136.30 and R2 ₹145.35!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹136.30 and R2 ₹145.35, yet buyers could not hold ₹127.30 today and settled at ₹127.25 vs VWAP ₹118.25 (-0.04% off the 5-day high ₹127.30). Unless VISDEM breaks above ₹136.30 on volume > 19,500 shares, any slip below S1 ₹109.20 triggers a slide toward S2 ₹91.15!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for VISDEM TECHNOSYS LIMITED."
+        "Intraday volatility band is 27.05% (₹100.20–₹127.30); breach of S1 ₹109.20 exposes S2 ₹91.15 (Stop-Loss ₹91.15).",
+        "5-Day range spans ₹100.20 to ₹127.30; overhead supply sits at R1 ₹136.30 and R2 ₹145.35."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for VISDEM TECHNOSYS LIMITED (NSE:id:INE0OWX01025) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return +19.93%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 92/100 vs. Bear Score: 8/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for VISDEM TECHNOSYS LIMITED (VISDEM) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹127.25 (1D +19.93%, 5D +9.04%, 2/5 positive sessions, 100% intraday candle close vs VWAP ₹118.25); (2) Volume & Liquidity: 61,200 shares (3.14x of 5D avg 19,500, Turnover ₹0.78 Cr, NSE Rank #1838/3456); (3) Final Directive [STRONG BULLISH — BUY / ACCUMULATE]: Accumulate in ₹109.20–₹127.25 zone; target R1 ₹136.30 & R2 ₹145.35 (5D breakout ₹127.30). Stop-loss: ₹91.15.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 109.95,
+        "high": 127.3,
+        "low": 100.2,
+        "close": 127.25,
+        "vwap": 118.25,
+        "return_1d_pct": 19.93,
+        "return_5d_pct": 9.04,
+        "up_sessions_5d": "2/5",
+        "volume": 61200,
+        "avg_volume_5d": 19500,
+        "volume_ratio_5d": 3.14,
+        "turnover_cr": 0.78,
+        "nse_liquidity_rank": "#1838 / 3456 (Top 53.2%)",
+        "support_s1": 109.2,
+        "support_s2": 91.15,
+        "resistance_r1": 136.3,
+        "resistance_r2": 145.35,
+        "high_5d": 127.3,
+        "low_5d": 100.2,
+        "stop_loss": 91.15,
+        "risk_reward": "1.00x"
+      }
     },
     {
       "security_key": "NSE:id:INE124Y01028",
       "symbol": "PASHUPATI",
-      "company_name": "Pashupati Cotspin Limited",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for Pashupati Cotspin Limited (NSE:id:INE124Y01028) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "company_name": "PASHUPATI COTSPIN LIMITED",
+      "verdict": "STRONG BEARISH — AVOID / EXIT",
+      "debate_winner": "🐻 AGENT 2 (BEAR) WINS THE DEBATE",
+      "bull_score": 21,
+      "bear_score": 79,
+      "confidence_score": 79,
+      "risk_score": 79,
+      "watchlist_action": "AVOID",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for PASHUPATI COTSPIN LIMITED (PASHUPATI) on 2026-11-13: Close ₹35.10 (1D -58.06%, 5D -67.63%), Volume 10,649,690 (4.80x 5D avg), Turnover ₹37.38 Cr (Rank #473).",
       "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.) offer potential support watch if fundamentals hold."
+        "📈 Demand Absorption Near Support (₹35.10 close vs ₹32.09 intraday low): Despite a -58.06% 1D pullback, buyers stepped in at ₹32.09 to lift PASHUPATI +9.38% off the day's low (98% candle recovery) while holding +9.38% above the 5-day floor of ₹32.09.",
+        "🏛️ Liquid NSE Cash-Market Depth: PASHUPATI recorded 10,649,690 shares (₹37.38 Cr daily turnover, 4.80x of 5-day average 2,218,858 shares), ranking #473 out of 3456 traded NSE stocks (Top 13.7% liquidity).",
+        "⚡ Above-VWAP Bullish Control: Settlement at ₹35.10 finished above estimated session VWAP (₹34.11) and in the upper 4% of the 5-day price channel (₹32.09–₹108.43), outperforming weak NSE laggards.",
+        "🎯 Bullish Upside Targets (Risk:Reward 1.02x): Holding support at S1 ₹33.07 (S2 ₹31.05) sets up an immediate move to R1 ₹36.13 (+2.93%), R2 ₹37.17 (+5.90%), and a 5-day breakout above ₹108.43."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-58.06% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.",
-        "Distribution and downside price pressure (-58.06% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore.",
-        "Distribution and downside price pressure (-58.06% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for PASHUPATI: Open ₹33.32, High ₹35.15, Low ₹32.09, Close ₹35.10 (1D change -58.06%, intraday move +5.34%, intraday range 9.54%), Volume 10,649,690 shares, Turnover ₹37.38 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.14% from Day's High ₹35.15): Sellers capped PASHUPATI at ₹35.15 and forced a close at ₹35.10, leaving the stock -67.63% below its 5-day peak of ₹108.43.",
+        "⚠️ High-Volume Distribution Pressure (4.80x of 5-Day Avg): The -58.06% decline came on elevated volume (10,649,690 vs 2,218,858 5-day average across a 9.54% intraday swing), signaling active supply distribution.",
+        "🛑 Multi-Session Downtrend Drag (-67.63% 5-Day Return): Despite today's -58.06% move, the 5-day trajectory from ₹108.43 remains under overhead supply (1/5 positive closes).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹33.07: A breach of S1 ₹33.07 (-5.78%) invalidates the bull setup and opens a drop to S2 ₹31.05 (-11.54%) and the 5-day low ₹32.09 (Stop-Loss ₹31.05)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.14% pullback from ₹35.15, but look at the full 5-day NSE structure: PASHUPATI has -67.63% 5-day momentum (1/5 up sessions) with volume at 4.80x of the 5-day average (10,649,690 vs 2,218,858 avg) and ₹37.38 Cr turnover (Rank #473). Buyers defended ₹32.09 (98% candle close), keeping S1 ₹33.07 intact for a push to R1 ₹36.13 and R2 ₹37.17!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹36.13 and R2 ₹37.17, yet buyers could not hold ₹35.15 today and settled at ₹35.10 vs VWAP ₹34.11 (-67.63% off the 5-day high ₹108.43). Unless PASHUPATI breaks above ₹36.13 on volume > 2,218,858 shares, any slip below S1 ₹33.07 triggers a slide toward S2 ₹31.05!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for Pashupati Cotspin Limited."
+        "Intraday volatility band is 9.54% (₹32.09–₹35.15); breach of S1 ₹33.07 exposes S2 ₹31.05 (Stop-Loss ₹31.05).",
+        "5-Day range spans ₹32.09 to ₹108.43; overhead supply sits at R1 ₹36.13 and R2 ₹37.17."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for Pashupati Cotspin Limited (NSE:id:INE124Y01028) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -58.06%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐻 AGENT 2 (BEAR) WINS THE DEBATE | Bull Score: 21/100 vs. Bear Score: 79/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for PASHUPATI COTSPIN LIMITED (PASHUPATI) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹35.10 (1D -58.06%, 5D -67.63%, 1/5 positive sessions, 98% intraday candle close vs VWAP ₹34.11); (2) Volume & Liquidity: 10,649,690 shares (4.80x of 5D avg 2,218,858, Turnover ₹37.38 Cr, NSE Rank #473/3456); (3) Final Directive [STRONG BEARISH — AVOID / EXIT]: Stay defensive / exit rallies near ₹34.11; heavy supply pressure risks a slide below S1 ₹33.07 toward S2 ₹31.05.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 33.32,
+        "high": 35.15,
+        "low": 32.09,
+        "close": 35.1,
+        "vwap": 34.11,
+        "return_1d_pct": -58.06,
+        "return_5d_pct": -67.63,
+        "up_sessions_5d": "1/5",
+        "volume": 10649690,
+        "avg_volume_5d": 2218858,
+        "volume_ratio_5d": 4.8,
+        "turnover_cr": 37.38,
+        "nse_liquidity_rank": "#473 / 3456 (Top 13.7%)",
+        "support_s1": 33.07,
+        "support_s2": 31.05,
+        "resistance_r1": 36.13,
+        "resistance_r2": 37.17,
+        "high_5d": 108.43,
+        "low_5d": 32.09,
+        "stop_loss": 31.05,
+        "risk_reward": "1.02x"
+      }
     },
     {
       "security_key": "NSE:id:INE132901013",
       "symbol": "MGSL",
       "company_name": "MATRIX GEO SOLUTIONS LTD",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for MATRIX GEO SOLUTIONS LTD (NSE:id:INE132901013) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "verdict": "STRONG BEARISH — AVOID / EXIT",
+      "debate_winner": "🐻 AGENT 2 (BEAR) WINS THE DEBATE",
+      "bull_score": 15,
+      "bear_score": 85,
+      "confidence_score": 85,
+      "risk_score": 85,
+      "watchlist_action": "AVOID",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for MATRIX GEO SOLUTIONS LTD (MGSL) on 2026-11-13: Close ₹46.35 (1D -15.34%, 5D -4.43%), Volume 108,000 (3.88x 5D avg), Turnover ₹0.50 Cr (Rank #1984).",
       "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.) offer potential support watch if fundamentals hold."
+        "📈 Demand Absorption Near Support (₹46.35 close vs ₹46.00 intraday low): Despite a -15.34% 1D pullback, buyers stepped in at ₹46.00 to lift MGSL +0.76% off the day's low (5% candle recovery) while holding +0.76% above the 5-day floor of ₹46.00.",
+        "🏛️ Liquid NSE Cash-Market Depth: MGSL recorded 108,000 shares (₹0.50 Cr daily turnover, 3.88x of 5-day average 27,840 shares), ranking #1984 out of 3456 traded NSE stocks (Top 57.4% liquidity).",
+        "⚡ Mean-Reversion Value Toward VWAP (₹48.30): Trading at ₹46.35 (4% of the 5-day ₹46.00–₹56.00 channel), MGSL sits right at Pivot ₹48.30 where reclaiming ₹48.30 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 3.70x): Holding support at S1 ₹44.05 (S2 ₹41.75) sets up an immediate move to R1 ₹50.60 (+9.17%), R2 ₹54.85 (+18.34%), and a 5-day breakout above ₹56.00."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-15.34% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.",
-        "Distribution and downside price pressure (-15.34% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore.",
-        "Distribution and downside price pressure (-15.34% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for MGSL: Open ₹52.55, High ₹52.55, Low ₹46.00, Close ₹46.35 (1D change -15.34%, intraday move -11.80%, intraday range 14.24%), Volume 108,000 shares, Turnover ₹0.50 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-11.80% from Day's High ₹52.55): Sellers capped MGSL at ₹52.55 and forced a close at ₹46.35, leaving the stock -17.23% below its 5-day peak of ₹56.00.",
+        "⚠️ High-Volume Distribution Pressure (3.88x of 5-Day Avg): The -15.34% decline came on elevated volume (108,000 vs 27,840 5-day average across a 14.24% intraday swing), signaling active supply distribution.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹46.35 below session VWAP (₹48.30) and Open (₹52.55) confirms bears controlled the afternoon close (3/5 up sessions over 5 days, 5D return -4.43%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹44.05: A breach of S1 ₹44.05 (-4.96%) invalidates the bull setup and opens a drop to S2 ₹41.75 (-9.92%) and the 5-day low ₹46.00 (Stop-Loss ₹41.75)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -11.80% pullback from ₹52.55, but look at the full 5-day NSE structure: MGSL has -4.43% 5-day momentum (3/5 up sessions) with volume at 3.88x of the 5-day average (108,000 vs 27,840 avg) and ₹0.50 Cr turnover (Rank #1984). Buyers defended ₹46.00 (5% candle close), keeping S1 ₹44.05 intact for a push to R1 ₹50.60 and R2 ₹54.85!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹50.60 and R2 ₹54.85, yet buyers could not hold ₹52.55 today and settled at ₹46.35 vs VWAP ₹48.30 (-17.23% off the 5-day high ₹56.00). Unless MGSL breaks above ₹50.60 on volume > 27,840 shares, any slip below S1 ₹44.05 triggers a slide toward S2 ₹41.75!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for MATRIX GEO SOLUTIONS LTD."
+        "Intraday volatility band is 14.24% (₹46.00–₹52.55); breach of S1 ₹44.05 exposes S2 ₹41.75 (Stop-Loss ₹41.75).",
+        "5-Day range spans ₹46.00 to ₹56.00; overhead supply sits at R1 ₹50.60 and R2 ₹54.85."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for MATRIX GEO SOLUTIONS LTD (NSE:id:INE132901013) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -15.34%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐻 AGENT 2 (BEAR) WINS THE DEBATE | Bull Score: 15/100 vs. Bear Score: 85/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for MATRIX GEO SOLUTIONS LTD (MGSL) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹46.35 (1D -15.34%, 5D -4.43%, 3/5 positive sessions, 5% intraday candle close vs VWAP ₹48.30); (2) Volume & Liquidity: 108,000 shares (3.88x of 5D avg 27,840, Turnover ₹0.50 Cr, NSE Rank #1984/3456); (3) Final Directive [STRONG BEARISH — AVOID / EXIT]: Stay defensive / exit rallies near ₹48.30; heavy supply pressure risks a slide below S1 ₹44.05 toward S2 ₹41.75.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 52.55,
+        "high": 52.55,
+        "low": 46.0,
+        "close": 46.35,
+        "vwap": 48.3,
+        "return_1d_pct": -15.34,
+        "return_5d_pct": -4.43,
+        "up_sessions_5d": "3/5",
+        "volume": 108000,
+        "avg_volume_5d": 27840,
+        "volume_ratio_5d": 3.88,
+        "turnover_cr": 0.5,
+        "nse_liquidity_rank": "#1984 / 3456 (Top 57.4%)",
+        "support_s1": 44.05,
+        "support_s2": 41.75,
+        "resistance_r1": 50.6,
+        "resistance_r2": 54.85,
+        "high_5d": 56.0,
+        "low_5d": 46.0,
+        "stop_loss": 41.75,
+        "risk_reward": "3.70x"
+      }
     },
     {
       "security_key": "NSE:id:INE0U0J01015",
       "symbol": "YAAP",
       "company_name": "YAAP DIGITAL LIMITED",
-      "verdict": "INCONCLUSIVE",
-      "confidence_score": 20,
-      "risk_score": null,
-      "watchlist_action": "NOT_SET",
-      "analyst_summary": "Evidence-backed research for YAAP DIGITAL LIMITED (NSE:id:INE0U0J01015) as of 2026-11-13 across 3 sourced record(s). Available metrics are reported strictly on their stated financial basis; missing or unverified categories are held blank pending primary filings.",
+      "verdict": "STRONG BEARISH — AVOID / EXIT",
+      "debate_winner": "🐻 AGENT 2 (BEAR) WINS THE DEBATE",
+      "bull_score": 15,
+      "bear_score": 85,
+      "confidence_score": 85,
+      "risk_score": 85,
+      "watchlist_action": "AVOID",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for YAAP DIGITAL LIMITED (YAAP) on 2026-11-13: Close ₹89.50 (1D -12.73%, 5D -17.13%), Volume 33,000 (2.89x 5D avg), Turnover ₹0.30 Cr (Rank #2160).",
       "bull_case": [
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.) offer potential support watch if fundamentals hold.",
-        "High NSE liquidity and price discovery at lower EOD settlement (NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.) offer potential support watch if fundamentals hold."
+        "📈 Demand Absorption Near Support (₹89.50 close vs ₹88.00 intraday low): Despite a -12.73% 1D pullback, buyers stepped in at ₹88.00 to lift YAAP +1.70% off the day's low (14% candle recovery) while holding +1.70% above the 5-day floor of ₹88.00.",
+        "🏛️ Liquid NSE Cash-Market Depth: YAAP recorded 33,000 shares (₹0.30 Cr daily turnover, 2.89x of 5-day average 11,400 shares), ranking #2160 out of 3456 traded NSE stocks (Top 62.5% liquidity).",
+        "⚡ Mean-Reversion Value Toward VWAP (₹92.17): Trading at ₹89.50 (8% of the 5-day ₹88.00–₹108.00 channel), YAAP sits right at Pivot ₹92.17 where reclaiming ₹92.17 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 3.29x): Holding support at S1 ₹85.34 (S2 ₹81.17) sets up an immediate move to R1 ₹96.34 (+7.64%), R2 ₹103.17 (+15.27%), and a 5-day breakout above ₹108.00."
       ],
       "bear_case": [
-        "Distribution and downside price pressure (-12.73% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.",
-        "Distribution and downside price pressure (-12.73% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore.",
-        "Distribution and downside price pressure (-12.73% 1D decline) in official NSE EOD settlement: NSE EOD settlement (2026-11-13) for YAAP: Open ₹91.00, High ₹99.00, Low ₹88.00, Close ₹89.50 (1D change -12.73%, intraday move -1.65%, intraday range 12.50%), Volume 33,000 shares, Turnover ₹0.30 crore."
+        "📉 Overhead Supply & Upper-Wick Rejection (-9.60% from Day's High ₹99.00): Sellers capped YAAP at ₹99.00 and forced a close at ₹89.50, leaving the stock -17.13% below its 5-day peak of ₹108.00.",
+        "⚠️ High-Volume Distribution Pressure (2.89x of 5-Day Avg): The -12.73% decline came on elevated volume (33,000 vs 11,400 5-day average across a 12.50% intraday swing), signaling active supply distribution.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹89.50 below session VWAP (₹92.17) and Open (₹91.00) confirms bears controlled the afternoon close (1/5 up sessions over 5 days, 5D return -17.13%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹85.34: A breach of S1 ₹85.34 (-4.65%) invalidates the bull setup and opens a drop to S2 ₹81.17 (-9.31%) and the 5-day low ₹88.00 (Stop-Loss ₹81.17)."
       ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -9.60% pullback from ₹99.00, but look at the full 5-day NSE structure: YAAP has -17.13% 5-day momentum (1/5 up sessions) with volume at 2.89x of the 5-day average (33,000 vs 11,400 avg) and ₹0.30 Cr turnover (Rank #2160). Buyers defended ₹88.00 (14% candle close), keeping S1 ₹85.34 intact for a push to R1 ₹96.34 and R2 ₹103.17!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹96.34 and R2 ₹103.17, yet buyers could not hold ₹99.00 today and settled at ₹89.50 vs VWAP ₹92.17 (-17.13% off the 5-day high ₹108.00). Unless YAAP breaks above ₹96.34 on volume > 11,400 shares, any slip below S1 ₹85.34 triggers a slide toward S2 ₹81.17!\"",
       "hidden_risks": [
-        "Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for YAAP DIGITAL LIMITED."
+        "Intraday volatility band is 12.50% (₹88.00–₹99.00); breach of S1 ₹85.34 exposes S2 ₹81.17 (Stop-Loss ₹81.17).",
+        "5-Day range spans ₹88.00 to ₹108.00; overhead supply sits at R1 ₹96.34 and R2 ₹103.17."
       ],
-      "judge_verdict_reasoning": "INCONCLUSIVE: Independent review of Agent 01 (Equity Research Analyst) and Agent 02 (Bull/Bear Analyst) for YAAP DIGITAL LIMITED (NSE:id:INE0U0J01015) as of 2026-11-13. Verified 3 figure(s) directly against the deterministic snapshot. Missing BUY_CANDIDATE evidence groups: balance_or_cash_flow, growth, profitability, returns, valuation. No unverified, missing, or peer-incompatible metric was fabricated or assumed zero. EOD price context (2026-11-13): 1d return -12.73%, 20d return n/a."
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐻 AGENT 2 (BEAR) WINS THE DEBATE | Bull Score: 15/100 vs. Bear Score: 85/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for YAAP DIGITAL LIMITED (YAAP) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹89.50 (1D -12.73%, 5D -17.13%, 1/5 positive sessions, 14% intraday candle close vs VWAP ₹92.17); (2) Volume & Liquidity: 33,000 shares (2.89x of 5D avg 11,400, Turnover ₹0.30 Cr, NSE Rank #2160/3456); (3) Final Directive [STRONG BEARISH — AVOID / EXIT]: Stay defensive / exit rallies near ₹92.17; heavy supply pressure risks a slide below S1 ₹85.34 toward S2 ₹81.17.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 91.0,
+        "high": 99.0,
+        "low": 88.0,
+        "close": 89.5,
+        "vwap": 92.17,
+        "return_1d_pct": -12.73,
+        "return_5d_pct": -17.13,
+        "up_sessions_5d": "1/5",
+        "volume": 33000,
+        "avg_volume_5d": 11400,
+        "volume_ratio_5d": 2.89,
+        "turnover_cr": 0.3,
+        "nse_liquidity_rank": "#2160 / 3456 (Top 62.5%)",
+        "support_s1": 85.34,
+        "support_s2": 81.17,
+        "resistance_r1": 96.34,
+        "resistance_r2": 103.17,
+        "high_5d": 108.0,
+        "low_5d": 88.0,
+        "stop_loss": 81.17,
+        "risk_reward": "3.29x"
+      }
     }
   ],
   "watchlist": [
     {
+      "security_key": "NSE:id:INE371P01015",
+      "symbol": "AMBER",
+      "company_name": "AMBER ENTERPRISES (I) LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-15T06:18:33.537762+00:00",
+      "updated_at": "2026-11-15T06:18:33.537762+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE294Z01018",
+      "symbol": "ANUP",
+      "company_name": "THE ANUP ENGINEERING LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-15T06:18:34.077343+00:00",
+      "updated_at": "2026-11-15T06:18:34.077343+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE713T01028",
+      "symbol": "APOLLO",
+      "company_name": "APOLLO MICRO SYSTEMS LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-15T06:18:33.918561+00:00",
+      "updated_at": "2026-11-15T06:18:33.918561+00:00"
+    },
+    {
       "security_key": "NSE:id:INE885A01032",
       "symbol": "ARE&M",
-      "company_name": "Amara Raja Energy & Mobility Limited",
+      "company_name": "AMARA RAJA ENERGY MOB LTD",
       "added_by": "user",
-      "reason": "Added & re-checked via Search Bar",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=57/100)",
       "added_at": "2026-11-15T05:55:01.910436+00:00",
-      "updated_at": "2026-11-15T05:55:01.910436+00:00"
+      "updated_at": "2026-11-15T06:18:33.200132+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE0ZCQ01019",
+      "symbol": "BLSPOLY",
+      "company_name": "BLS POLYMERS LIMITED",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-15T06:18:33.777784+00:00",
+      "updated_at": "2026-11-15T06:18:33.777784+00:00"
     },
     {
       "security_key": "NSE:id:INE040A01034",
       "symbol": "HDFCBANK",
       "company_name": "HDFC BANK LTD",
       "added_by": "user",
-      "reason": "User core bank watch",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=70/100)",
       "added_at": "2026-11-14T17:13:54.108257+00:00",
-      "updated_at": "2026-11-14T17:13:54.108257+00:00"
+      "updated_at": "2026-11-15T06:18:33.266641+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE090A01021",
+      "symbol": "ICICIBANK",
+      "company_name": "ICICI BANK LTD.",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=72/100)",
+      "added_at": "2026-11-15T06:18:33.603556+00:00",
+      "updated_at": "2026-11-15T06:18:33.603556+00:00"
     },
     {
       "security_key": "INDIAN BANK",
@@ -778,31 +1472,85 @@
       "updated_at": "2026-11-14T17:44:20.839362+00:00"
     },
     {
+      "security_key": "NSE:id:INE303R01014",
+      "symbol": "KALYANKJIL",
+      "company_name": "KALYAN JEWELLERS IND LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=65/100)",
+      "added_at": "2026-11-15T06:18:33.857328+00:00",
+      "updated_at": "2026-11-15T06:18:33.857328+00:00"
+    },
+    {
       "security_key": "NSE:id:INE018A01030",
       "symbol": "LT",
-      "company_name": "Larsen & Toubro Limited",
+      "company_name": "LARSEN & TOUBRO LTD.",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (WATCH, confidence=63)",
+      "reason": "Auto-added by Judge (NEUTRAL / HOLD — WATCH BREAKOUT, Bull Score=52/100)",
       "added_at": "2026-11-14T17:16:01.931454+00:00",
-      "updated_at": "2026-11-14T18:06:42.093342+00:00"
+      "updated_at": "2026-11-15T06:18:33.011688+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE255X01014",
+      "symbol": "MSTCLTD",
+      "company_name": "MSTC LIMITED",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-15T06:18:34.016953+00:00",
+      "updated_at": "2026-11-15T06:18:34.016953+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE07Y701011",
+      "symbol": "POWERINDIA",
+      "company_name": "HITACHI ENERGY INDIA LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-15T06:18:33.441886+00:00",
+      "updated_at": "2026-11-15T06:18:33.441886+00:00"
     },
     {
       "security_key": "NSE:id:INE002A01018",
       "symbol": "RELIANCE",
-      "company_name": "Reliance Industries Limited",
+      "company_name": "RELIANCE INDUSTRIES LTD",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (WATCH, confidence=70)",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=70/100)",
       "added_at": "2026-11-14T17:16:01.912899+00:00",
-      "updated_at": "2026-11-14T18:06:42.064695+00:00"
+      "updated_at": "2026-11-15T06:18:32.898457+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE062A01020",
+      "symbol": "SBIN",
+      "company_name": "STATE BANK OF INDIA",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=70/100)",
+      "added_at": "2026-11-15T06:18:33.715976+00:00",
+      "updated_at": "2026-11-15T06:18:33.715976+00:00"
     },
     {
       "security_key": "NSE:id:INE467B01029",
       "symbol": "TCS",
-      "company_name": "Tata Consultancy Services Limited",
+      "company_name": "TATA CONSULTANCY SERV LT",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (WATCH, confidence=63)",
+      "reason": "Auto-added by Judge (STRONG BEARISH — AVOID / EXIT, Bull Score=18/100)",
       "added_at": "2026-11-14T17:16:01.951627+00:00",
-      "updated_at": "2026-11-14T18:06:42.117911+00:00"
+      "updated_at": "2026-11-15T06:18:33.118132+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE419M01035",
+      "symbol": "TDPOWERSYS",
+      "company_name": "TD POWER SYSTEMS LTD.",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=73/100)",
+      "added_at": "2026-11-15T06:18:33.367280+00:00",
+      "updated_at": "2026-11-15T06:18:33.367280+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE0OWX01025",
+      "symbol": "VISDEM",
+      "company_name": "VISDEM TECHNOSYS LIMITED",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-15T06:18:34.167275+00:00",
+      "updated_at": "2026-11-15T06:18:34.167275+00:00"
     }
   ]
 }
