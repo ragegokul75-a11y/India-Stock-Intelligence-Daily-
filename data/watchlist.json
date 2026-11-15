@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T06:18:34.331266+00:00",
+  "updated_at": "2026-11-15T06:19:28.337921+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -35,7 +35,7 @@
       "added_by": "user",
       "reason": "Added & re-checked via Search Bar",
       "added_at": "2026-11-15T05:55:01.910436+00:00",
-      "updated_at": "2026-11-15T06:18:34.331266+00:00"
+      "updated_at": "2026-11-15T06:19:28.337921+00:00"
     },
     {
       "security_key": "NSE:id:INE0ZCQ01019",
@@ -65,13 +65,13 @@
       "updated_at": "2026-11-15T06:18:33.603556+00:00"
     },
     {
-      "security_key": "INDIAN BANK",
-      "symbol": "INDIAN BANK",
+      "security_key": "NSE:id:INE562A01011",
+      "symbol": "INDIANB",
       "company_name": "INDIAN BANK",
       "added_by": "user",
-      "reason": "Track automatically with Bull/Bear/Judge agents at Open & Close",
-      "added_at": "2026-11-14T18:05:59.241293+00:00",
-      "updated_at": "2026-11-14T18:06:33.800092+00:00"
+      "reason": "Track INDIAN BANK automatically with Bull/Bear/Judge agents",
+      "added_at": "2026-11-15T06:19:28.248515+00:00",
+      "updated_at": "2026-11-15T06:19:28.248515+00:00"
     },
     {
       "security_key": "NSE:id:INE009A01021",
