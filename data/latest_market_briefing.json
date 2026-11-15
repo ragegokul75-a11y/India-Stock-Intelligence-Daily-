@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:46:00.252413+00:00",
+  "generated_at": "2026-11-15T06:46:00.589015+00:00",
   "latest_trading_date": "2026-11-13",
   "market_google_news": [
     {
@@ -314,6 +314,116 @@
     ]
   },
   "stock_debates": [
+    {
+      "security_key": "NSE:id:INE885A01032",
+      "symbol": "ARE&M",
+      "company_name": "AMARA RAJA ENERGY MOB LTD",
+      "verdict": "MODERATE BULLISH — BUY ON DIPS",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 62,
+      "bear_score": 38,
+      "confidence_score": 62,
+      "risk_score": 38,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE + Google News Analysis for AMARA RAJA ENERGY MOB LTD (ARE&M) on 2026-11-13: Close ₹751.80 (1D -0.30%, 5D +3.23%), Bull Period: 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside), Bear Period: 1 to 3 Trading Sessions (Short Pullback / Consolidation).",
+      "bull_case": [
+        "📈 5-Session NSE Uptrend (+3.23% 5D gain | 2 Bull Days vs 3 Bear Days): ARE&M rallied +3.88% from its 5-day base of ₹723.70 to settle at ₹751.80 on 2026-11-13 (1D move -0.30%, intraday range ₹746.00–₹758.00), recovering +0.78% off the session low (48% candle range position).",
+        "🏛️ Bullish Volume Dry-Up on Pullback (0.47x of 5-Day Avg): Today's -0.30% dip occurred on just 230,213 shares vs the 5-day average of 484,699 shares (₹17.31 Cr turnover, NSE Rank #686 / 3456), proving institutions are not dumping shares.",
+        "📰 Google News Bullish Reference (Upstox): \"Amara Raja Energy shares jump over 19%; what's the latest buzz? - Upstox\" — supports positive catalyst attention for ARE&M.",
+        "⏳ Expected Bull Period (3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside)) & Upside Targets (Risk:Reward 2.04x): Holding S1 ₹745.86 projects a 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside) upside window toward R1 ₹757.86 (+0.81%), R2 ₹763.93 (+1.61%), and 5D High ₹773.95."
+      ],
+      "bear_case": [
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.82% from Day's High ₹758.00): Sellers capped ARE&M at ₹758.00 and forced a close at ₹751.80 (3/5 bearish sessions in the last 5 days), leaving the stock -2.86% below its 5-day peak of ₹773.95.",
+        "⚠️ Sub-Average Volume Conviction (0.47x of 5-Day Avg): Volume of 230,213 shares fell short of the 5-day average (484,699 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹758.00 / R1 ₹757.86.",
+        "📰 Google News Caution / Market Risk Reference (Alice Blue): \"Amara Raja Energy & Mobility Ltd Share Price Today NSE/BSE Charts - Alice Blue\" — Agent 2 warns that headlines and sector rotation can cap near-term multiples.",
+        "⏳ Expected Bear Period (1 to 3 Trading Sessions (Short Pullback / Consolidation)) & Breakdown Risk: If ARE&M stays below VWAP ₹751.93 or breaches S1 ₹745.86 (-0.79%), expect 1 to 3 Trading Sessions (Short Pullback / Consolidation) toward S2 ₹739.93 (-1.58%) and 5D Low ₹723.70 (Stop-Loss ₹717.91)."
+      ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 warns of a 1 to 3 Trading Sessions (Short Pullback / Consolidation) pullback from ₹758.00, but NSE data + Google News favor the bulls: ARE&M holds +3.23% 5-day momentum (2 Bull Days vs 3 Bear Days) with volume at 0.47x of the 5-day average (230,213 vs 484,699 avg) and ₹17.31 Cr turnover (Rank #686). Buyers defended ₹746.00 (48% candle close), supporting a 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside) run toward R1 ₹757.86 and R2 ₹763.93!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 claims a 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside) rally to R1 ₹757.86, yet buyers could not hold ₹758.00 today and settled at ₹751.80 vs VWAP ₹751.93 (-2.86% off the 5-day high ₹773.95). Unless ARE&M breaks above ₹757.86 on volume > 484,699 shares, a slip below S1 ₹745.86 activates 1 to 3 Trading Sessions (Short Pullback / Consolidation) toward S2 ₹739.93!\"",
+      "period_analysis": {
+        "historical_bull_sessions_5d": "2 of 5 Sessions Bullish",
+        "historical_bear_sessions_5d": "3 of 5 Sessions Bearish",
+        "expected_bull_period": "3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside)",
+        "expected_bear_period": "1 to 3 Trading Sessions (Short Pullback / Consolidation)",
+        "dominant_cycle": "🐂 BULL SWING CYCLE (3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside))",
+        "intraday_1d_bias": "🐻 Bearish / Below VWAP",
+        "short_term_5d_bias": "🐂 Bullish (+3.23%)",
+        "swing_10_15d_outlook": "🐂 Bullish Accumulation"
+      },
+      "google_news": [
+        {
+          "title": "ARE&M Stock Price and Chart — NSE:ARE&M - TradingView",
+          "source": "TradingView",
+          "published_at": "Thu, 19 Dec 2024 17:05:06",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01dlU4U0NyczRQXzlaS2w0Rjk0em1mT0R1WWNuZXVFVEpRNEdTcjF4cE5yb0d2TlF6cDlNMlpVcmFIbHJ4T09Nakpjb1lqZ1pTWW9sM0tNN3ZZQQ?oc=5",
+          "sentiment": "NEUTRAL",
+          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
+        },
+        {
+          "title": "Amara Raja Energy shares jump over 19%; what's the latest buzz? - Upstox",
+          "source": "Upstox",
+          "published_at": "Wed, 22 Apr 2026 07:00:00",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTkUyY3NmLWNsMF9OUlNnaFdVWm56azVveTJrWE5pUVpQRGt4QmpERi1nMVU5Smd4U3FEdVhDTmhqYmg2al8wMFJxaU1vMTBDcThMWDgwbG9meU1pMV9hLWl0LWZ5dVpONDRtREZ1Y2pQcDh5UFVMYTREY2NfNkFiZl9JOU9TQnZnR25WUVZpT0VrZ29TY1dxZ21LNEU0XzlNZWZiY1VLcjJINDEtYkVwblhPZDNCZE9ZbjI4Uw?oc=5",
+          "sentiment": "BULLISH",
+          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
+        },
+        {
+          "title": "Should You Be Adding Amara Raja Energy & Mobility (NSE:ARE&M) To Your Watchlist Today? - Simply Wall St",
+          "source": "Simply Wall St",
+          "published_at": "Wed, 12 Aug 2026 07:00:00",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOM1FHZ3NLR3JCUEJmUVJGS09kb0dKTVlyZV9hdkI2NU1GMUpORDdPMDY4eDJ0aWZSTm5lYXFSbmYzV3REaS1tNVM5SDliTzdqNEtGWndwZ2JDRkxzMmZ4NFgtbHhQR1VJVlpOWGxUMlVwNzZsOVBxT2RMa0JSVXk5a1ZDM2tBOTBzc1d2OWF5V3o1a3VtQ2RRVllxTVVudE1keDB5ZDR5c1BlUFcwblFFYV9QTGZhdVFmNlJlOVdNMGFjNTdidm9XdjNYeU5ZaUJmak1xTktBWkl2Qy0tYkV3aUY5czJlWWJNRDVF0gHwAUFVX3lxTFBEdHU1RjA3QTVDbno5NkZsdFJpOGtHRzlKVkJvUDkybWZTVmZQQ3VfbXFwTWF4eWtWaVdlcWxraVJZQWtVaXY4Q3lHVTlZUkZoQXhNUFZ6cFpsdnh5N1dvcy1hemMxSWRhZWJZX2FySnllcmlhaWxWR3hsQXd4TWNxY2dVSkpKWXN6X3hLWlQ5aWZOOHdRQWdXd0pzZTBsdWg4UmU0RkV3b1BzUTZiQmVxaHBtRl8xa1BPZmVtZUpTV3d3NkIzcDB1bEc2aDRBS0NiTEMwWTliM0pLWnRCVWNUQ1NqaTBZUXU3SUZoSGk5Nw?oc=5",
+          "sentiment": "NEUTRAL",
+          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
+        },
+        {
+          "title": "Amara Raja Energy & Mobility Ltd Share Price Today | Amara Raja Energy Live NSE/BSE - Value Research",
+          "source": "Value Research",
+          "published_at": "Wed, 31 Jan 2024 09:49:54",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb2I2LXYxQWhseTZ6bnJQZkVlbEl2bFpJZjMxSjhMZGwwc0ZHQVBMNTZtenIwLUY0akUxbVR5UkhrQ01GUXlIZ243MDFmTXoyLU85SVpmbGJuRnA1X3pQZl9Xcks0SU14Q0N4cUxyeHcxTmN6eGdSVzhhZ0F6YWVPbnF4VVNZTEU?oc=5",
+          "sentiment": "NEUTRAL",
+          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
+        },
+        {
+          "title": "Amara Raja Energy & Mobility Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+          "source": "Alice Blue",
+          "published_at": "Sun, 30 Aug 2026 21:30:53",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDBRanZreDdMSGcxRnBvRzVDZVBGaWJGZXk4NU4tNlF1Y29qdVZzeFpoY2JLa2xTTTJRM01idnJRSU1sbUhMTUp1S242YkJ6VEgycG1kLXVnWXF3Z3NIRWFIV1Jua1Q2MEd5M2NKUk5tRFNDbzdKblFrR1R6YmFNc2xR?oc=5",
+          "sentiment": "NEUTRAL",
+          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
+        }
+      ],
+      "hidden_risks": [
+        "Intraday volatility band is 1.61% (₹746.00–₹758.00); breach of S1 ₹745.86 exposes S2 ₹739.93 (Stop-Loss ₹717.91).",
+        "5-Day range spans ₹723.70 to ₹773.95; overhead supply sits at R1 ₹757.86 and R2 ₹763.93."
+      ],
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 62/100 vs. Bear Score: 38/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset and Google News references for AMARA RAJA ENERGY MOB LTD (ARE&M) as of 2026-11-13, the Judge rules: (1) Price & 5D History: Close ₹751.80 (1D -0.30%, 5D +3.23%, 2 Bull Days vs 3 Bear Days, 48% intraday candle close vs VWAP ₹751.93); (2) Bull vs. Bear Period Forecast: Expected Bull Window = 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside) | Expected Bear Risk Window = 1 to 3 Trading Sessions (Short Pullback / Consolidation); (3) Google News Pulse: 1 Bullish / 0 Bearish / 4 Neutral headlines tracked; (4) Final Directive [MODERATE BULLISH — BUY ON DIPS]: Buy on dips above Support S1 ₹745.86 for 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside); breakout above R1 ₹757.86 targets R2 ₹763.93 and 5D High ₹773.95. Stop-loss: ₹717.91.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 754.0,
+        "high": 758.0,
+        "low": 746.0,
+        "close": 751.8,
+        "vwap": 751.93,
+        "return_1d_pct": -0.3,
+        "return_5d_pct": 3.23,
+        "up_sessions_5d": "2 Bull / 3 Bear",
+        "bull_period_forecast": "3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside)",
+        "bear_period_forecast": "1 to 3 Trading Sessions (Short Pullback / Consolidation)",
+        "volume": 230213,
+        "avg_volume_5d": 484699,
+        "volume_ratio_5d": 0.47,
+        "turnover_cr": 17.31,
+        "nse_liquidity_rank": "#686 / 3456 (Top 19.8%)",
+        "support_s1": 745.86,
+        "support_s2": 739.93,
+        "resistance_r1": 757.86,
+        "resistance_r2": 763.93,
+        "high_5d": 773.95,
+        "low_5d": 723.7,
+        "stop_loss": 717.91,
+        "risk_reward": "2.04x"
+      }
+    },
     {
       "security_key": "NSE:id:INE002A01018",
       "symbol": "RELIANCE",
@@ -976,116 +1086,6 @@
         "low_5d": 404.0,
         "stop_loss": 400.77,
         "risk_reward": "1.09x"
-      }
-    },
-    {
-      "security_key": "NSE:id:INE885A01032",
-      "symbol": "ARE&M",
-      "company_name": "AMARA RAJA ENERGY MOB LTD",
-      "verdict": "MODERATE BULLISH — BUY ON DIPS",
-      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
-      "bull_score": 62,
-      "bear_score": 38,
-      "confidence_score": 62,
-      "risk_score": 38,
-      "watchlist_action": "ADD",
-      "analyst_summary": "Open-Source NSE + Google News Analysis for AMARA RAJA ENERGY MOB LTD (ARE&M) on 2026-11-13: Close ₹751.80 (1D -0.30%, 5D +3.23%), Bull Period: 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside), Bear Period: 1 to 3 Trading Sessions (Short Pullback / Consolidation).",
-      "bull_case": [
-        "📈 5-Session NSE Uptrend (+3.23% 5D gain | 2 Bull Days vs 3 Bear Days): ARE&M rallied +3.88% from its 5-day base of ₹723.70 to settle at ₹751.80 on 2026-11-13 (1D move -0.30%, intraday range ₹746.00–₹758.00), recovering +0.78% off the session low (48% candle range position).",
-        "🏛️ Bullish Volume Dry-Up on Pullback (0.47x of 5-Day Avg): Today's -0.30% dip occurred on just 230,213 shares vs the 5-day average of 484,699 shares (₹17.31 Cr turnover, NSE Rank #686 / 3456), proving institutions are not dumping shares.",
-        "📰 Google News Bullish Reference (Upstox): \"Amara Raja Energy shares jump over 19%; what's the latest buzz? - Upstox\" — supports positive catalyst attention for ARE&M.",
-        "⏳ Expected Bull Period (3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside)) & Upside Targets (Risk:Reward 2.04x): Holding S1 ₹745.86 projects a 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside) upside window toward R1 ₹757.86 (+0.81%), R2 ₹763.93 (+1.61%), and 5D High ₹773.95."
-      ],
-      "bear_case": [
-        "📉 Overhead Supply & Upper-Wick Rejection (-0.82% from Day's High ₹758.00): Sellers capped ARE&M at ₹758.00 and forced a close at ₹751.80 (3/5 bearish sessions in the last 5 days), leaving the stock -2.86% below its 5-day peak of ₹773.95.",
-        "⚠️ Sub-Average Volume Conviction (0.47x of 5-Day Avg): Volume of 230,213 shares fell short of the 5-day average (484,699 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹758.00 / R1 ₹757.86.",
-        "📰 Google News Caution / Market Risk Reference (Alice Blue): \"Amara Raja Energy & Mobility Ltd Share Price Today NSE/BSE Charts - Alice Blue\" — Agent 2 warns that headlines and sector rotation can cap near-term multiples.",
-        "⏳ Expected Bear Period (1 to 3 Trading Sessions (Short Pullback / Consolidation)) & Breakdown Risk: If ARE&M stays below VWAP ₹751.93 or breaches S1 ₹745.86 (-0.79%), expect 1 to 3 Trading Sessions (Short Pullback / Consolidation) toward S2 ₹739.93 (-1.58%) and 5D Low ₹723.70 (Stop-Loss ₹717.91)."
-      ],
-      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 warns of a 1 to 3 Trading Sessions (Short Pullback / Consolidation) pullback from ₹758.00, but NSE data + Google News favor the bulls: ARE&M holds +3.23% 5-day momentum (2 Bull Days vs 3 Bear Days) with volume at 0.47x of the 5-day average (230,213 vs 484,699 avg) and ₹17.31 Cr turnover (Rank #686). Buyers defended ₹746.00 (48% candle close), supporting a 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside) run toward R1 ₹757.86 and R2 ₹763.93!\"",
-      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 claims a 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside) rally to R1 ₹757.86, yet buyers could not hold ₹758.00 today and settled at ₹751.80 vs VWAP ₹751.93 (-2.86% off the 5-day high ₹773.95). Unless ARE&M breaks above ₹757.86 on volume > 484,699 shares, a slip below S1 ₹745.86 activates 1 to 3 Trading Sessions (Short Pullback / Consolidation) toward S2 ₹739.93!\"",
-      "period_analysis": {
-        "historical_bull_sessions_5d": "2 of 5 Sessions Bullish",
-        "historical_bear_sessions_5d": "3 of 5 Sessions Bearish",
-        "expected_bull_period": "3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside)",
-        "expected_bear_period": "1 to 3 Trading Sessions (Short Pullback / Consolidation)",
-        "dominant_cycle": "🐂 BULL SWING CYCLE (3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside))",
-        "intraday_1d_bias": "🐻 Bearish / Below VWAP",
-        "short_term_5d_bias": "🐂 Bullish (+3.23%)",
-        "swing_10_15d_outlook": "🐂 Bullish Accumulation"
-      },
-      "google_news": [
-        {
-          "title": "ARE&M Stock Price and Chart — NSE:ARE&M - TradingView",
-          "source": "TradingView",
-          "published_at": "Thu, 19 Dec 2024 17:05:06",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01dlU4U0NyczRQXzlaS2w0Rjk0em1mT0R1WWNuZXVFVEpRNEdTcjF4cE5yb0d2TlF6cDlNMlpVcmFIbHJ4T09Nakpjb1lqZ1pTWW9sM0tNN3ZZQQ?oc=5",
-          "sentiment": "NEUTRAL",
-          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
-        },
-        {
-          "title": "Amara Raja Energy shares jump over 19%; what's the latest buzz? - Upstox",
-          "source": "Upstox",
-          "published_at": "Wed, 22 Apr 2026 07:00:00",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTkUyY3NmLWNsMF9OUlNnaFdVWm56azVveTJrWE5pUVpQRGt4QmpERi1nMVU5Smd4U3FEdVhDTmhqYmg2al8wMFJxaU1vMTBDcThMWDgwbG9meU1pMV9hLWl0LWZ5dVpONDRtREZ1Y2pQcDh5UFVMYTREY2NfNkFiZl9JOU9TQnZnR25WUVZpT0VrZ29TY1dxZ21LNEU0XzlNZWZiY1VLcjJINDEtYkVwblhPZDNCZE9ZbjI4Uw?oc=5",
-          "sentiment": "BULLISH",
-          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
-        },
-        {
-          "title": "Should You Be Adding Amara Raja Energy & Mobility (NSE:ARE&M) To Your Watchlist Today? - Simply Wall St",
-          "source": "Simply Wall St",
-          "published_at": "Wed, 12 Aug 2026 07:00:00",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOM1FHZ3NLR3JCUEJmUVJGS09kb0dKTVlyZV9hdkI2NU1GMUpORDdPMDY4eDJ0aWZSTm5lYXFSbmYzV3REaS1tNVM5SDliTzdqNEtGWndwZ2JDRkxzMmZ4NFgtbHhQR1VJVlpOWGxUMlVwNzZsOVBxT2RMa0JSVXk5a1ZDM2tBOTBzc1d2OWF5V3o1a3VtQ2RRVllxTVVudE1keDB5ZDR5c1BlUFcwblFFYV9QTGZhdVFmNlJlOVdNMGFjNTdidm9XdjNYeU5ZaUJmak1xTktBWkl2Qy0tYkV3aUY5czJlWWJNRDVF0gHwAUFVX3lxTFBEdHU1RjA3QTVDbno5NkZsdFJpOGtHRzlKVkJvUDkybWZTVmZQQ3VfbXFwTWF4eWtWaVdlcWxraVJZQWtVaXY4Q3lHVTlZUkZoQXhNUFZ6cFpsdnh5N1dvcy1hemMxSWRhZWJZX2FySnllcmlhaWxWR3hsQXd4TWNxY2dVSkpKWXN6X3hLWlQ5aWZOOHdRQWdXd0pzZTBsdWg4UmU0RkV3b1BzUTZiQmVxaHBtRl8xa1BPZmVtZUpTV3d3NkIzcDB1bEc2aDRBS0NiTEMwWTliM0pLWnRCVWNUQ1NqaTBZUXU3SUZoSGk5Nw?oc=5",
-          "sentiment": "NEUTRAL",
-          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
-        },
-        {
-          "title": "Amara Raja Energy & Mobility Ltd Share Price Today | Amara Raja Energy Live NSE/BSE - Value Research",
-          "source": "Value Research",
-          "published_at": "Wed, 31 Jan 2024 09:49:54",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb2I2LXYxQWhseTZ6bnJQZkVlbEl2bFpJZjMxSjhMZGwwc0ZHQVBMNTZtenIwLUY0akUxbVR5UkhrQ01GUXlIZ243MDFmTXoyLU85SVpmbGJuRnA1X3pQZl9Xcks0SU14Q0N4cUxyeHcxTmN6eGdSVzhhZ0F6YWVPbnF4VVNZTEU?oc=5",
-          "sentiment": "NEUTRAL",
-          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
-        },
-        {
-          "title": "Amara Raja Energy & Mobility Ltd Share Price Today NSE/BSE Charts - Alice Blue",
-          "source": "Alice Blue",
-          "published_at": "Sun, 30 Aug 2026 21:30:53",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDBRanZreDdMSGcxRnBvRzVDZVBGaWJGZXk4NU4tNlF1Y29qdVZzeFpoY2JLa2xTTTJRM01idnJRSU1sbUhMTUp1S242YkJ6VEgycG1kLXVnWXF3Z3NIRWFIV1Jua1Q2MEd5M2NKUk5tRFNDbzdKblFrR1R6YmFNc2xR?oc=5",
-          "sentiment": "NEUTRAL",
-          "google_search_url": "https://news.google.com/search?q=AMARA%20RAJA%20ENERGY%20MOB%20ARE%26M%20NSE%20stock%20India&hl=en-IN&gl=IN&ceid=IN%3Aen"
-        }
-      ],
-      "hidden_risks": [
-        "Intraday volatility band is 1.61% (₹746.00–₹758.00); breach of S1 ₹745.86 exposes S2 ₹739.93 (Stop-Loss ₹717.91).",
-        "5-Day range spans ₹723.70 to ₹773.95; overhead supply sits at R1 ₹757.86 and R2 ₹763.93."
-      ],
-      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 62/100 vs. Bear Score: 38/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset and Google News references for AMARA RAJA ENERGY MOB LTD (ARE&M) as of 2026-11-13, the Judge rules: (1) Price & 5D History: Close ₹751.80 (1D -0.30%, 5D +3.23%, 2 Bull Days vs 3 Bear Days, 48% intraday candle close vs VWAP ₹751.93); (2) Bull vs. Bear Period Forecast: Expected Bull Window = 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside) | Expected Bear Risk Window = 1 to 3 Trading Sessions (Short Pullback / Consolidation); (3) Google News Pulse: 1 Bullish / 0 Bearish / 4 Neutral headlines tracked; (4) Final Directive [MODERATE BULLISH — BUY ON DIPS]: Buy on dips above Support S1 ₹745.86 for 3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside); breakout above R1 ₹757.86 targets R2 ₹763.93 and 5D High ₹773.95. Stop-loss: ₹717.91.",
-      "trade_levels": {
-        "latest_date": "2026-11-13",
-        "open": 754.0,
-        "high": 758.0,
-        "low": 746.0,
-        "close": 751.8,
-        "vwap": 751.93,
-        "return_1d_pct": -0.3,
-        "return_5d_pct": 3.23,
-        "up_sessions_5d": "2 Bull / 3 Bear",
-        "bull_period_forecast": "3 to 7 Trading Sessions (1–1.5 Weeks Swing Upside)",
-        "bear_period_forecast": "1 to 3 Trading Sessions (Short Pullback / Consolidation)",
-        "volume": 230213,
-        "avg_volume_5d": 484699,
-        "volume_ratio_5d": 0.47,
-        "turnover_cr": 17.31,
-        "nse_liquidity_rank": "#686 / 3456 (Top 19.8%)",
-        "support_s1": 745.86,
-        "support_s2": 739.93,
-        "resistance_r1": 757.86,
-        "resistance_r2": 763.93,
-        "high_5d": 773.95,
-        "low_5d": 723.7,
-        "stop_loss": 717.91,
-        "risk_reward": "2.04x"
       }
     },
     {
@@ -2662,9 +2662,9 @@
       "symbol": "ARE&M",
       "company_name": "AMARA RAJA ENERGY MOB LTD",
       "added_by": "user",
-      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=62/100)",
+      "reason": "Added & re-checked via Search Bar",
       "added_at": "2026-11-15T05:55:01.910436+00:00",
-      "updated_at": "2026-11-15T06:45:49.714740+00:00"
+      "updated_at": "2026-11-15T06:46:00.344927+00:00"
     },
     {
       "security_key": "NSE:id:INE0ZCQ01019",
