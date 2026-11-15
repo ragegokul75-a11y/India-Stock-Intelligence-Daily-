@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T05:55:01.911943+00:00",
+  "updated_at": "2026-11-15T06:18:33.118569+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE885A01032",
@@ -40,29 +40,29 @@
     {
       "security_key": "NSE:id:INE018A01030",
       "symbol": "LT",
-      "company_name": "Larsen & Toubro Limited",
+      "company_name": "LARSEN & TOUBRO LTD.",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (WATCH, confidence=63)",
+      "reason": "Auto-added by Judge (NEUTRAL / HOLD — WATCH BREAKOUT, Bull Score=52/100)",
       "added_at": "2026-11-14T17:16:01.931454+00:00",
-      "updated_at": "2026-11-14T18:06:42.093342+00:00"
+      "updated_at": "2026-11-15T06:18:33.011688+00:00"
     },
     {
       "security_key": "NSE:id:INE002A01018",
       "symbol": "RELIANCE",
-      "company_name": "Reliance Industries Limited",
+      "company_name": "RELIANCE INDUSTRIES LTD",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (WATCH, confidence=70)",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=70/100)",
       "added_at": "2026-11-14T17:16:01.912899+00:00",
-      "updated_at": "2026-11-14T18:06:42.064695+00:00"
+      "updated_at": "2026-11-15T06:18:32.898457+00:00"
     },
     {
       "security_key": "NSE:id:INE467B01029",
       "symbol": "TCS",
-      "company_name": "Tata Consultancy Services Limited",
+      "company_name": "TATA CONSULTANCY SERV LT",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (WATCH, confidence=63)",
+      "reason": "Auto-added by Judge (STRONG BEARISH — AVOID / EXIT, Bull Score=18/100)",
       "added_at": "2026-11-14T17:16:01.951627+00:00",
-      "updated_at": "2026-11-14T18:06:42.117911+00:00"
+      "updated_at": "2026-11-15T06:18:33.118132+00:00"
     }
   ]
 }
