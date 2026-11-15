@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-11-14T18:06:42.118928+00:00",
+  "updated_at": "2026-11-15T05:55:01.911943+00:00",
   "items": [
+    {
+      "security_key": "NSE:id:INE885A01032",
+      "symbol": "ARE&M",
+      "company_name": "Amara Raja Energy & Mobility Limited",
+      "added_by": "user",
+      "reason": "Added & re-checked via Search Bar",
+      "added_at": "2026-11-15T05:55:01.910436+00:00",
+      "updated_at": "2026-11-15T05:55:01.910436+00:00"
+    },
     {
       "security_key": "NSE:id:INE040A01034",
       "symbol": "HDFCBANK",
