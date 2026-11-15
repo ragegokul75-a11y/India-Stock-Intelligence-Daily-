@@ -32,6 +32,53 @@ from .sync.service import NseSyncService
 logger = logging.getLogger(__name__)
 
 NSE_EQUITY_MASTER_URL = "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv"
+_SEED_MEM_CACHE: dict[str, dict] = {}
+_CLOUD_SEED_VERIFIED_PATHS: set[str] = set()
+_NEWS_MEM_CACHE: dict[str, list[dict]] = {}
+
+
+def get_seed_memory_cache(data_dir: Path) -> dict:
+    """Load nse_cloud_seed.json into RAM once with O(1) symbol/key lookup dictionaries."""
+    seed_path = data_dir / "nse_cloud_seed.json"
+    key = str(seed_path.resolve())
+    mtime = seed_path.stat().st_mtime if seed_path.exists() else 0.0
+    cached = _SEED_MEM_CACHE.get(key)
+    if cached and cached.get("mtime") == mtime:
+        return cached
+    if not seed_path.exists():
+        return {"mtime": 0.0, "latest_date": "2026-11-13", "total_traded": 3456, "stocks": [], "by_key": {}, "by_symbol": {}, "options": [], "symbol_map": {}}
+    try:
+        raw = json.loads(seed_path.read_text(encoding="utf-8"))
+        stocks = raw.get("stocks", [])
+        by_key = {}
+        by_symbol = {}
+        options = []
+        symbol_map = {}
+        for r in stocks:
+            k = r.get("k")
+            s = (r.get("s") or "").upper()
+            n = r.get("n") or s
+            if k:
+                by_key[k] = r
+            if s:
+                by_symbol[s] = r
+                label = f"{r.get('s')} — {n}"
+                options.append(label)
+                symbol_map[label] = r.get("s")
+        entry = {
+            "mtime": mtime,
+            "latest_date": raw.get("latest_date", "2026-11-13"),
+            "total_traded": int(raw.get("total_traded") or 3456),
+            "stocks": stocks,
+            "by_key": by_key,
+            "by_symbol": by_symbol,
+            "options": options,
+            "symbol_map": symbol_map,
+        }
+        _SEED_MEM_CACHE[key] = entry
+        return entry
+    except Exception:
+        return {"mtime": 0.0, "latest_date": "2026-11-13", "total_traded": 3456, "stocks": [], "by_key": {}, "by_symbol": {}, "options": [], "symbol_map": {}}
 NSE_SME_MASTER_URL = "https://nsearchives.nseindia.com/content/equities/SME_EQUITY_L.csv"
 NSE_UDIFF_URL_TEMPLATE = "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_{yyyymmdd}_F_0000.csv.zip"
 CASH_EQUITY_SERIES = frozenset({"EQ", "BE", "BZ", "SM", "ST"})
@@ -201,19 +248,19 @@ class WatchlistStore:
             return None
         query = raw.split(" — ", 1)[0].strip()
         q_upper = query.upper()
-        # 1. Check nse_cloud_seed.json first (lock-free, instant)
-        seed_path = self.settings.data_dir / "nse_cloud_seed.json"
-        if seed_path.exists():
-            try:
-                seed_stocks = json.loads(seed_path.read_text(encoding="utf-8")).get("stocks", [])
-                for r in seed_stocks:
-                    if r.get("k") == query or (r.get("s") or "").upper() == q_upper:
-                        return {"security_key": r["k"], "symbol": r["s"], "company_name": r.get("n") or r["s"]}
-                for r in seed_stocks:
-                    if q_upper in (r.get("s") or "").upper() or q_upper in (r.get("n") or "").upper():
-                        return {"security_key": r["k"], "symbol": r["s"], "company_name": r.get("n") or r["s"]}
-            except Exception:
-                pass
+        # 1. Check in-memory seed cache first (O(1), lock-free, 0.00001s)
+        seed_mem = get_seed_memory_cache(self.settings.data_dir)
+        by_key = seed_mem.get("by_key", {})
+        by_sym = seed_mem.get("by_symbol", {})
+        if query in by_key:
+            r = by_key[query]
+            return {"security_key": r["k"], "symbol": r["s"], "company_name": r.get("n") or r["s"]}
+        if q_upper in by_sym:
+            r = by_sym[q_upper]
+            return {"security_key": r["k"], "symbol": r["s"], "company_name": r.get("n") or r["s"]}
+        for r in seed_mem.get("stocks", []):
+            if q_upper in (r.get("s") or "").upper() or q_upper in (r.get("n") or "").upper():
+                return {"security_key": r["k"], "symbol": r["s"], "company_name": r.get("n") or r["s"]}
         # 2. Fallback to SQLite database
         if not self.settings.database_path.exists():
             return None
@@ -372,12 +419,16 @@ def _auto_git_push_background(settings: Settings) -> None:
 
 def ensure_cloud_seed_loaded(settings: Settings) -> None:
     """Fast-seed the 3,506 NSE stocks + latest EOD snapshot on fresh cloud containers in <0.2s."""
+    db_key = str(settings.database_path.resolve())
+    if db_key in _CLOUD_SEED_VERIFIED_PATHS and settings.database_path.exists():
+        return
     try:
         if not settings.database_path.exists():
             apply_migrations(settings.database_path)
         with connect_read_only(settings.database_path) as conn:
             sec_count = conn.execute("SELECT COUNT(*) FROM securities WHERE security_key NOT LIKE '%SYNTH%'").fetchone()[0]
         if sec_count >= 100:
+            _CLOUD_SEED_VERIFIED_PATHS.add(db_key)
             return
         seed_path = settings.data_dir / "nse_cloud_seed.json"
         if not seed_path.exists():
@@ -472,24 +523,25 @@ def fetch_google_news_references(
     settings: Settings | None = None,
     *,
     max_items: int = 5,
-    timeout: float = 3.5,
+    timeout: float = 1.5,
 ) -> list[dict]:
-    """Fetch live Google News RSS references for an NSE stock (or Indian market) and classify Bull/Bear sentiment."""
+    """Fetch live Google News RSS references for an NSE stock (or Indian market) with instant RAM/disk cache."""
     import sys
+    import threading
     import urllib.parse
     import xml.etree.ElementTree as ET
 
     cache_path = (settings.data_dir / "google_news_cache.json") if settings else None
     cache_key = f"{sym.upper()}::{comp.upper()}"
-    cache_data: dict = {}
-    if cache_path and cache_path.exists():
+
+    if not _NEWS_MEM_CACHE and cache_path and cache_path.exists():
         try:
-            cache_data = json.loads(cache_path.read_text(encoding="utf-8"))
+            _NEWS_MEM_CACHE.update(json.loads(cache_path.read_text(encoding="utf-8")))
         except Exception:
-            cache_data = {}
+            pass
 
     if "pytest" in sys.modules:
-        return cache_data.get(cache_key, [])
+        return _NEWS_MEM_CACHE.get(cache_key, [])
 
     clean_comp = (
         comp.replace("LIMITED", "")
@@ -502,37 +554,53 @@ def fetch_google_news_references(
     q_encoded = urllib.parse.quote(search_term)
     rss_url = f"https://news.google.com/rss/search?q={q_encoded}&hl=en-IN&gl=IN&ceid=IN:en"
 
-    articles: list[dict] = []
-    try:
-        raw_xml, _, _ = _http_get(rss_url, timeout=int(max(2, round(timeout))))
-        root = ET.fromstring(raw_xml)
-        for item in root.findall("./channel/item")[:max_items]:
-            title = (item.findtext("title") or "").strip()
-            link = (item.findtext("link") or rss_url).strip()
-            pub_date = (item.findtext("pubDate") or "").strip()
-            source = (item.findtext("source") or "Google News").strip()
-            if not title:
-                continue
-            t_low = title.lower()
-            b_hits = sum(1 for w in _BULL_NEWS_WORDS if w in t_low)
-            br_hits = sum(1 for w in _BEAR_NEWS_WORDS if w in t_low)
-            if b_hits > br_hits:
-                sentiment = "BULLISH"
-            elif br_hits > b_hits:
-                sentiment = "BEARISH"
-            else:
-                sentiment = "NEUTRAL"
-            articles.append({
-                "title": title,
-                "source": source,
-                "published_at": pub_date[:25] if pub_date else "Recent",
-                "url": link,
-                "sentiment": sentiment,
-                "google_search_url": f"https://news.google.com/search?q={q_encoded}&hl=en-IN&gl=IN&ceid=IN%3Aen",
-            })
-    except Exception:
-        articles = cache_data.get(cache_key, [])
+    def _do_fetch() -> list[dict]:
+        fetched: list[dict] = []
+        try:
+            raw_xml, _, _ = _http_get(rss_url, timeout=int(max(1, round(timeout))))
+            root = ET.fromstring(raw_xml)
+            for item in root.findall("./channel/item")[:max_items]:
+                title = (item.findtext("title") or "").strip()
+                link = (item.findtext("link") or rss_url).strip()
+                pub_date = (item.findtext("pubDate") or "").strip()
+                source = (item.findtext("source") or "Google News").strip()
+                if not title:
+                    continue
+                t_low = title.lower()
+                b_hits = sum(1 for w in _BULL_NEWS_WORDS if w in t_low)
+                br_hits = sum(1 for w in _BEAR_NEWS_WORDS if w in t_low)
+                if b_hits > br_hits:
+                    sentiment = "BULLISH"
+                elif br_hits > b_hits:
+                    sentiment = "BEARISH"
+                else:
+                    sentiment = "NEUTRAL"
+                fetched.append({
+                    "title": title,
+                    "source": source,
+                    "published_at": pub_date[:25] if pub_date else "Recent",
+                    "url": link,
+                    "sentiment": sentiment,
+                    "google_search_url": f"https://news.google.com/search?q={q_encoded}&hl=en-IN&gl=IN&ceid=IN%3Aen",
+                })
+        except Exception:
+            pass
+        if fetched:
+            _NEWS_MEM_CACHE[cache_key] = fetched
+            if cache_path:
+                try:
+                    cache_path.parent.mkdir(parents=True, exist_ok=True)
+                    cache_path.write_text(json.dumps(_NEWS_MEM_CACHE, indent=2, ensure_ascii=False), encoding="utf-8")
+                except Exception:
+                    pass
+        return fetched
 
+    # If already cached in RAM/disk, return in 0.0001s and refresh asynchronously in background
+    if cache_key in _NEWS_MEM_CACHE and _NEWS_MEM_CACHE[cache_key]:
+        threading.Thread(target=_do_fetch, daemon=True).start()
+        return _NEWS_MEM_CACHE[cache_key][:max_items]
+
+    articles = _do_fetch()
     if not articles:
         articles = [{
             "title": f"Live Google News Search for {comp} ({sym}) on NSE India",
@@ -542,13 +610,6 @@ def fetch_google_news_references(
             "sentiment": "NEUTRAL",
             "google_search_url": f"https://news.google.com/search?q={q_encoded}&hl=en-IN&gl=IN&ceid=IN%3Aen",
         }]
-    elif cache_path:
-        try:
-            cache_data[cache_key] = articles
-            cache_path.parent.mkdir(parents=True, exist_ok=True)
-            cache_path.write_text(json.dumps(cache_data, indent=2, ensure_ascii=False), encoding="utf-8")
-        except Exception:
-            pass
     return articles
 
 
@@ -570,24 +631,15 @@ class MarketDebateEngine:
         fetch_news: bool = True,
     ) -> dict:
         """Full 3-Agent Open-Source NSE + Google News Courtroom Debate with Bull/Bear Period Duration."""
-        total_traded = 3456
+        seed_mem = get_seed_memory_cache(self.settings.data_dir)
+        latest_date = seed_mem.get("latest_date", latest_date)
+        total_traded = int(seed_mem.get("total_traded") or 3456)
         if seed_row is None:
-            seed_path = self.settings.data_dir / "nse_cloud_seed.json"
-            if seed_path.exists():
-                try:
-                    s_data = json.loads(seed_path.read_text(encoding="utf-8"))
-                    latest_date = s_data.get("latest_date", latest_date)
-                    total_traded = int(s_data.get("total_traded") or 3456)
-                    seed_row = next(
-                        (r for r in s_data.get("stocks", []) if r.get("k") == sec_key or (r.get("s") or "").upper() == sym.upper()),
-                        None,
-                    )
-                except Exception:
-                    seed_row = None
+            seed_row = seed_mem.get("by_key", {}).get(sec_key) or seed_mem.get("by_symbol", {}).get(sym.upper())
 
-        # Supplement or fallback from SQLite if seed_row lacks multi-day history
+        # Only touch SQLite if seed_row does not have price data
         series: list[dict] = []
-        if self.settings.database_path.exists():
+        if (not seed_row or seed_row.get("c") is None) and self.settings.database_path.exists():
             try:
                 with connect_read_only(self.settings.database_path) as conn:
                     rows = conn.execute(
