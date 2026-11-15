@@ -66,6 +66,7 @@ def build_bundle() -> None:
     bootstrap_code = f'''from __future__ import annotations
 
 import base64
+import hashlib
 import io
 import sys
 import zipfile
@@ -73,13 +74,13 @@ from pathlib import Path
 
 _BOOT_ROOT = Path(__file__).resolve().parent
 _EMBEDDED_BUNDLE_B64 = "{b64_payload}"
+_BUNDLE_HASH = hashlib.sha256(_EMBEDDED_BUNDLE_B64.encode("ascii")).hexdigest()[:16]
 
 
 def _ensure_cloud_files_extracted() -> None:
-    """Automatically unpacks src/ and initial 3,500+ NSE stock seed if deployed via GitHub."""
-    pkg_init = _BOOT_ROOT / "src" / "india_stock_intelligence" / "__init__.py"
-    briefing = _BOOT_ROOT / "data" / "latest_market_briefing.json"
-    seed_file = _BOOT_ROOT / "data" / "nse_cloud_seed.json"
+    """Automatically unpacks src/ and initial 3,500+ NSE stock seed and hot-reloads package modules on Streamlit Cloud."""
+    if getattr(sys, "_isi_bundle_hash", None) == _BUNDLE_HASH:
+        return
     raw_zip = base64.b64decode(_EMBEDDED_BUNDLE_B64.encode("ascii"))
     with zipfile.ZipFile(io.BytesIO(raw_zip), "r") as zf:
         for member in zf.namelist():
@@ -87,6 +88,9 @@ def _ensure_cloud_files_extracted() -> None:
             if member.startswith("src/") or member == "data/nse_cloud_seed.json" or not dest.exists():
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_bytes(zf.read(member))
+    for mod_name in [k for k in list(sys.modules) if k == "india_stock_intelligence" or k.startswith("india_stock_intelligence.")]:
+        sys.modules.pop(mod_name, None)
+    setattr(sys, "_isi_bundle_hash", _BUNDLE_HASH)
 
 
 _ensure_cloud_files_extracted()
