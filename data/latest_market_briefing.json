@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:18:34.253252+00:00",
+  "generated_at": "2026-11-15T06:18:34.400813+00:00",
   "latest_trading_date": "2026-11-13",
   "universe_coverage": {
     "total_registered_securities": 3551,
@@ -265,6 +265,62 @@
   },
   "stock_debates": [
     {
+      "security_key": "NSE:id:INE885A01032",
+      "symbol": "ARE&M",
+      "company_name": "AMARA RAJA ENERGY MOB LTD",
+      "verdict": "MODERATE BULLISH — BUY ON DIPS",
+      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
+      "bull_score": 57,
+      "bear_score": 43,
+      "confidence_score": 57,
+      "risk_score": 43,
+      "watchlist_action": "ADD",
+      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for AMARA RAJA ENERGY MOB LTD (ARE&M) on 2026-11-13: Close ₹751.80 (1D -0.30%, 5D +3.23%), Volume 230,213 (0.47x 5D avg), Turnover ₹17.31 Cr (Rank #686).",
+      "bull_case": [
+        "📈 5-Session NSE Uptrend (+3.23% 5D gain, 1/5 positive closes): ARE&M rallied +3.88% from its 5-day base of ₹723.70 to settle at ₹751.80 on 2026-11-13 (1D move -0.30%, intraday range ₹746.00–₹758.00), recovering +0.78% off the session low (48% candle range position).",
+        "🏛️ Bullish Volume Dry-Up on Pullback (0.47x of 5-Day Avg): Today's -0.30% dip occurred on just 230,213 shares vs the 5-day average of 484,699 shares (₹17.31 Cr turnover, NSE Rank #686 / 3456), proving institutions are not dumping shares.",
+        "⚡ Mean-Reversion Value Toward VWAP (₹751.93): Trading at ₹751.80 (56% of the 5-day ₹723.70–₹773.95 channel), ARE&M sits right at Pivot ₹751.93 where reclaiming ₹751.93 triggers algorithmic short-covering.",
+        "🎯 Bullish Upside Targets (Risk:Reward 2.04x): Holding support at S1 ₹745.86 (S2 ₹739.93) sets up an immediate move to R1 ₹757.86 (+0.81%), R2 ₹763.93 (+1.61%), and a 5-day breakout above ₹773.95."
+      ],
+      "bear_case": [
+        "📉 Overhead Supply & Upper-Wick Rejection (-0.82% from Day's High ₹758.00): Sellers capped ARE&M at ₹758.00 and forced a close at ₹751.80, leaving the stock -2.86% below its 5-day peak of ₹773.95.",
+        "⚠️ Sub-Average Volume Conviction (0.47x of 5-Day Avg): Volume of 230,213 shares fell short of the 5-day average (484,699 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹758.00 / R1 ₹757.86.",
+        "🛑 Below-VWAP Settlement Weakness: Closing at ₹751.80 below session VWAP (₹751.93) and Open (₹754.00) confirms bears controlled the afternoon close (1/5 up sessions over 5 days, 5D return +3.23%).",
+        "🚨 Downside Breakdown Trigger Below S1 ₹745.86: A breach of S1 ₹745.86 (-0.79%) invalidates the bull setup and opens a drop to S2 ₹739.93 (-1.58%) and the 5-day low ₹723.70 (Stop-Loss ₹717.91)."
+      ],
+      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.82% pullback from ₹758.00, but look at the full 5-day NSE structure: ARE&M has +3.23% 5-day momentum (1/5 up sessions) with volume at 0.47x of the 5-day average (230,213 vs 484,699 avg) and ₹17.31 Cr turnover (Rank #686). Buyers defended ₹746.00 (48% candle close), keeping S1 ₹745.86 intact for a push to R1 ₹757.86 and R2 ₹763.93!\"",
+      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹757.86 and R2 ₹763.93, yet buyers could not hold ₹758.00 today and settled at ₹751.80 vs VWAP ₹751.93 (-2.86% off the 5-day high ₹773.95). Unless ARE&M breaks above ₹757.86 on volume > 484,699 shares, any slip below S1 ₹745.86 triggers a slide toward S2 ₹739.93!\"",
+      "hidden_risks": [
+        "Intraday volatility band is 1.61% (₹746.00–₹758.00); breach of S1 ₹745.86 exposes S2 ₹739.93 (Stop-Loss ₹717.91).",
+        "5-Day range spans ₹723.70 to ₹773.95; overhead supply sits at R1 ₹757.86 and R2 ₹763.93."
+      ],
+      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 57/100 vs. Bear Score: 43/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for AMARA RAJA ENERGY MOB LTD (ARE&M) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹751.80 (1D -0.30%, 5D +3.23%, 1/5 positive sessions, 48% intraday candle close vs VWAP ₹751.93); (2) Volume & Liquidity: 230,213 shares (0.47x of 5D avg 484,699, Turnover ₹17.31 Cr, NSE Rank #686/3456); (3) Final Directive [MODERATE BULLISH — BUY ON DIPS]: Buy on dips above Support S1 ₹745.86; breakout above R1 ₹757.86 targets R2 ₹763.93 and 5D High ₹773.95. Stop-loss: ₹717.91.",
+      "trade_levels": {
+        "latest_date": "2026-11-13",
+        "open": 754.0,
+        "high": 758.0,
+        "low": 746.0,
+        "close": 751.8,
+        "vwap": 751.93,
+        "return_1d_pct": -0.3,
+        "return_5d_pct": 3.23,
+        "up_sessions_5d": "1/5",
+        "volume": 230213,
+        "avg_volume_5d": 484699,
+        "volume_ratio_5d": 0.47,
+        "turnover_cr": 17.31,
+        "nse_liquidity_rank": "#686 / 3456 (Top 19.8%)",
+        "support_s1": 745.86,
+        "support_s2": 739.93,
+        "resistance_r1": 757.86,
+        "resistance_r2": 763.93,
+        "high_5d": 773.95,
+        "low_5d": 723.7,
+        "stop_loss": 717.91,
+        "risk_reward": "2.04x"
+      }
+    },
+    {
       "security_key": "NSE:id:INE002A01018",
       "symbol": "RELIANCE",
       "company_name": "RELIANCE INDUSTRIES LTD",
@@ -434,62 +490,6 @@
         "low_5d": 2400.2,
         "stop_loss": 2369.23,
         "risk_reward": "3.24x"
-      }
-    },
-    {
-      "security_key": "NSE:id:INE885A01032",
-      "symbol": "ARE&M",
-      "company_name": "AMARA RAJA ENERGY MOB LTD",
-      "verdict": "MODERATE BULLISH — BUY ON DIPS",
-      "debate_winner": "🐂 AGENT 1 (BULL) WINS THE DEBATE",
-      "bull_score": 57,
-      "bear_score": 43,
-      "confidence_score": 57,
-      "risk_score": 43,
-      "watchlist_action": "ADD",
-      "analyst_summary": "Open-Source NSE 5-Session & Intraday Analysis for AMARA RAJA ENERGY MOB LTD (ARE&M) on 2026-11-13: Close ₹751.80 (1D -0.30%, 5D +3.23%), Volume 230,213 (0.47x 5D avg), Turnover ₹17.31 Cr (Rank #686).",
-      "bull_case": [
-        "📈 5-Session NSE Uptrend (+3.23% 5D gain, 1/5 positive closes): ARE&M rallied +3.88% from its 5-day base of ₹723.70 to settle at ₹751.80 on 2026-11-13 (1D move -0.30%, intraday range ₹746.00–₹758.00), recovering +0.78% off the session low (48% candle range position).",
-        "🏛️ Bullish Volume Dry-Up on Pullback (0.47x of 5-Day Avg): Today's -0.30% dip occurred on just 230,213 shares vs the 5-day average of 484,699 shares (₹17.31 Cr turnover, NSE Rank #686 / 3456), proving institutions are not dumping shares.",
-        "⚡ Mean-Reversion Value Toward VWAP (₹751.93): Trading at ₹751.80 (56% of the 5-day ₹723.70–₹773.95 channel), ARE&M sits right at Pivot ₹751.93 where reclaiming ₹751.93 triggers algorithmic short-covering.",
-        "🎯 Bullish Upside Targets (Risk:Reward 2.04x): Holding support at S1 ₹745.86 (S2 ₹739.93) sets up an immediate move to R1 ₹757.86 (+0.81%), R2 ₹763.93 (+1.61%), and a 5-day breakout above ₹773.95."
-      ],
-      "bear_case": [
-        "📉 Overhead Supply & Upper-Wick Rejection (-0.82% from Day's High ₹758.00): Sellers capped ARE&M at ₹758.00 and forced a close at ₹751.80, leaving the stock -2.86% below its 5-day peak of ₹773.95.",
-        "⚠️ Sub-Average Volume Conviction (0.47x of 5-Day Avg): Volume of 230,213 shares fell short of the 5-day average (484,699 shares), challenging Agent 1's claim that buyers have enough momentum to clear ₹758.00 / R1 ₹757.86.",
-        "🛑 Below-VWAP Settlement Weakness: Closing at ₹751.80 below session VWAP (₹751.93) and Open (₹754.00) confirms bears controlled the afternoon close (1/5 up sessions over 5 days, 5D return +3.23%).",
-        "🚨 Downside Breakdown Trigger Below S1 ₹745.86: A breach of S1 ₹745.86 (-0.79%) invalidates the bull setup and opens a drop to S2 ₹739.93 (-1.58%) and the 5-day low ₹723.70 (Stop-Loss ₹717.91)."
-      ],
-      "bull_rebuttal": "🐂 Agent 1 (Bull) Rebuts Agent 2 (Bear): \"Agent 2 focuses on the -0.82% pullback from ₹758.00, but look at the full 5-day NSE structure: ARE&M has +3.23% 5-day momentum (1/5 up sessions) with volume at 0.47x of the 5-day average (230,213 vs 484,699 avg) and ₹17.31 Cr turnover (Rank #686). Buyers defended ₹746.00 (48% candle close), keeping S1 ₹745.86 intact for a push to R1 ₹757.86 and R2 ₹763.93!\"",
-      "bear_rebuttal": "🐻 Agent 2 (Bear) Rebuts Agent 1 (Bull): \"Agent 1 projects upside to R1 ₹757.86 and R2 ₹763.93, yet buyers could not hold ₹758.00 today and settled at ₹751.80 vs VWAP ₹751.93 (-2.86% off the 5-day high ₹773.95). Unless ARE&M breaks above ₹757.86 on volume > 484,699 shares, any slip below S1 ₹745.86 triggers a slide toward S2 ₹739.93!\"",
-      "hidden_risks": [
-        "Intraday volatility band is 1.61% (₹746.00–₹758.00); breach of S1 ₹745.86 exposes S2 ₹739.93 (Stop-Loss ₹717.91).",
-        "5-Day range spans ₹723.70 to ₹773.95; overhead supply sits at R1 ₹757.86 and R2 ₹763.93."
-      ],
-      "judge_verdict_reasoning": "⚖️ COURTROOM RULING (🐂 AGENT 1 (BULL) WINS THE DEBATE | Bull Score: 57/100 vs. Bear Score: 43/100): After hearing Agent 1 (Bull) and Agent 2 (Bear) cross-examine the official NSE dataset for AMARA RAJA ENERGY MOB LTD (ARE&M) as of 2026-11-13, the Judge notes: (1) Price & 5D Trend: Close ₹751.80 (1D -0.30%, 5D +3.23%, 1/5 positive sessions, 48% intraday candle close vs VWAP ₹751.93); (2) Volume & Liquidity: 230,213 shares (0.47x of 5D avg 484,699, Turnover ₹17.31 Cr, NSE Rank #686/3456); (3) Final Directive [MODERATE BULLISH — BUY ON DIPS]: Buy on dips above Support S1 ₹745.86; breakout above R1 ₹757.86 targets R2 ₹763.93 and 5D High ₹773.95. Stop-loss: ₹717.91.",
-      "trade_levels": {
-        "latest_date": "2026-11-13",
-        "open": 754.0,
-        "high": 758.0,
-        "low": 746.0,
-        "close": 751.8,
-        "vwap": 751.93,
-        "return_1d_pct": -0.3,
-        "return_5d_pct": 3.23,
-        "up_sessions_5d": "1/5",
-        "volume": 230213,
-        "avg_volume_5d": 484699,
-        "volume_ratio_5d": 0.47,
-        "turnover_cr": 17.31,
-        "nse_liquidity_rank": "#686 / 3456 (Top 19.8%)",
-        "support_s1": 745.86,
-        "support_s2": 739.93,
-        "resistance_r1": 757.86,
-        "resistance_r2": 763.93,
-        "high_5d": 773.95,
-        "low_5d": 723.7,
-        "stop_loss": 717.91,
-        "risk_reward": "2.04x"
       }
     },
     {
@@ -1422,9 +1422,9 @@
       "symbol": "ARE&M",
       "company_name": "AMARA RAJA ENERGY MOB LTD",
       "added_by": "user",
-      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=57/100)",
+      "reason": "Added & re-checked via Search Bar",
       "added_at": "2026-11-15T05:55:01.910436+00:00",
-      "updated_at": "2026-11-15T06:18:33.200132+00:00"
+      "updated_at": "2026-11-15T06:18:34.331266+00:00"
     },
     {
       "security_key": "NSE:id:INE0ZCQ01019",
