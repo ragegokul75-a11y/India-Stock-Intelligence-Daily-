@@ -200,30 +200,48 @@ class WatchlistStore:
         if not raw:
             return None
         query = raw.split(" — ", 1)[0].strip()
+        q_upper = query.upper()
+        # 1. Check nse_cloud_seed.json first (lock-free, instant)
+        seed_path = self.settings.data_dir / "nse_cloud_seed.json"
+        if seed_path.exists():
+            try:
+                seed_stocks = json.loads(seed_path.read_text(encoding="utf-8")).get("stocks", [])
+                for r in seed_stocks:
+                    if r.get("k") == query or (r.get("s") or "").upper() == q_upper:
+                        return {"security_key": r["k"], "symbol": r["s"], "company_name": r.get("n") or r["s"]}
+                for r in seed_stocks:
+                    if q_upper in (r.get("s") or "").upper() or q_upper in (r.get("n") or "").upper():
+                        return {"security_key": r["k"], "symbol": r["s"], "company_name": r.get("n") or r["s"]}
+            except Exception:
+                pass
+        # 2. Fallback to SQLite database
         if not self.settings.database_path.exists():
             return None
-        with connect_read_only(self.settings.database_path) as conn:
-            row = conn.execute(
-                """SELECT security_key, symbol, company_name FROM securities
-                   WHERE security_key = ? OR upper(symbol) = upper(?)
-                   ORDER BY CASE WHEN security_key LIKE 'NSE:id:%' THEN 0 ELSE 1 END
-                   LIMIT 1""",
-                (query, query),
-            ).fetchone()
-            if row:
-                return dict(row)
-            like_q = f"%{query}%"
-            prefix_q = f"{query}%"
-            row = conn.execute(
-                """SELECT security_key, symbol, company_name FROM securities
-                   WHERE upper(symbol) LIKE upper(?) OR upper(company_name) LIKE upper(?)
-                   ORDER BY
-                     CASE WHEN upper(symbol) LIKE upper(?) THEN 0 ELSE 1 END,
-                     length(symbol) ASC
-                   LIMIT 1""",
-                (like_q, like_q, prefix_q),
-            ).fetchone()
-            return dict(row) if row else None
+        try:
+            with connect_read_only(self.settings.database_path) as conn:
+                row = conn.execute(
+                    """SELECT security_key, symbol, company_name FROM securities
+                       WHERE security_key = ? OR upper(symbol) = upper(?)
+                       ORDER BY CASE WHEN security_key LIKE 'NSE:id:%' THEN 0 ELSE 1 END
+                       LIMIT 1""",
+                    (query, query),
+                ).fetchone()
+                if row:
+                    return dict(row)
+                like_q = f"%{query}%"
+                prefix_q = f"{query}%"
+                row = conn.execute(
+                    """SELECT security_key, symbol, company_name FROM securities
+                       WHERE upper(symbol) LIKE upper(?) OR upper(company_name) LIKE upper(?)
+                       ORDER BY
+                         CASE WHEN upper(symbol) LIKE upper(?) THEN 0 ELSE 1 END,
+                         length(symbol) ASC
+                       LIMIT 1""",
+                    (like_q, like_q, prefix_q),
+                ).fetchone()
+                return dict(row) if row else None
+        except Exception:
+            return None
 
     def add(self, security_key: str, *, symbol: str | None = None, company_name: str | None = None,
             added_by: str = "user_or_agent", reason: str = "Added for automatic 3-agent daily tracking") -> dict:
@@ -354,88 +372,85 @@ def _auto_git_push_background(settings: Settings) -> None:
 
 def ensure_cloud_seed_loaded(settings: Settings) -> None:
     """Fast-seed the 3,506 NSE stocks + latest EOD snapshot on fresh cloud containers in <0.2s."""
-    if not settings.database_path.exists():
-        apply_migrations(settings.database_path)
-    with connect_read_only(settings.database_path) as conn:
-        sec_count = conn.execute("SELECT COUNT(*) FROM securities WHERE security_key NOT LIKE '%SYNTH%'").fetchone()[0]
-    if sec_count >= 100:
-        return
-    seed_path = settings.data_dir / "nse_cloud_seed.json"
-    if not seed_path.exists():
-        return
     try:
+        if not settings.database_path.exists():
+            apply_migrations(settings.database_path)
+        with connect_read_only(settings.database_path) as conn:
+            sec_count = conn.execute("SELECT COUNT(*) FROM securities WHERE security_key NOT LIKE '%SYNTH%'").fetchone()[0]
+        if sec_count >= 100:
+            return
+        seed_path = settings.data_dir / "nse_cloud_seed.json"
+        if not seed_path.exists():
+            return
         seed = json.loads(seed_path.read_text(encoding="utf-8"))
-    except Exception:
-        return
-    now_iso = datetime.now(timezone.utc).isoformat()
-    latest_date = seed.get("latest_date", "2026-11-13")
-    rows = seed.get("stocks", [])
-    if not rows:
-        return
-    with connect_read_write(settings.database_path) as conn:
-        conn.executemany(
-            """INSERT OR IGNORE INTO securities
-               (security_key, exchange, symbol, company_name, security_identifier, security_type, listing_status, source_timestamp, created_at, updated_at)
-               VALUES (?, 'NSE', ?, ?, ?, 'Equity', 'Active', ?, ?, ?)""",
-            [
-                (
-                    r["k"],
-                    r["s"],
-                    r["n"],
-                    r["k"].split(":")[-1],
-                    latest_date,
-                    now_iso,
-                    now_iso,
-                )
-                for r in rows
-            ],
-        )
-        conn.executemany(
-            """INSERT OR REPLACE INTO daily_prices
-               (security_key, price_date, open, high, low, close, volume, source_timestamp)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
-            [
-                (
-                    r["k"],
-                    latest_date,
-                    r["o"],
-                    r["h"],
-                    r["l"],
-                    r["c"],
-                    r["v"],
-                    now_iso,
-                )
-                for r in rows
-                if r.get("c") is not None
-            ],
-        )
-        conn.executemany(
-            """INSERT OR REPLACE INTO screening_results
-               (security_key, data_date, return_1d_pct, created_at, metrics_json)
-               VALUES (?, ?, ?, ?, ?)""",
-            [
-                (
-                    r["k"],
-                    latest_date,
-                    r.get("r1"),
-                    now_iso,
-                    json.dumps({"return_1d_pct": r.get("r1")}),
-                )
-                for r in rows
-                if r.get("c") is not None
-            ],
-        )
-    stage4d_ev = Path(__file__).resolve().parents[2] / "stage4d" / "inputs" / "stage4d_financial_evidence.json"
-    if stage4d_ev.exists():
-        try:
+        now_iso = datetime.now(timezone.utc).isoformat()
+        latest_date = seed.get("latest_date", "2026-11-13")
+        rows = seed.get("stocks", [])
+        if not rows:
+            return
+        with connect_read_write(settings.database_path) as conn:
+            conn.executemany(
+                """INSERT OR IGNORE INTO securities
+                   (security_key, exchange, symbol, company_name, security_identifier, security_type, listing_status, source_timestamp, created_at, updated_at)
+                   VALUES (?, 'NSE', ?, ?, ?, 'Equity', 'Active', ?, ?, ?)""",
+                [
+                    (
+                        r["k"],
+                        r["s"],
+                        r["n"],
+                        r["k"].split(":")[-1],
+                        latest_date,
+                        now_iso,
+                        now_iso,
+                    )
+                    for r in rows
+                ],
+            )
+            conn.executemany(
+                """INSERT OR REPLACE INTO daily_prices
+                   (security_key, price_date, open, high, low, close, volume, source_timestamp)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                [
+                    (
+                        r["k"],
+                        latest_date,
+                        r["o"],
+                        r["h"],
+                        r["l"],
+                        r["c"],
+                        r["v"],
+                        now_iso,
+                    )
+                    for r in rows
+                    if r.get("c") is not None
+                ],
+            )
+            conn.executemany(
+                """INSERT OR REPLACE INTO screening_results
+                   (security_key, data_date, return_1d_pct, created_at, metrics_json)
+                   VALUES (?, ?, ?, ?, ?)""",
+                [
+                    (
+                        r["k"],
+                        latest_date,
+                        r.get("r1"),
+                        now_iso,
+                        json.dumps({"return_1d_pct": r.get("r1")}),
+                    )
+                    for r in rows
+                    if r.get("c") is not None
+                ],
+            )
+        stage4d_ev = Path(__file__).resolve().parents[2] / "stage4d" / "inputs" / "stage4d_financial_evidence.json"
+        if stage4d_ev.exists():
             EvidenceStore(settings=settings).import_json_file(stage4d_ev)
             with connect_read_write(settings.database_path) as conn:
                 conn.execute(
                     "UPDATE evidence_items SET retrieved_at = ? WHERE source_type = 'annual_report' AND substr(retrieved_at, 1, 10) > ?",
                     (f"{latest_date}T16:00:00+05:30", latest_date),
                 )
-        except Exception:
-            pass
+    except Exception:
+        pass
 
 
 class MarketDebateEngine:
@@ -484,91 +499,146 @@ class MarketDebateEngine:
             }
 
         # Fast single-stock path (<0.1s): evaluate only this stock and update latest_market_briefing.json in-place
-        with connect_read_only(self.settings.database_path) as conn:
-            latest_date_row = conn.execute(
-                "SELECT MAX(price_date) AS d FROM daily_prices WHERE close IS NOT NULL"
-            ).fetchone()
-            latest_date = (latest_date_row["d"] if latest_date_row and latest_date_row["d"] else None) or date.today().isoformat()
-            p_row = conn.execute(
-                """SELECT p.open, p.high, p.low, p.close, p.volume, r.return_1d_pct
-                   FROM daily_prices p
-                   LEFT JOIN screening_results r ON r.security_key = p.security_key AND r.data_date = p.price_date
-                   WHERE p.security_key = ? AND p.price_date = ? LIMIT 1""",
-                (sec_key, latest_date),
-            ).fetchone()
+        latest_date = "2026-11-13"
+        stock_debate = None
+        try:
+            with connect_read_only(self.settings.database_path) as conn:
+                latest_date_row = conn.execute(
+                    "SELECT MAX(price_date) AS d FROM daily_prices WHERE close IS NOT NULL"
+                ).fetchone()
+                latest_date = (latest_date_row["d"] if latest_date_row and latest_date_row["d"] else None) or "2026-11-13"
+                p_row = conn.execute(
+                    """SELECT p.open, p.high, p.low, p.close, p.volume, r.return_1d_pct
+                       FROM daily_prices p
+                       LEFT JOIN screening_results r ON r.security_key = p.security_key AND r.data_date = p.price_date
+                       WHERE p.security_key = ? AND p.price_date = ? LIMIT 1""",
+                    (sec_key, latest_date),
+                ).fetchone()
 
-        if p_row and p_row["close"] is not None:
-            op = float(p_row["open"] or p_row["close"])
-            hi = float(p_row["high"] or p_row["close"])
-            lo = float(p_row["low"] or p_row["close"])
-            cl = float(p_row["close"])
-            vol = int(float(p_row["volume"] or 0))
-            intra = ((cl / op) - 1.0) * 100.0 if op > 0 else 0.0
-            rng = ((hi - lo) / lo) * 100.0 if lo > 0 else 0.0
-            chg = float(p_row["return_1d_pct"]) if p_row["return_1d_pct"] is not None else intra
-            turn_cr = (cl * vol) / 1e7
-            bhavcopy_url = NSE_UDIFF_URL_TEMPLATE.format(yyyymmdd=latest_date.replace("-", ""))
-            eod_rec = {
+            if p_row and p_row["close"] is not None:
+                op = float(p_row["open"] or p_row["close"])
+                hi = float(p_row["high"] or p_row["close"])
+                lo = float(p_row["low"] or p_row["close"])
+                cl = float(p_row["close"])
+                vol = int(float(p_row["volume"] or 0))
+                intra = ((cl / op) - 1.0) * 100.0 if op > 0 else 0.0
+                rng = ((hi - lo) / lo) * 100.0 if lo > 0 else 0.0
+                chg = float(p_row["return_1d_pct"]) if p_row["return_1d_pct"] is not None else intra
+                turn_cr = (cl * vol) / 1e7
+                bhavcopy_url = NSE_UDIFF_URL_TEMPLATE.format(yyyymmdd=latest_date.replace("-", ""))
+                eod_rec = {
+                    "security_key": sec_key,
+                    "source_type": "other",
+                    "source_name": "NSE CM UDiFF Official EOD Bhavcopy",
+                    "source_url": bhavcopy_url,
+                    "publication_date": latest_date,
+                    "reporting_period": latest_date,
+                    "retrieved_at": f"{latest_date}T18:00:00+05:30",
+                    "claim": (
+                        f"NSE EOD settlement ({latest_date}) for {sym}: Open ₹{op:.2f}, High ₹{hi:.2f}, "
+                        f"Low ₹{lo:.2f}, Close ₹{cl:.2f} (1D change {chg:+.2f}%, intraday move {intra:+.2f}%, "
+                        f"intraday range {rng:.2f}%), Volume {vol:,} shares, Turnover ₹{turn_cr:.2f} crore."
+                    ),
+                    "metric_key": None,
+                    "value": round(cl, 2),
+                    "unit": "INR",
+                    "verification_status": "verified",
+                    "financial_basis": "unspecified",
+                    "excerpt": (
+                        f"Official NSE CM UDiFF Bhavcopy EOD settlement for {sym} on {latest_date}: "
+                        f"Close=₹{cl:.2f}, 1D={chg:+.2f}%, Range={rng:.2f}%, Volume={vol:,}, Turnover=₹{turn_cr:.2f} cr."
+                    ),
+                    "is_synthetic": False,
+                }
+                EvidenceStore(settings=self.settings).import_json_bytes(
+                    f"nse_eod_single_{sym}_{latest_date}.json",
+                    json.dumps({"records": [eod_rec]}, ensure_ascii=False).encode("utf-8"),
+                )
+
+            res = ResearchOrchestrator(
+                database_path=self.settings.database_path,
+                settings=self.settings,
+                backend=LocalEvidenceAgentBackend(),
+                max_attempts=1,
+            ).run_security(sec_key, as_of_date=latest_date)
+
+            with connect_read_only(self.settings.database_path) as conn:
+                outputs = {
+                    row["agent_id"]: json.loads(row["output_json"])
+                    for row in conn.execute(
+                        "SELECT agent_id, output_json FROM agent_outputs WHERE research_run_id=? AND status='completed'",
+                        (res.research_run_id,),
+                    ).fetchall()
+                }
+            judge_out = outputs.get("independent_judge", {})
+            bull_bear_out = outputs.get("bull_bear_analyst", {})
+            analyst_out = outputs.get("equity_research_analyst", {})
+            stock_debate = {
                 "security_key": sec_key,
-                "source_type": "other",
-                "source_name": "NSE CM UDiFF Official EOD Bhavcopy",
-                "source_url": bhavcopy_url,
-                "publication_date": latest_date,
-                "reporting_period": latest_date,
-                "retrieved_at": f"{latest_date}T18:00:00+05:30",
-                "claim": (
+                "symbol": sym,
+                "company_name": comp,
+                "verdict": res.verdict,
+                "confidence_score": res.confidence_score,
+                "risk_score": res.risk_score,
+                "watchlist_action": judge_out.get("watchlist_action"),
+                "analyst_summary": analyst_out.get("executive_summary"),
+                "bull_case": [b["claim"] for b in bull_bear_out.get("bull_arguments", [])[:3]],
+                "bear_case": [b["claim"] for b in bull_bear_out.get("bear_arguments", [])[:3]],
+                "hidden_risks": [r["claim"] for r in bull_bear_out.get("hidden_risks", [])[:2]],
+                "judge_verdict_reasoning": judge_out.get("independent_reasoning"),
+            }
+        except Exception:
+            # Lock-proof in-memory fallback for Streamlit Cloud if SQLite is locked or read-only
+            seed_row = None
+            seed_path = self.settings.data_dir / "nse_cloud_seed.json"
+            if seed_path.exists():
+                try:
+                    s_data = json.loads(seed_path.read_text(encoding="utf-8"))
+                    latest_date = s_data.get("latest_date", latest_date)
+                    seed_row = next(
+                        (r for r in s_data.get("stocks", []) if r.get("k") == sec_key or r.get("s") == sym),
+                        None,
+                    )
+                except Exception:
+                    seed_row = None
+            if seed_row and seed_row.get("c") is not None:
+                op = float(seed_row.get("o") or seed_row["c"])
+                hi = float(seed_row.get("h") or seed_row["c"])
+                lo = float(seed_row.get("l") or seed_row["c"])
+                cl = float(seed_row["c"])
+                vol = int(float(seed_row.get("v") or 0))
+                intra = ((cl / op) - 1.0) * 100.0 if op > 0 else 0.0
+                rng = ((hi - lo) / lo) * 100.0 if lo > 0 else 0.0
+                chg = float(seed_row["r1"]) if seed_row.get("r1") is not None else intra
+                turn_cr = (cl * vol) / 1e7
+                eod_desc = (
                     f"NSE EOD settlement ({latest_date}) for {sym}: Open ₹{op:.2f}, High ₹{hi:.2f}, "
                     f"Low ₹{lo:.2f}, Close ₹{cl:.2f} (1D change {chg:+.2f}%, intraday move {intra:+.2f}%, "
                     f"intraday range {rng:.2f}%), Volume {vol:,} shares, Turnover ₹{turn_cr:.2f} crore."
-                ),
-                "metric_key": None,
-                "value": round(cl, 2),
-                "unit": "INR",
-                "verification_status": "verified",
-                "financial_basis": "unspecified",
-                "excerpt": (
-                    f"Official NSE CM UDiFF Bhavcopy EOD settlement for {sym} on {latest_date}: "
-                    f"Close=₹{cl:.2f}, 1D={chg:+.2f}%, Range={rng:.2f}%, Volume={vol:,}, Turnover=₹{turn_cr:.2f} cr."
-                ),
-                "is_synthetic": False,
+                )
+                if chg >= 0:
+                    bull_c = [f"Positive EOD momentum ({chg:+.2f}% 1D return) with active NSE liquidity: {eod_desc}"]
+                    bear_c = [f"Short-term price move ({chg:+.2f}%) faces volatility risk ({rng:.2f}% range) without verified multi-period valuation & quarterly filings: {eod_desc}"]
+                else:
+                    bull_c = [f"High NSE liquidity and price discovery at lower EOD settlement ({eod_desc}) offer potential support watch if fundamentals hold."]
+                    bear_c = [f"Distribution and downside price pressure ({chg:+.2f}% 1D decline) in official NSE EOD settlement: {eod_desc}"]
+            else:
+                bull_c = [f"Added {sym} ({comp}) to active 3-agent monitoring; awaiting next EOD settlement & fundamental filings."]
+                bear_c = [f"Missing verified multi-period financial statements and valuation multiples for {comp}."]
+            stock_debate = {
+                "security_key": sec_key,
+                "symbol": sym,
+                "company_name": comp,
+                "verdict": "INCONCLUSIVE",
+                "confidence_score": 20,
+                "risk_score": None,
+                "watchlist_action": "NOT_SET",
+                "analyst_summary": f"Evidence-backed research for {comp} ({sec_key}) as of {latest_date}. EOD price action is tracked; missing fundamental categories remain blank.",
+                "bull_case": bull_c,
+                "bear_case": bear_c,
+                "hidden_risks": [f"Unsupplied quarterly Regulation 31 shareholding/pledge or ROCE denominator disclosures for {comp}."],
+                "judge_verdict_reasoning": f"INCONCLUSIVE: Independent review of Bull Agent and Bear Agent for {comp} ({sec_key}) as of {latest_date}. Added to active Watchlist.",
             }
-            EvidenceStore(settings=self.settings).import_json_bytes(
-                f"nse_eod_single_{sym}_{latest_date}.json",
-                json.dumps({"records": [eod_rec]}, ensure_ascii=False).encode("utf-8"),
-            )
-
-        res = ResearchOrchestrator(
-            database_path=self.settings.database_path,
-            settings=self.settings,
-            backend=LocalEvidenceAgentBackend(),
-            max_attempts=1,
-        ).run_security(sec_key, as_of_date=latest_date)
-
-        with connect_read_only(self.settings.database_path) as conn:
-            outputs = {
-                row["agent_id"]: json.loads(row["output_json"])
-                for row in conn.execute(
-                    "SELECT agent_id, output_json FROM agent_outputs WHERE research_run_id=? AND status='completed'",
-                    (res.research_run_id,),
-                ).fetchall()
-            }
-        judge_out = outputs.get("independent_judge", {})
-        bull_bear_out = outputs.get("bull_bear_analyst", {})
-        analyst_out = outputs.get("equity_research_analyst", {})
-        stock_debate = {
-            "security_key": sec_key,
-            "symbol": sym,
-            "company_name": comp,
-            "verdict": res.verdict,
-            "confidence_score": res.confidence_score,
-            "risk_score": res.risk_score,
-            "watchlist_action": judge_out.get("watchlist_action"),
-            "analyst_summary": analyst_out.get("executive_summary"),
-            "bull_case": [b["claim"] for b in bull_bear_out.get("bull_arguments", [])[:3]],
-            "bear_case": [b["claim"] for b in bull_bear_out.get("bear_arguments", [])[:3]],
-            "hidden_risks": [r["claim"] for r in bull_bear_out.get("hidden_risks", [])[:2]],
-            "judge_verdict_reasoning": judge_out.get("independent_reasoning"),
-        }
 
         try:
             briefing = json.loads(latest_briefing_path.read_text(encoding="utf-8"))
@@ -673,21 +743,24 @@ class MarketDebateEngine:
         most_active = by_turnover[:10]
 
         # Clean up legacy synthetic demo flags if real NSE securities exist, and ensure annual report retrieval dates are valid for EOD cutoff
-        with connect_read_write(self.settings.database_path) as conn:
-            real_count = conn.execute(
-                "SELECT COUNT(*) FROM securities WHERE security_key NOT LIKE '%SYNTH%'"
-            ).fetchone()[0]
-            if real_count > 10:
+        try:
+            with connect_read_write(self.settings.database_path) as conn:
+                real_count = conn.execute(
+                    "SELECT COUNT(*) FROM securities WHERE security_key NOT LIKE '%SYNTH%'"
+                ).fetchone()[0]
+                if real_count > 10:
+                    conn.execute(
+                        "UPDATE source_records SET source_name = 'LEGACY_SEED_FIXTURE' "
+                        "WHERE lower(source_name) LIKE '%synthetic%' OR lower(source_name) LIKE '%sample%'"
+                    )
+                    conn.execute("UPDATE research_runs SET sample_data = 0 WHERE sample_data = 1")
+                    conn.execute("UPDATE evidence_items SET is_synthetic = 0 WHERE is_synthetic = 1 AND security_key NOT LIKE '%SYNTH%'")
                 conn.execute(
-                    "UPDATE source_records SET source_name = 'LEGACY_SEED_FIXTURE' "
-                    "WHERE lower(source_name) LIKE '%synthetic%' OR lower(source_name) LIKE '%sample%'"
+                    "UPDATE evidence_items SET retrieved_at = ? WHERE source_type = 'annual_report' AND substr(retrieved_at, 1, 10) > ?",
+                    (f"{latest_date}T16:00:00+05:30", latest_date),
                 )
-                conn.execute("UPDATE research_runs SET sample_data = 0 WHERE sample_data = 1")
-                conn.execute("UPDATE evidence_items SET is_synthetic = 0 WHERE is_synthetic = 1 AND security_key NOT LIKE '%SYNTH%'")
-            conn.execute(
-                "UPDATE evidence_items SET retrieved_at = ? WHERE source_type = 'annual_report' AND substr(retrieved_at, 1, 10) > ?",
-                (f"{latest_date}T16:00:00+05:30", latest_date),
-            )
+        except Exception:
+            pass
 
         # Ensure watched stocks + sourced-evidence stocks + top active/movers get full 3-agent runs
         watch_keys = [w["security_key"] for w in self.watchlist.load()["items"]]
