@@ -1,23 +1,41 @@
 {
-  "updated_at": "2026-11-15T06:18:33.118569+00:00",
+  "updated_at": "2026-11-15T06:18:33.715976+00:00",
   "items": [
+    {
+      "security_key": "NSE:id:INE371P01015",
+      "symbol": "AMBER",
+      "company_name": "AMBER ENTERPRISES (I) LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-15T06:18:33.537762+00:00",
+      "updated_at": "2026-11-15T06:18:33.537762+00:00"
+    },
     {
       "security_key": "NSE:id:INE885A01032",
       "symbol": "ARE&M",
-      "company_name": "Amara Raja Energy & Mobility Limited",
+      "company_name": "AMARA RAJA ENERGY MOB LTD",
       "added_by": "user",
-      "reason": "Added & re-checked via Search Bar",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=57/100)",
       "added_at": "2026-11-15T05:55:01.910436+00:00",
-      "updated_at": "2026-11-15T05:55:01.910436+00:00"
+      "updated_at": "2026-11-15T06:18:33.200132+00:00"
     },
     {
       "security_key": "NSE:id:INE040A01034",
       "symbol": "HDFCBANK",
       "company_name": "HDFC BANK LTD",
       "added_by": "user",
-      "reason": "User core bank watch",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=70/100)",
       "added_at": "2026-11-14T17:13:54.108257+00:00",
-      "updated_at": "2026-11-14T17:13:54.108257+00:00"
+      "updated_at": "2026-11-15T06:18:33.266641+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE090A01021",
+      "symbol": "ICICIBANK",
+      "company_name": "ICICI BANK LTD.",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=72/100)",
+      "added_at": "2026-11-15T06:18:33.603556+00:00",
+      "updated_at": "2026-11-15T06:18:33.603556+00:00"
     },
     {
       "security_key": "INDIAN BANK",
@@ -47,6 +65,15 @@
       "updated_at": "2026-11-15T06:18:33.011688+00:00"
     },
     {
+      "security_key": "NSE:id:INE07Y701011",
+      "symbol": "POWERINDIA",
+      "company_name": "HITACHI ENERGY INDIA LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-15T06:18:33.441886+00:00",
+      "updated_at": "2026-11-15T06:18:33.441886+00:00"
+    },
+    {
       "security_key": "NSE:id:INE002A01018",
       "symbol": "RELIANCE",
       "company_name": "RELIANCE INDUSTRIES LTD",
@@ -56,6 +83,15 @@
       "updated_at": "2026-11-15T06:18:32.898457+00:00"
     },
     {
+      "security_key": "NSE:id:INE062A01020",
+      "symbol": "SBIN",
+      "company_name": "STATE BANK OF INDIA",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=70/100)",
+      "added_at": "2026-11-15T06:18:33.715976+00:00",
+      "updated_at": "2026-11-15T06:18:33.715976+00:00"
+    },
+    {
       "security_key": "NSE:id:INE467B01029",
       "symbol": "TCS",
       "company_name": "TATA CONSULTANCY SERV LT",
@@ -63,6 +99,15 @@
       "reason": "Auto-added by Judge (STRONG BEARISH — AVOID / EXIT, Bull Score=18/100)",
       "added_at": "2026-11-14T17:16:01.951627+00:00",
       "updated_at": "2026-11-15T06:18:33.118132+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE419M01035",
+      "symbol": "TDPOWERSYS",
+      "company_name": "TD POWER SYSTEMS LTD.",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=73/100)",
+      "added_at": "2026-11-15T06:18:33.367280+00:00",
+      "updated_at": "2026-11-15T06:18:33.367280+00:00"
     }
   ]
 }
