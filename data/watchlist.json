@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T14:36:25.432073+00:00",
+  "updated_at": "2026-11-16T14:36:28.175348+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -36,6 +36,15 @@
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=62/100)",
       "added_at": "2026-11-15T05:55:01.910436+00:00",
       "updated_at": "2026-11-16T14:36:24.267241+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE397D01024",
+      "symbol": "BHARTIARTL",
+      "company_name": "BHARTI AIRTEL LIMITED",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=60/100)",
+      "added_at": "2026-11-16T14:36:28.175348+00:00",
+      "updated_at": "2026-11-16T14:36:28.175348+00:00"
     },
     {
       "security_key": "NSE:id:INE0ZCQ01019",
