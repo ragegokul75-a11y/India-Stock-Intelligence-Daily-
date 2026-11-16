@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T14:36:30.323053+00:00",
+  "updated_at": "2026-11-16T14:36:31.521835+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -54,6 +54,15 @@
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-15T06:18:33.777784+00:00",
       "updated_at": "2026-11-16T14:36:24.297574+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE066A01021",
+      "symbol": "EICHERMOT",
+      "company_name": "EICHER MOTORS LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=71/100)",
+      "added_at": "2026-11-16T14:36:31.521835+00:00",
+      "updated_at": "2026-11-16T14:36:31.521835+00:00"
     },
     {
       "security_key": "NSE:id:INE040A01034",
