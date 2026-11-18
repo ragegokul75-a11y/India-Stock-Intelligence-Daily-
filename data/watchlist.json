@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T13:07:03.061588+00:00",
+  "updated_at": "2026-11-18T13:07:05.352839+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -171,6 +171,15 @@
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=57/100)",
       "added_at": "2026-11-16T14:36:25.432073+00:00",
       "updated_at": "2026-11-18T13:06:09.452447+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE237A01036",
+      "symbol": "KOTAKBANK",
+      "company_name": "KOTAK MAHINDRA BANK LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=76/100)",
+      "added_at": "2026-11-18T13:07:05.352839+00:00",
+      "updated_at": "2026-11-18T13:07:05.352839+00:00"
     },
     {
       "security_key": "NSE:id:INE947Q01028",
