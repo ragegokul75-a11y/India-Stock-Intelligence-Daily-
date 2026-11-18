@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T13:07:01.179750+00:00",
+  "updated_at": "2026-11-18T13:07:01.650447+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -123,9 +123,9 @@
       "symbol": "INDIANB",
       "company_name": "INDIAN BANK",
       "added_by": "user",
-      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=61/100)",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=64/100)",
       "added_at": "2026-11-15T06:19:28.248515+00:00",
-      "updated_at": "2026-11-18T13:06:09.242398+00:00"
+      "updated_at": "2026-11-18T13:07:01.312540+00:00"
     },
     {
       "security_key": "NSE:id:INE009A01021",
@@ -141,9 +141,9 @@
       "symbol": "ITC",
       "company_name": "ITC LTD",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=68/100)",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=62/100)",
       "added_at": "2026-11-16T14:36:30.323053+00:00",
-      "updated_at": "2026-11-18T13:06:09.335052+00:00"
+      "updated_at": "2026-11-18T13:07:01.344485+00:00"
     },
     {
       "security_key": "NSE:id:INE303R01014",
@@ -152,7 +152,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=68/100)",
       "added_at": "2026-11-15T06:18:33.857328+00:00",
-      "updated_at": "2026-11-18T13:06:09.400699+00:00"
+      "updated_at": "2026-11-18T13:07:01.359717+00:00"
     },
     {
       "security_key": "NSE:id:INE918Z01012",
@@ -170,7 +170,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=74/100)",
       "added_at": "2026-11-16T14:36:29.192880+00:00",
-      "updated_at": "2026-11-18T13:06:09.507950+00:00"
+      "updated_at": "2026-11-18T13:07:01.396841+00:00"
     },
     {
       "security_key": "NSE:id:INE018A01030",
@@ -188,7 +188,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-15T06:18:34.016953+00:00",
-      "updated_at": "2026-11-18T13:06:09.567281+00:00"
+      "updated_at": "2026-11-18T13:07:01.429703+00:00"
     },
     {
       "security_key": "NSE:id:INE07Y701011",
@@ -197,7 +197,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-15T06:18:33.441886+00:00",
-      "updated_at": "2026-11-18T13:06:09.671620+00:00"
+      "updated_at": "2026-11-18T13:07:01.456727+00:00"
     },
     {
       "security_key": "NSE:id:INE002A01018",
@@ -215,7 +215,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=73/100)",
       "added_at": "2026-11-15T06:18:33.715976+00:00",
-      "updated_at": "2026-11-18T13:06:09.734889+00:00"
+      "updated_at": "2026-11-18T13:07:01.507219+00:00"
     },
     {
       "security_key": "NSE:id:INE0RYR01018",
@@ -224,7 +224,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-16T14:36:36.344109+00:00",
-      "updated_at": "2026-11-18T13:06:09.776530+00:00"
+      "updated_at": "2026-11-18T13:07:01.550749+00:00"
     },
     {
       "security_key": "NSE:id:INE467B01029",
@@ -240,9 +240,9 @@
       "symbol": "TDPOWERSYS",
       "company_name": "TD POWER SYSTEMS LTD.",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=76/100)",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=73/100)",
       "added_at": "2026-11-15T06:18:33.367280+00:00",
-      "updated_at": "2026-11-18T13:06:09.810978+00:00"
+      "updated_at": "2026-11-18T13:07:01.598342+00:00"
     },
     {
       "security_key": "NSE:id:INE0OWX01025",
@@ -251,7 +251,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-15T06:18:34.167275+00:00",
-      "updated_at": "2026-11-18T13:06:09.848221+00:00"
+      "updated_at": "2026-11-18T13:07:01.650447+00:00"
     }
   ]
 }
