@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:46:08.402835+00:00",
+  "updated_at": "2026-11-19T12:46:09.024980+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -139,11 +139,11 @@
     {
       "security_key": "NSE:id:INE090A01021",
       "symbol": "ICICIBANK",
-      "company_name": "ICICI BANK LTD.",
+      "company_name": "ICICI Bank Limited",
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=72/100)",
       "added_at": "2026-11-15T06:18:33.603556+00:00",
-      "updated_at": "2026-11-19T12:37:09.673625+00:00"
+      "updated_at": "2026-11-19T12:46:08.991108+00:00"
     },
     {
       "security_key": "NSE:id:INE0RRU20024",
@@ -157,11 +157,11 @@
     {
       "security_key": "NSE:id:INE562A01011",
       "symbol": "INDIANB",
-      "company_name": "INDIAN BANK",
+      "company_name": "Indian Bank",
       "added_by": "user",
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=64/100)",
       "added_at": "2026-11-15T06:19:28.248515+00:00",
-      "updated_at": "2026-11-19T12:37:10.889601+00:00"
+      "updated_at": "2026-11-19T12:46:09.024980+00:00"
     },
     {
       "security_key": "NSE:id:INE009A01021",
