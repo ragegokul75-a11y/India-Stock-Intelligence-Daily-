@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:37:18.609886+00:00",
+  "updated_at": "2026-11-19T12:37:19.693653+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -333,6 +333,15 @@
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=73/100)",
       "added_at": "2026-11-15T06:18:33.367280+00:00",
       "updated_at": "2026-11-19T12:37:12.672619+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE0Q0M01015",
+      "symbol": "VEEFIN",
+      "company_name": "VEEFIN SOLUTIONS LIMITED",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=60/100)",
+      "added_at": "2026-11-19T12:37:19.693653+00:00",
+      "updated_at": "2026-11-19T12:37:19.693653+00:00"
     },
     {
       "security_key": "NSE:id:INE0OWX01025",
