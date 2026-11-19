@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:46:07.682454+00:00",
+  "updated_at": "2026-11-19T12:46:08.402835+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -121,11 +121,11 @@
     {
       "security_key": "NSE:id:INE040A01034",
       "symbol": "HDFCBANK",
-      "company_name": "HDFC BANK LTD",
+      "company_name": "HDFC Bank Limited",
       "added_by": "user",
-      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=70/100)",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=76/100)",
       "added_at": "2026-11-14T17:13:54.108257+00:00",
-      "updated_at": "2026-11-19T12:37:09.606573+00:00"
+      "updated_at": "2026-11-19T12:46:08.374508+00:00"
     },
     {
       "security_key": "NSE:id:INE1B7I01014",
@@ -134,7 +134,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=69/100)",
       "added_at": "2026-11-16T14:36:34.749970+00:00",
-      "updated_at": "2026-11-19T12:37:09.638916+00:00"
+      "updated_at": "2026-11-19T12:46:08.402835+00:00"
     },
     {
       "security_key": "NSE:id:INE090A01021",
