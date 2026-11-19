@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:46:09.573930+00:00",
+  "updated_at": "2026-11-19T12:46:10.241687+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -184,11 +184,11 @@
     {
       "security_key": "NSE:id:INE154A01025",
       "symbol": "ITC",
-      "company_name": "ITC LTD",
+      "company_name": "ITC Limited",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=62/100)",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=65/100)",
       "added_at": "2026-11-16T14:36:30.323053+00:00",
-      "updated_at": "2026-11-19T12:37:10.939465+00:00"
+      "updated_at": "2026-11-19T12:46:10.241687+00:00"
     },
     {
       "security_key": "NSE:id:INE303R01014",
