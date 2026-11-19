@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:37:19.693653+00:00",
+  "updated_at": "2026-11-19T12:46:01.624947+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -229,11 +229,11 @@
     {
       "security_key": "NSE:id:INE018A01030",
       "symbol": "LT",
-      "company_name": "LARSEN & TOUBRO LTD.",
+      "company_name": "Larsen & Toubro Limited",
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=55/100)",
       "added_at": "2026-11-14T17:16:01.931454+00:00",
-      "updated_at": "2026-11-19T12:37:09.041821+00:00"
+      "updated_at": "2026-11-19T12:46:01.624947+00:00"
     },
     {
       "security_key": "NSE:id:INE585B01010",
@@ -292,11 +292,11 @@
     {
       "security_key": "NSE:id:INE002A01018",
       "symbol": "RELIANCE",
-      "company_name": "RELIANCE INDUSTRIES LTD",
+      "company_name": "Reliance Industries Limited",
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=70/100)",
       "added_at": "2026-11-14T17:16:01.912899+00:00",
-      "updated_at": "2026-11-19T12:37:08.959548+00:00"
+      "updated_at": "2026-11-19T12:46:01.126760+00:00"
     },
     {
       "security_key": "NSE:id:INE062A01020",
