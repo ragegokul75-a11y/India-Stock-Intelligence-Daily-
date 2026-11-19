@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:37:17.192621+00:00",
+  "updated_at": "2026-11-19T12:37:18.609886+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -171,6 +171,15 @@
       "reason": "Re-checked by user",
       "added_at": "2026-11-14T17:44:20.839362+00:00",
       "updated_at": "2026-11-14T17:44:20.839362+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE202E01016",
+      "symbol": "IREDA",
+      "company_name": "INDIAN RENEWABLE ENERGY",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=64/100)",
+      "added_at": "2026-11-19T12:37:18.609886+00:00",
+      "updated_at": "2026-11-19T12:37:18.609886+00:00"
     },
     {
       "security_key": "NSE:id:INE154A01025",
