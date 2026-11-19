@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:46:10.841051+00:00",
+  "updated_at": "2026-11-19T12:46:11.825126+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -211,20 +211,20 @@
     {
       "security_key": "NSE:id:INE237A01036",
       "symbol": "KOTAKBANK",
-      "company_name": "KOTAK MAHINDRA BANK LTD",
+      "company_name": "Kotak Mahindra Bank Limited",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=76/100)",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=73/100)",
       "added_at": "2026-11-18T13:07:05.352839+00:00",
-      "updated_at": "2026-11-19T12:37:11.023175+00:00"
+      "updated_at": "2026-11-19T12:46:11.792849+00:00"
     },
     {
       "security_key": "NSE:id:INE947Q01028",
       "symbol": "LAURUSLABS",
-      "company_name": "LAURUS LABS LIMITED",
+      "company_name": "Laurus Labs Limited",
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=74/100)",
       "added_at": "2026-11-16T14:36:29.192880+00:00",
-      "updated_at": "2026-11-19T12:37:11.047232+00:00"
+      "updated_at": "2026-11-19T12:46:11.825126+00:00"
     },
     {
       "security_key": "NSE:id:INE018A01030",
