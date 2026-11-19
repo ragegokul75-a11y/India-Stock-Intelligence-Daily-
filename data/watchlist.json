@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:37:13.940985+00:00",
+  "updated_at": "2026-11-19T12:37:15.175902+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -216,6 +216,15 @@
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=55/100)",
       "added_at": "2026-11-14T17:16:01.931454+00:00",
       "updated_at": "2026-11-19T12:37:09.041821+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE585B01010",
+      "symbol": "MARUTI",
+      "company_name": "MARUTI SUZUKI INDIA LTD.",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=56/100)",
+      "added_at": "2026-11-19T12:37:15.175902+00:00",
+      "updated_at": "2026-11-19T12:37:15.175902+00:00"
     },
     {
       "security_key": "NSE:id:INE0ECC01022",
