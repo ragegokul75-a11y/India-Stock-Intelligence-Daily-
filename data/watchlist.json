@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:46:11.825126+00:00",
+  "updated_at": "2026-11-19T12:46:12.679319+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -238,11 +238,11 @@
     {
       "security_key": "NSE:id:INE585B01010",
       "symbol": "MARUTI",
-      "company_name": "MARUTI SUZUKI INDIA LTD.",
+      "company_name": "Maruti Suzuki India Limited",
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=56/100)",
       "added_at": "2026-11-19T12:37:15.175902+00:00",
-      "updated_at": "2026-11-19T12:37:15.175902+00:00"
+      "updated_at": "2026-11-19T12:46:12.590453+00:00"
     },
     {
       "security_key": "NSE:id:INE0ECC01022",
@@ -251,16 +251,16 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=66/100)",
       "added_at": "2026-11-18T13:07:09.525854+00:00",
-      "updated_at": "2026-11-19T12:37:11.961142+00:00"
+      "updated_at": "2026-11-19T12:46:12.619666+00:00"
     },
     {
       "security_key": "NSE:id:INE255X01014",
       "symbol": "MSTCLTD",
-      "company_name": "MSTC LIMITED",
+      "company_name": "Mstc Limited",
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-15T06:18:34.016953+00:00",
-      "updated_at": "2026-11-19T12:37:12.083076+00:00"
+      "updated_at": "2026-11-19T12:46:12.647878+00:00"
     },
     {
       "security_key": "NSE:id:INE0OUT01027",
@@ -269,7 +269,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=64/100)",
       "added_at": "2026-11-18T13:07:10.273604+00:00",
-      "updated_at": "2026-11-19T12:37:12.200265+00:00"
+      "updated_at": "2026-11-19T12:46:12.679319+00:00"
     },
     {
       "security_key": "NSE:id:INE982J01020",
