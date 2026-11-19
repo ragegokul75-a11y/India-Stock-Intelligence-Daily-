@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:46:13.724735+00:00",
+  "updated_at": "2026-11-19T12:46:14.341792+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -328,20 +328,20 @@
     {
       "security_key": "NSE:id:INE419M01035",
       "symbol": "TDPOWERSYS",
-      "company_name": "TD POWER SYSTEMS LTD.",
+      "company_name": "TD Power Systems Limited",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=73/100)",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=79/100)",
       "added_at": "2026-11-15T06:18:33.367280+00:00",
-      "updated_at": "2026-11-19T12:37:12.672619+00:00"
+      "updated_at": "2026-11-19T12:46:14.276376+00:00"
     },
     {
       "security_key": "NSE:id:INE0Q0M01015",
       "symbol": "VEEFIN",
-      "company_name": "VEEFIN SOLUTIONS LIMITED",
+      "company_name": "Veefin Solutions Limited",
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=60/100)",
       "added_at": "2026-11-19T12:37:19.693653+00:00",
-      "updated_at": "2026-11-19T12:37:19.693653+00:00"
+      "updated_at": "2026-11-19T12:46:14.310764+00:00"
     },
     {
       "security_key": "NSE:id:INE0OWX01025",
@@ -350,7 +350,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-15T06:18:34.167275+00:00",
-      "updated_at": "2026-11-19T12:37:12.711607+00:00"
+      "updated_at": "2026-11-19T12:46:14.339275+00:00"
     }
   ]
 }
