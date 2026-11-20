@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T15:40:41.213137+00:00",
+  "updated_at": "2026-11-20T15:40:45.118680+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -108,6 +108,15 @@
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=65/100)",
       "added_at": "2026-11-16T14:36:31.521835+00:00",
       "updated_at": "2026-11-20T15:40:28.460647+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE0RHD01013",
+      "symbol": "ETML",
+      "company_name": "EMERALD TYRE MANUF LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=60/100)",
+      "added_at": "2026-11-20T15:40:45.118680+00:00",
+      "updated_at": "2026-11-20T15:40:45.118680+00:00"
     },
     {
       "security_key": "NSE:id:INE0HOQ01053",
