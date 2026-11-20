@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T15:40:24.944966+00:00",
+  "updated_at": "2026-11-20T15:40:27.700646+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -231,9 +231,9 @@
       "symbol": "LT",
       "company_name": "LARSEN & TOUBRO LTD.",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=55/100)",
+      "reason": "Auto-added by Judge (NEUTRAL / HOLD — WATCH BREAKOUT, Bull Score=52/100)",
       "added_at": "2026-11-14T17:16:01.931454+00:00",
-      "updated_at": "2026-11-20T15:40:23.231766+00:00"
+      "updated_at": "2026-11-20T15:40:27.644334+00:00"
     },
     {
       "security_key": "NSE:id:INE585B01010",
@@ -294,9 +294,9 @@
       "symbol": "RELIANCE",
       "company_name": "RELIANCE INDUSTRIES LTD",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=67/100)",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=73/100)",
       "added_at": "2026-11-14T17:16:01.912899+00:00",
-      "updated_at": "2026-11-20T15:40:22.901487+00:00"
+      "updated_at": "2026-11-20T15:40:27.532681+00:00"
     },
     {
       "security_key": "NSE:id:INE062A01020",
@@ -323,7 +323,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BEARISH — AVOID / EXIT, Bull Score=15/100)",
       "added_at": "2026-11-14T17:16:01.951627+00:00",
-      "updated_at": "2026-11-20T15:40:23.340541+00:00"
+      "updated_at": "2026-11-20T15:40:27.700646+00:00"
     },
     {
       "security_key": "NSE:id:INE419M01035",
@@ -350,7 +350,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-15T06:18:34.167275+00:00",
-      "updated_at": "2026-11-19T12:46:14.339275+00:00"
+      "updated_at": "2026-11-20T15:40:24.995580+00:00"
     }
   ]
 }
