@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T15:40:29.964428+00:00",
+  "updated_at": "2026-11-20T15:40:41.213137+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -135,6 +135,15 @@
       "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=66/100)",
       "added_at": "2026-11-16T14:36:34.749970+00:00",
       "updated_at": "2026-11-20T15:40:28.623044+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE0ECP01024",
+      "symbol": "HMAAGRO",
+      "company_name": "HMA AGRO INDUSTRIES LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=59/100)",
+      "added_at": "2026-11-20T15:40:41.211884+00:00",
+      "updated_at": "2026-11-20T15:40:41.211884+00:00"
     },
     {
       "security_key": "NSE:id:INE090A01021",
