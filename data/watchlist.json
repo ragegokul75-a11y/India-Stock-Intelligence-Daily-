@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:26:36.214693+00:00",
+  "updated_at": "2026-11-24T14:26:40.206073+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -135,6 +135,15 @@
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=86/100)",
       "added_at": "2026-11-19T12:37:17.192621+00:00",
       "updated_at": "2026-11-24T14:26:33.356757+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE236A01020",
+      "symbol": "HCL-INSYS",
+      "company_name": "HCL INFOSYSTEMS LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=66/100)",
+      "added_at": "2026-11-24T14:26:40.206073+00:00",
+      "updated_at": "2026-11-24T14:26:40.206073+00:00"
     },
     {
       "security_key": "NSE:id:INE040A01034",
