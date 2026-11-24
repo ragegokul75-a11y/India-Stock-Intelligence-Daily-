@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:26:34.767228+00:00",
+  "updated_at": "2026-11-24T14:26:36.214693+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -18,6 +18,15 @@
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-15T06:18:34.077343+00:00",
       "updated_at": "2026-11-24T14:26:32.629508+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE702C01027",
+      "symbol": "APLAPOLLO",
+      "company_name": "APL APOLLO TUBES LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=81/100)",
+      "added_at": "2026-11-24T14:26:36.214175+00:00",
+      "updated_at": "2026-11-24T14:26:36.214175+00:00"
     },
     {
       "security_key": "NSE:id:INE713T01028",
