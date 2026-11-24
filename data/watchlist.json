@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:26:40.206073+00:00",
+  "updated_at": "2026-11-24T14:26:41.431415+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -315,6 +315,15 @@
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=83/100)",
       "added_at": "2026-11-19T12:37:13.940985+00:00",
       "updated_at": "2026-11-24T14:26:34.423741+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE418E01018",
+      "symbol": "PERMAGN",
+      "company_name": "PERMANENT MAGNETS LTD.",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-24T14:26:41.431415+00:00",
+      "updated_at": "2026-11-24T14:26:41.431415+00:00"
     },
     {
       "security_key": "NSE:id:INE07Y701011",
