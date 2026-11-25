@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T16:05:49.561278+00:00",
+  "updated_at": "2026-11-25T16:05:50.276882+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -378,6 +378,15 @@
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=76/100)",
       "added_at": "2026-11-15T06:18:33.367280+00:00",
       "updated_at": "2026-11-25T16:05:49.493127+00:00"
+    },
+    {
+      "security_key": "NSE:id:INE332A01027",
+      "symbol": "THOMASCOOK",
+      "company_name": "THOMAS COOK (INDIA) LTD",
+      "added_by": "independent_judge",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
+      "added_at": "2026-11-25T16:05:50.276882+00:00",
+      "updated_at": "2026-11-25T16:05:50.276882+00:00"
     },
     {
       "security_key": "NSE:id:INE0Q0M01015",
