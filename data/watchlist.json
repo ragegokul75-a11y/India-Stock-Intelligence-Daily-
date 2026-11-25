@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T16:05:49.402193+00:00",
+  "updated_at": "2026-11-25T16:05:49.561278+00:00",
   "items": [
     {
       "security_key": "NSE:id:INE371P01015",
@@ -348,9 +348,9 @@
       "symbol": "SBIN",
       "company_name": "STATE BANK OF INDIA",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=76/100)",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=70/100)",
       "added_at": "2026-11-15T06:18:33.715976+00:00",
-      "updated_at": "2026-11-24T14:26:34.504463+00:00"
+      "updated_at": "2026-11-25T16:05:49.443525+00:00"
     },
     {
       "security_key": "NSE:id:INE0RYR01018",
@@ -359,7 +359,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-16T14:36:36.344109+00:00",
-      "updated_at": "2026-11-24T14:26:34.536710+00:00"
+      "updated_at": "2026-11-25T16:05:49.473290+00:00"
     },
     {
       "security_key": "NSE:id:INE467B01029",
@@ -375,18 +375,18 @@
       "symbol": "TDPOWERSYS",
       "company_name": "TD POWER SYSTEMS LTD.",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=73/100)",
+      "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=76/100)",
       "added_at": "2026-11-15T06:18:33.367280+00:00",
-      "updated_at": "2026-11-24T14:26:34.611242+00:00"
+      "updated_at": "2026-11-25T16:05:49.493127+00:00"
     },
     {
       "security_key": "NSE:id:INE0Q0M01015",
       "symbol": "VEEFIN",
       "company_name": "VEEFIN SOLUTIONS LIMITED",
       "added_by": "independent_judge",
-      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=60/100)",
+      "reason": "Auto-added by Judge (MODERATE BULLISH — BUY ON DIPS, Bull Score=57/100)",
       "added_at": "2026-11-19T12:37:19.693653+00:00",
-      "updated_at": "2026-11-24T14:26:34.653514+00:00"
+      "updated_at": "2026-11-25T16:05:49.527932+00:00"
     },
     {
       "security_key": "NSE:id:INE0OWX01025",
@@ -395,7 +395,7 @@
       "added_by": "independent_judge",
       "reason": "Auto-added by Judge (STRONG BULLISH — BUY / ACCUMULATE, Bull Score=92/100)",
       "added_at": "2026-11-15T06:18:34.167275+00:00",
-      "updated_at": "2026-11-24T14:26:34.766146+00:00"
+      "updated_at": "2026-11-25T16:05:49.561278+00:00"
     }
   ]
 }
